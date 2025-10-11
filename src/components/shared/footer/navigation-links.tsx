@@ -16,7 +16,7 @@ const NavLink: React.FC<{ label: string; href: string }> = ({
   <li>
     <a
       href={href}
-      className="text-gray-600 hover:text-gray-800 text-sm py-1 inline-block relative group transition-colors duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-red-500"
+      className="text-[#08236C] hover:text-[#495582] text-sm py-1 inline-block relative group transition-colors duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-red-500"
     >
       <span className="relative inline-block group-hover:after:scale-x-100 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:bg-gray-600 after:origin-left after:transition-transform after:duration-300 after:scale-x-0">
         {label}
@@ -31,7 +31,7 @@ const NavigationLinks: React.FC<NavigationLinksProps> = ({ linkGroups }) => {
   return (
     <nav className="space-y-6" aria-label="ANL Navigation Links">
       {/* First Group */}
-      <ul className="space-y-2">
+      <ul className="space-y-1">
         {firstGroup.links.map((link) => (
           <NavLink key={link.label} {...link} />
         ))}
@@ -39,12 +39,12 @@ const NavigationLinks: React.FC<NavigationLinksProps> = ({ linkGroups }) => {
 
       {/* Red Horizontal Divider */}
       <hr
-        className="w-1/2 border-t-[2px] border-red-600 mx-0"
+        className="w-1/2 border-t-[2px] border-[#E20402] mx-0"
         style={{ borderColor: "#E60000" }}
       />
 
       {/* Second Group */}
-      <ul className="space-y-2">
+      <ul className="space-y-1">
         {secondGroup.links.map((link) => (
           <NavLink key={link.label} {...link} />
         ))}

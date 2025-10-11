@@ -47,7 +47,7 @@ export function NavItem({ item }: NavItemProps) {
     return (
       <Link
         href={item.href || "#"}
-        className={`px-4 py-3 text-white hover:bg-[#5a7ec4] transition-colors duration-150 font-orbitron-medium ${
+        className={`px-4 py-3 text-white hover:bg-[#5a7ec4] transition-colors duration-150 text-base lg:text-lg font-plus-jakarta-sans font-semibold ${
           isActive ? "bg-[#5a7ec4] border-b-2 border-white" : ""
         }`}
       >
@@ -58,7 +58,7 @@ export function NavItem({ item }: NavItemProps) {
 
   return (
     <div
-      className="relative h-full font-orbitron-medium"
+      className="relative h-full text-base lg:text-lg font-plus-jakarta-sans font-semibold"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

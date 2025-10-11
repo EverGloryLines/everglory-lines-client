@@ -23,7 +23,7 @@ export function TaglineSlider() {
 
   return (
     <div className="w-full bg-gradient-to-r from-slate-50 to-slate-100 py-4 md:py-2 px-4 overflow-hidden">
-      <div className="max-w-6xl mx-auto h-10 md:h-12 flex items-center justify-center relative font-sans font-semibold">
+      <div className="max-w-6xl mx-auto h-10 flex items-center justify-center relative font-sans font-semibold">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentIndex}
@@ -36,7 +36,7 @@ export function TaglineSlider() {
             }}
             className="absolute inset-0 flex items-center justify-center px-4"
           >
-            <h2 className="text-base sm:text-lg md:text-xl text-gray-800 text-center leading-relaxed">
+            <h2 className="text-base sm:text-lg md:text-xl text-gray-800 text-center font-plus-jakarta-sans font-bold leading-relaxed">
               {taglines[currentIndex]}
             </h2>
           </motion.div>

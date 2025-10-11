@@ -39,12 +39,12 @@ export function LogoBanner() {
   return (
     <div className="w-full bg-white py-4 max-sm:px-2 border-b border-gray-200">
       <div className="section-layout">
-        <div className="flex items-center justify-between md:justify-evenly gap-4">
+        <div className="flex items-center justify-between gap-4">
           {logos.map((logo, index) => (
             <div
               key={index}
               className={`relative flex-shrink-0 ${
-                index >= 2 ? "hidden md:block" : ""
+                index >= 2 ? "hidden xl:block" : ""
               }`}
             >
               <Image

@@ -1,8 +1,20 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { LenisProvider } from "@/components/shared/provider/lenis-provider";
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  variable: "--font-plus-jakarta-sans",
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+});
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+});
 
 const montserratSans = Montserrat({
   variable: "--font-montserrat-sans",
@@ -18,7 +30,6 @@ const microgrammaMedium = localFont({
   src: "../fonts/microgramma-medium.otf",
   variable: "--font-microgramma-medium",
 });
-
 
 const orbitronExtrabold = localFont({
   src: "../fonts/orbitron-black.otf",
@@ -53,10 +64,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-         <link rel="icon" href="/everglory-favicon.svg" sizes="any" />
+        <link rel="icon" href="/everglory-favicon.ico" sizes="any" />
       </head>
       <body
         className={`
+        ${plusJakartaSans.variable}
+        ${dmSans.variable}
         ${montserratSans.variable} 
         ${microgrammaBold.variable} 
         ${microgrammaMedium.variable}
@@ -67,7 +80,7 @@ export default function RootLayout({
         font-sans antialiased
         `}
       >
-         <LenisProvider>{children}</LenisProvider>
+        <LenisProvider>{children}</LenisProvider>
       </body>
     </html>
   );

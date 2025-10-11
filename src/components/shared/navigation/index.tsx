@@ -2,7 +2,6 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-
 import { DesktopNav } from "./desktop-nav";
 import { LogoBanner } from "./logo-banner";
 import { TaglineSlider } from "./tagline-slider";
@@ -35,7 +34,7 @@ export function Navigation() {
 
   return (
     <>
-      <header ref={headerRef} className="w-full overflow-x-hidden">
+      <header ref={headerRef} className="w-full overflow-hidden">
         <LogoBanner />
         <TaglineSlider />
         <div ref={navRef} className={isSticky ? "h-[52px] md:h-[48px]" : ""}>
@@ -43,7 +42,7 @@ export function Navigation() {
             className={`${
               isSticky
                 ? "fixed top-0 left-0 right-0 z-40 shadow-lg"
-                : "relative"
+                : "relative z-40"
             } transition-shadow duration-300`}
           >
             <DesktopNav />

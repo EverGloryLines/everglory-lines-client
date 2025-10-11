@@ -31,7 +31,7 @@ export function NestedDropdown({ item }: NestedDropdownProps) {
     return (
       <Link
         href={item.href}
-        className="block px-4 py-2.5 text-sm text-white hover:bg-gray-700 transition-colors duration-150"
+        className="block px-4 py-2.5 text-base text-white hover:bg-gray-700 transition-colors duration-150"
       >
         {item.label}
       </Link>
@@ -44,7 +44,7 @@ export function NestedDropdown({ item }: NestedDropdownProps) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="flex items-center justify-between px-4 py-2.5 text-sm text-white hover:bg-gray-700 transition-colors duration-150 cursor-pointer">
+      <div className="flex items-center justify-between px-4 py-2.5 text-base text-white hover:bg-gray-700 transition-colors duration-150 cursor-pointer">
         <span>{item.label}</span>
         <ChevronRight className="h-4 w-4 ml-2" />
       </div>
@@ -62,7 +62,7 @@ export function NestedDropdown({ item }: NestedDropdownProps) {
               <Link
                 key={index}
                 href={nestedItem.href}
-                className="block px-4 py-2.5 text-sm text-white hover:bg-gray-700 transition-colors duration-150 first:rounded-t last:rounded-b"
+                className="block px-4 py-2.5 text-base text-white hover:bg-gray-700 transition-colors duration-150 first:rounded-t last:rounded-b"
               >
                 {nestedItem.label}
               </Link>
