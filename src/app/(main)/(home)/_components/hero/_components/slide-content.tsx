@@ -36,7 +36,7 @@ export const SlideContent = ({ slide }: SlideContentProps) => {
               aria-hidden="true"
             >
               <h2
-                className="text-6xl md:text-8xl lg:text-9xl font-black whitespace-nowrap"
+                className="text-6xl md:text-8xl lg:text-9x font-back whitespace-nowrap"
                 style={{ color: COLORS.white }}
               >
                 {slide.backgroundText}
@@ -45,7 +45,7 @@ export const SlideContent = ({ slide }: SlideContentProps) => {
 
             <motion.h1
               variants={contentVariants.title}
-              className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-sans font-bold text-white leading-tight mb-4 md:mb-6"
+              className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-plus-jakarta-sans font-bold text-white leading-none mb-4 md:mb-6"
             >
               {slide.title}
             </motion.h1>

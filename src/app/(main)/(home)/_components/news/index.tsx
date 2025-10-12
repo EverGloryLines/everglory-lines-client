@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion, useInView, type Variants } from "framer-motion";
+import { motion, useInView, type Variants } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";

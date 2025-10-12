@@ -4,7 +4,7 @@
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 
 import { MobileMenuItem } from "./mobile-menu-item";
 import { useClickOutside } from "@/hooks/use-click-outside";

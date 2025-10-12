@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 import { MobileAccordionItem } from "./mobile-accordion-item";
 import { MenuItem } from "@/constants/nav-types";
 

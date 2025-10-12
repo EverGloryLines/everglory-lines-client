@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { NestedDropdown } from "./nested-dropdown";
 import { SubMenuItem } from "@/constants/nav-types";
 

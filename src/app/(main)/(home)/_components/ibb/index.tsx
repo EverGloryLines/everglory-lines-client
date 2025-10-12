@@ -75,7 +75,7 @@ export function IntraBayOfBengal() {
   return (
     <div
       ref={containerRef}
-      className="min-h-screen w-full py-8 md:py-16 2xl:py-24 px-4 bg-white"
+      className="h-auto lg:min-h-screen w-full py-8 md:py-16 2xl:py-24 px-4 bg-white"
     >
       <div className="container mx-auto">
         <div

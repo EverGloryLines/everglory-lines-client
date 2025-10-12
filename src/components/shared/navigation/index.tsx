@@ -34,7 +34,7 @@ export function Navigation() {
 
   return (
     <>
-      <header ref={headerRef} className="w-full overflow-hidden">
+      <header ref={headerRef} className="w-full">
         <LogoBanner />
         <TaglineSlider />
         <div ref={navRef} className={isSticky ? "h-[52px] md:h-[48px]" : ""}>

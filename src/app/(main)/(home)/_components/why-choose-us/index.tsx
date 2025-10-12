@@ -59,7 +59,7 @@ export function WhyChooseUs() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="relative flex justify-center lg:justify-start"
           >
-            <div className="absolute top-0 left-0 lg:-top-10 lg:-left-14 w-56 h-40 opacity-25 pointer-events-none z-0">
+            <div className="absolute top-0 -left-10 lg:-top-10 lg:-left-14 w-56 h-40 opacity-15 lg:opacity-25 pointer-events-none z-0">
               <Image
                 src="/homepage/why-choose-us/export-import.png"
                 alt="Import Export Containers"
@@ -69,7 +69,7 @@ export function WhyChooseUs() {
               <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent" />
             </div>
 
-            <div className="relative pt-24 lg:pt-20">
+            <div className="hidden lg:block relative pt-24 lg:pt-20">
               <div className="relative w-full h-[580px] lg:h-[600px]">
                 <div className="absolute left-0 top-0 w-80 lg:w-96 h-[420px] lg:h-[460px] overflow-hidden shadow-xl border-[10px] rounded-none border-white z-10">
                   <Image
@@ -89,7 +89,7 @@ export function WhyChooseUs() {
                   />
                 </div>
 
-                <div className="absolute left-60 lg:left-60 top-44 lg:top-64 w-64 lg:w-80 h-40 lg:h-64 overflow-hidden shadow-xl border-[10px] rounded-none border-white z-15">
+                <div className="absolute left-0 lg:left-60 top-44 lg:top-64 w-64 lg:w-80 h-40 lg:h-64 overflow-hidden shadow-xl border-[10px] rounded-none border-white z-15">
                   <Image
                     src="/homepage/why-choose-us/ship-container-ai.jpg"
                     alt="Container Ship at Sea"
@@ -98,7 +98,7 @@ export function WhyChooseUs() {
                   />
                 </div>
 
-                <div className="absolute -bottom-8 left-8 lg:left-12 z-30">
+                <div className="absolute -bottom-8 -left-30 lg:left-12 z-30">
                   <div className="bg-[#2d5f4f] rounded-full w-48 h-48 lg:w-52 lg:h-52 flex flex-col items-center justify-center shadow-2xl border-[14px] border-white">
                     <div className="text-white text-5xl lg:text-6xl font-bold">
                       {displayCount.toLocaleString()}
@@ -179,7 +179,7 @@ export function WhyChooseUs() {
                 </div>
               </button>
 
-              <div className="hidden lg:block absolute -bottom-20 -right-16 w-80 h-auto z-10 pointer-events-none">
+              <div className="hidden lg:block absolute -bottom-24 -right-24 w-80 h-auto z-10 pointer-events-none opacity-30">
                 <div className="relative w-full h-56">
                   <Image
                     src="/homepage/why-choose-us/orange-truck.png"

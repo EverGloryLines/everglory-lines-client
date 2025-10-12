@@ -18,7 +18,7 @@ export const AnimatedButton = ({ children, onClick }: AnimatedButtonProps) => {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       onClick={onClick}
-      className="relative px-4 lg:px-8 lg:py-4 font-sans font-semibold uppercase tracking-wide text-white rounded-none transition-shadow duration-300 hover:shadow-2xl overflow-hidden cursor-pointer"
+      className="relative px-4 py-2 lg:px-8 lg:py-4 font-sans font-semibold uppercase tracking-wide text-white rounded-none transition-shadow duration-300 hover:shadow-2xl overflow-hidden cursor-pointer"
       style={{
         backgroundColor: COLORS.primaryGreen,
         willChange: "transform",
