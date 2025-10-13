@@ -72,9 +72,14 @@ export function MobileNav() {
                 animate={{ x: 0 }}
                 exit={{ x: "100%" }}
                 transition={{ duration: 0.3, ease: "easeInOut" }}
-                className="fixed top-0 right-0 bottom-0 w-[85%] max-w-sm bg-white z-50 overflow-y-auto shadow-2xl font-orbitron-medium"
+                className="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-white z-50 shadow-2xl font-plus-jakarta-sans font-medium"
+                style={{
+                  maxHeight: "100vh",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
               >
-                <div className="sticky top-0 bg-[#4c6faf] px-6 py-4 flex items-center justify-between z-10">
+                <div className="flex-shrink-0 bg-[#4c6faf] px-6 py-4 flex items-center justify-between">
                   <h2 className="text-xl font-bold text-white">Menu</h2>
                   <button
                     onClick={() => setIsOpen(false)}
@@ -86,7 +91,11 @@ export function MobileNav() {
                 </div>
 
                 <nav
-                  className="py-2"
+                  className="flex-1 py-2"
+                  style={{
+                    overflowY: "auto",
+                    WebkitOverflowScrolling: "touch",
+                  }}
                   role="navigation"
                   aria-label="Mobile navigation"
                 >

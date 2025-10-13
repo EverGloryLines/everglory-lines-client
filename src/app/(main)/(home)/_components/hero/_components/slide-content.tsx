@@ -45,7 +45,7 @@ export const SlideContent = ({ slide }: SlideContentProps) => {
 
             <motion.h1
               variants={contentVariants.title}
-              className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-plus-jakarta-sans font-bold text-white leading-none mb-4 md:mb-6"
+              className="max-w-sm md:max-w-2xl text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-plus-jakarta-sans font-bold text-white leading-none mb-4 md:mb-6"
             >
               {slide.title}
             </motion.h1>
@@ -53,7 +53,7 @@ export const SlideContent = ({ slide }: SlideContentProps) => {
 
           <motion.p
             variants={contentVariants.description}
-            className="text-base md:text-lg lg:text-xl text-white mb-8 leading-tight max-w-2xl"
+            className="max-w-sm md:max-w-xl text-base md:text-lg lg:text-xl text-white mb-8 leading-tight"
           >
             {slide.description}
           </motion.p>

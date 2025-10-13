@@ -20,30 +20,6 @@ export const navigationConfig: MenuItem[] = [
   {
     label: "About",
     href: "/about-us",
-    hasDropdown: true,
-    subMenu: [
-      { label: "Business Objective", href: "/about-us/business-objective" },
-      {
-        label: "Main Business Activities",
-        href: "/about-us/main-business-activities",
-      },
-      {
-        label: "Other Business Segments",
-        href: "/about-us/other-business-segments",
-      },
-      { label: "World Maps", href: "/about-us/world-maps" },
-      { label: "History and Glory", href: "/about-us/history-and-glory" },
-      { label: "Vision", href: "/about-us/vision" },
-      { label: "Mission", href: "/about-us/mission" },
-      { label: "Identity", href: "/about-us/identity" },
-      { label: "Ideology", href: "/about-us/ideology" },
-      { label: "Philosophy", href: "/about-us/philosophy" },
-      { label: "Approach", href: "/about-us/approach" },
-      {
-        label: "Commonalities and Differences",
-        href: "/about-us/commonalities-and-differences",
-      },
-    ],
   },
   {
     label: "Businesses",

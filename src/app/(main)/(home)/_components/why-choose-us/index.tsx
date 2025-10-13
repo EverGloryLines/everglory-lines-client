@@ -80,7 +80,7 @@ export function WhyChooseUs() {
                   />
                 </div>
 
-                <div className="absolute left-40 lg:left-80 top-10 w-56 lg:w-60 h-40 overflow-hidden shadow-xl border-[10px] rounded-none border-white z-20">
+                <div className="absolute left-40 lg:left-70 top-10 w-56 lg:w-60 h-40 overflow-hidden shadow-xl border-[10px] rounded-none border-white z-20">
                   <Image
                     src="/homepage/why-choose-us/ship-container-ai.jpg"
                     alt="Airplane Cargo"
@@ -89,7 +89,7 @@ export function WhyChooseUs() {
                   />
                 </div>
 
-                <div className="absolute left-0 lg:left-60 top-44 lg:top-64 w-64 lg:w-80 h-40 lg:h-64 overflow-hidden shadow-xl border-[10px] rounded-none border-white z-15">
+                <div className="absolute left-0 lg:left-50 top-44 lg:top-64 w-64 lg:w-80 h-40 lg:h-64 overflow-hidden shadow-xl border-[10px] rounded-none border-white z-15">
                   <Image
                     src="/homepage/why-choose-us/ship-container-ai.jpg"
                     alt="Container Ship at Sea"
@@ -98,10 +98,10 @@ export function WhyChooseUs() {
                   />
                 </div>
 
-                <div className="absolute -bottom-8 -left-30 lg:left-12 z-30">
-                  <div className="bg-[#2d5f4f] rounded-full w-48 h-48 lg:w-52 lg:h-52 flex flex-col items-center justify-center shadow-2xl border-[14px] border-white">
-                    <div className="text-white text-5xl lg:text-6xl font-bold">
-                      {displayCount.toLocaleString()}
+                <div className="absolute bottom-2 -left-30 lg:left-0 z-30">
+                  <div className="py-2 bg-[#2d5f4f] rounded-sm w-44 lg:w-50 flex flex-col items-center justify-center shadow-2xl border-[14px] border-white">
+                    <div className="text-white text-5xl lg:text-6xl font-plus-jakarta-sans font-bold">
+                      {displayCount}
                     </div>
                     <div className="text-white text-base lg:text-lg font-medium mt-1">
                       Since
@@ -122,7 +122,7 @@ export function WhyChooseUs() {
               <div className="text-[#FF7336] text-sm font-sans font-semibold tracking-wider uppercase">
                 TRUSTED TRANSPORT SERVICE
               </div>
-              <h2 className="text-[40px] md:text-[52px] 2xl:text-[56px] font-plus-jakarta-sans font-semibold tracking-[-0.02em] bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-none my-2">
+              <h2 className="text-[40px] md:text-[52px] 2xl:text-[56px] font-plus-jakarta-sans font-semibold tracking-[-0.02em] bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-snug my-2">
                 Why Choose <br /> Everglory Lines
               </h2>
             </div>
@@ -171,11 +171,11 @@ export function WhyChooseUs() {
             </div>
 
             <div className="flex flex-wrap items-center gap-6 pt-6 relative">
-              <button className="water-pour-button relative px-8 py-4 bg-[#2d5f4f] text-white font-bold text-sm tracking-wider rounded-none overflow-hidden transition-all duration-300 hover:shadow-lg group">
+              <button className="cursor-pointer water-pour-button relative px-8 py-4 bg-[#2d5f4f] text-white font-bold text-sm tracking-wider rounded-none overflow-hidden transition-all duration-400 hover:shadow-lg group">
                 <span className="relative z-10">MORE ABOUT US</span>
                 <div className="absolute inset-0 overflow-hidden">
-                  <div className="absolute inset-0 bg-[#ff6b35] transform origin-top translate-y-full group-hover:translate-y-0 transition-transform duration-600 ease-out" />
-                  <div className="absolute inset-0 bg-[#ff6b35] transform origin-bottom -translate-y-full group-hover:translate-y-0 transition-transform duration-600 ease-out clip-bottom" />
+                  <div className="absolute inset-0 bg-[#ff6b35] transform origin-top translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-out" />
+                  <div className="absolute inset-0 bg-[#ff6b35] transform origin-bottom -translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-out clip-bottom" />
                 </div>
               </button>
 
