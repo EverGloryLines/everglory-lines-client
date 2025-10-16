@@ -5,7 +5,8 @@ import { OurMissionSection } from "./_components/our-mission-section";
 import { IdentitySection } from "./_components/identity-section";
 import { IdeologySection} from "./_components/ideology-section";
 import { PhilosophySection} from "./_components/philosophy-section";
-import ApproachSection from "./_components/approach-section";
+import { ApproachSection } from "./_components/approach-section";
+import { CommonalitiesAndDifferenceSection } from "./_components/commonalities-differences-section";
 
 
 interface Section {
@@ -35,6 +36,8 @@ export function AboutContent({ sections }: AboutContentProps) {
         return <PhilosophySection />;
       case "approach":
         return <ApproachSection />;
+      case "commonalities-and-differences":
+        return <CommonalitiesAndDifferenceSection />;
       // Add more cases for other sections if you decide to break them out
       default:
         return (
