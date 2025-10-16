@@ -19,7 +19,7 @@ export const navigationConfig: MenuItem[] = [
   },
   {
     label: "About",
-    href: "/about-us",
+    href: "/about",
   },
   {
     label: "Businesses",

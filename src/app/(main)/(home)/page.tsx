@@ -9,6 +9,7 @@ import { IntraBayOfBengal } from "./_components/ibb";
 import { LegSection } from "./_components/leg";
 import { ContainerShowcase } from "./_components/container";
 import { HeroModal } from "./_components/hero/_components/hero-modal/hero-modal";
+import VesselTrackingMaps from "./_components/map-tracking/vessel-tracking-maps";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <IntraBayOfBengal />
       <ServicesCarousel />
       <ContainerShowcase />
+      <VesselTrackingMaps />
       <NewsSection featuredNews={featuredNews} newsList={newsList} />
       <LegSection />
     </div>
