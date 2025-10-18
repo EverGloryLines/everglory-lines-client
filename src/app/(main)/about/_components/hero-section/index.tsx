@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { ImageGrid } from "./image-grid";
 import { ContentSection } from "./content-section";
 
-export default function HeroSection() {
+export function AboutUsHeroSection() {
   return (
     <motion.section
       className="container mx-auto w-full py-8 md:pt-12 md:pb-24 overflow-hidden px-4 md:pl-4 bg-white"

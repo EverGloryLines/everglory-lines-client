@@ -125,7 +125,7 @@ export const ContentSection = () => {
         className="flex items-center justify-center flex-row gap-2 mb-10"
         variants={itemVariants}
       >
-        <CtaButtonVariantBlue href="https://helpdesk.moonhospital.info/app/6">
+        <CtaButtonVariantBlue href="">
           <span className="block lg:hidden">Quote</span>
           <span className="hidden lg:block">Get a Freight Quote</span>
         </CtaButtonVariantBlue>

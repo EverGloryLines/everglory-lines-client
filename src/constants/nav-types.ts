@@ -22,58 +22,22 @@ export const navigationConfig: MenuItem[] = [
     href: "/about",
   },
   {
-    label: "Businesses",
+    label: "Our Businesses",
     href: "/our-businesses",
-    hasDropdown: true,
-    subMenu: [
-      { label: "Brief Profile", href: "/our-businesses/brief-profile" },
-      {
-        label: "Board of Directors",
-        href: "/our-businesses/board-of-directors",
-      },
-      {
-        label: "Management Committee",
-        href: "/our-businesses/management-committee",
-      },
-      { label: "Management Team", href: "/our-businesses/management-team" },
-      {
-        label: "Chairman's Reaffirmation",
-        href: "/our-businesses/chairmans-reaffirmation",
-      },
-      { label: "MD's Statement", href: "/our-businesses/md-statement" },
-      { label: "Team's Commitment", href: "/our-businesses/team-commitment" },
-      {
-        label: "Stratagic Partners",
-        href: "/our-businesses/stratagic-partners",
-      },
-    ],
   },
   {
-    label: "Services",
+    label: "Our Services",
     href: "/our-services",
     hasDropdown: true,
     subMenu: [
-      { label: "Liner Services", href: "/our-services/liner-services" },
-      { label: "Feeder Services", href: "/our-services/feeder-services" },
+      { label: "Service Maps", href: "/our-services/service-maps" },
       {
-        label: "Multimodal Transport",
-        href: "/our-services/multimodal-transport",
+        label: "Logistics Solutions",
+        href: "/our-services/logistics-solutions",
       },
-      {
-        label: "Intermodal Transport",
-        href: "/our-services/intermodal-transport",
-      },
-      {
-        label: "Terminal Operations",
-        href: "/our-services/terminal-operations",
-      },
+      { label: "Operations", href: "/our-services/operations" },
       { label: "Freight Forwarding", href: "/our-services/freight-forwarding" },
-      { label: "Warehousing", href: "/our-services/warehousing" },
       { label: "Other Services", href: "/our-services/other-services" },
-      { label: "Sea", href: "/our-services/sea" },
-      { label: "Rail", href: "/our-services/rail" },
-      { label: "Air", href: "/our-services/air" },
-      { label: "Road", href: "/our-services/road" },
     ],
   },
   {
@@ -174,4 +138,4 @@ export const taglines = [
   "Not 60 Days, Only 6 Days Transit Time From All Inland Points/ICDs of India via Haldia to Pangaon, Dhaka",
   "Connecting Continents Through Reliable Maritime Solutions",
   "Your Trusted Partner in Global Shipping and Logistics",
-]
+];

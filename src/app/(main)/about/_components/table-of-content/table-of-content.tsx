@@ -37,7 +37,7 @@ export function TableOfContents({
 
   return (
     <nav
-      className="rounded-none border border-border bg-[#FDFDFD] p-6 shadow-sm"
+      className="rounded-none border border-border bg-[#FDFDFD] p-6"
       aria-label="Table of contents"
     >
       <h2 className="text-base md:text-lg lg:text-xl font-plus-jakarta-sans font-medium tracking-[-0.02em] bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-[1.4] mb-4">
