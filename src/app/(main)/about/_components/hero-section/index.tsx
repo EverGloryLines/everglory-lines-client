@@ -12,7 +12,8 @@ export function AboutUsHeroSection() {
       animate="visible"
       viewport={{ once: true }}
     >
-      <div className="flex flex-col lg:flex-row gap-8 md:gap-20 rounded-tl-[100px] lg:rounded-bl-[100px] shadow-[4px_8px_15px_rgba(0,0,0,0.1)]">
+      {/* Updated: Removed complex rounded corners and shadow for a cleaner, minimalistic look */}
+      <div className="flex flex-col lg:flex-row gap-8 md:gap-12 rounded-none shadow-lg border border-gray-100 p-4 lg:p-10">
         <ImageGrid />
         <ContentSection />
       </div>

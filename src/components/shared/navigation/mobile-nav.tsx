@@ -31,7 +31,7 @@ export function MobileNav() {
   }, [isOpen]);
 
   return (
-    <div className="xl:hidden bg-[#4c6faf] w-full">
+    <div className="lg:hidden bg-[#4c6faf] w-full">
       <div className="container mx-auto">
         <div className="flex items-center justify-between px-4 py-3">
           <div className="relative h-12 w-32">

@@ -9,8 +9,8 @@ export const COLORS = {
 } as const;
 
 export const ANIMATION_TIMINGS = {
-  autoPlayInterval: 7000,
-  transitionDuration: 0.7,
+  autoPlayInterval: 9000,
+  transitionDuration: 0.9,
   backgroundZoomDuration: 2,
   taglineDelay: 0.2,
   backgroundTextDelay: 0.3,

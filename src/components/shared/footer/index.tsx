@@ -7,28 +7,28 @@ import Image from "next/image";
 
 // Data Definitions
 const featureCardsData = [
-  { mainText: "CMA CGM'S GROUP VISION", bgText: "CMA" },
-  { mainText: "SUSTAINABILITY & INNOVATION", bgText: "SUST" },
-  { mainText: "JOIN US", bgText: "JOIN" },
-  { mainText: "NEWS & MEDIA", bgText: "NEWS" },
+  { mainText: "OUR SERVICES", bgText: "SERV" },
+  { mainText: "OUR FLEET", bgText: "FLEET" },
+  { mainText: "CAREER OPPORTUNITIES", bgText: "CAREER" },
+  { mainText: "NEWS & UPDATES", bgText: "NEWS" },
 ];
 
 const navigationData = [
   {
     title: "Group 1",
     links: [
-      { label: "Shipping", href: "#" },
-      { label: "End-to-End Solutions", href: "#" },
-      { label: "News", href: "#" },
-      { label: "My ANL", href: "#" },
+      { label: "Container Shipping", href: "#" },
+      { label: "Liner Services", href: "#" },
+      { label: "Track Shipment", href: "#" },
+      { label: "Our Fleet", href: "#" },
     ],
   },
   {
     title: "Group 2",
     links: [
-      { label: "Find your local offices", href: "#" },
-      { label: "To our corporate website", href: "#" },
-      { label: "My Customer Service", href: "#" },
+      { label: "Port Locations", href: "#" },
+      { label: "Get a Quote", href: "#" },
+      { label: "Customer Support", href: "#" },
     ],
   },
 ];

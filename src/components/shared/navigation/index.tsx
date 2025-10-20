@@ -37,7 +37,7 @@ export function Navigation() {
       <header ref={headerRef} className="w-full">
         <LogoBanner />
         <TaglineSlider />
-        <div ref={navRef} className={isSticky ? "h-[52px] md:h-[48px]" : ""}>
+        <div ref={navRef} className={isSticky ? "h-[52px]" : ""}>
           <div
             className={`${
               isSticky

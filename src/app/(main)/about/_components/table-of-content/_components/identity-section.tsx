@@ -1,22 +1,8 @@
 import React from "react";
-import Image from "next/image";
 
 export function IdentitySection() {
   return (
     <>
-      {/* Full Diagram Image */}
-      <div className="mb-8 w-full">
-        <Image
-          src="/about/table-of-contents/section-4-img.png" // Replace with your actual full diagram image path
-          alt="EVERGLORY Identity Diagram"
-          width={900} // Set a large intrinsic width for good resolution
-          height={400} // Set an intrinsic height that matches your image's aspect ratio
-          layout="responsive"
-          objectFit="contain"
-          className="rounded-none mx-auto"
-        />
-      </div>
-
       {/* Summarized Identity Key Points (Icon & List Based) */}
       <div className="mb-10 p-6 rounded-lg bg-card-foreground/5 dark:bg-card-foreground/10 border border-border">
         <h3 className="text-xl lg:text-2xl font-bold text-foreground mb-6 text-center">

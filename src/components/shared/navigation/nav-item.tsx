@@ -47,7 +47,7 @@ export function NavItem({ item }: NavItemProps) {
     return (
       <Link
         href={item.href || "#"}
-        className={`px-4 py-3 text-white hover:bg-[#5a7ec4] transition-colors duration-150 text-base lg:text-lg font-plus-jakarta-sans font-semibold ${
+        className={`px-2 py-2 text-white hover:bg-[#5a7ec4] transition-colors duration-150 text-base lg:text-lg font-plus-jakarta-sans font-semibold ${
           isActive ? "bg-[#5a7ec4] border-b-2 border-white" : ""
         }`}
       >
@@ -63,7 +63,7 @@ export function NavItem({ item }: NavItemProps) {
       onMouseLeave={handleMouseLeave}
     >
       <button
-        className={`flex items-center gap-1 px-2 py-3 h-full text-white hover:bg-[#5a7ec4] transition-colors duration-150 ${
+        className={`flex items-center gap-1 px-2 py-2 h-full text-white hover:bg-[#5a7ec4] transition-colors duration-150 ${
           isActive ? "bg-[#5a7ec4] border-b-2 border-white" : ""
         }`}
         aria-expanded={isOpen}

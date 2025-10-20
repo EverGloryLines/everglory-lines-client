@@ -22,22 +22,63 @@ export const navigationConfig: MenuItem[] = [
     href: "/about",
   },
   {
-    label: "Our Businesses",
+    label: "Businesses",
     href: "/our-businesses",
   },
   {
-    label: "Our Services",
+    label: "Services",
     href: "/our-services",
     hasDropdown: true,
     subMenu: [
       { label: "Service Maps", href: "/our-services/service-maps" },
       {
-        label: "Logistics Solutions",
-        href: "/our-services/logistics-solutions",
+        label: "Liner Services",
+        href: "/our-services/liner-services",
       },
-      { label: "Operations", href: "/our-services/operations" },
-      { label: "Freight Forwarding", href: "/our-services/freight-forwarding" },
-      { label: "Other Services", href: "/our-services/other-services" },
+      {
+        label: "Feeder Services",
+        href: "/our-services/feeder-services",
+      },
+      {
+        label: "Multimodal Transport",
+        href: "/our-services/multimodal-transport",
+      },
+      {
+        label: "Intermodal Transport",
+        href: "/our-services/intermodal-transport",
+      },
+      {
+        label: "Terminal Operations",
+        href: "/our-services/terminal-operations",
+      },
+      {
+        label: "Freight Forwarding",
+        href: "/our-services/freight-forwarding",
+        hasNestedDropdown: true,
+        nestedSubMenu: [
+          { label: "Sea", href: "/our-services/sea" },
+          {
+            label: "Rail",
+            href: "/our-services/rail",
+          },
+          {
+            label: "Air",
+            href: "/our-services/air",
+          },
+          {
+            label: "Road",
+            href: "/our-services/road",
+          },
+        ],
+      },
+      {
+        label: "Warehousing",
+        href: "/our-services/warehousing",
+      },
+      {
+        label: "Freight Forwarding",
+        href: "/our-services/other-services",
+      },
     ],
   },
   {

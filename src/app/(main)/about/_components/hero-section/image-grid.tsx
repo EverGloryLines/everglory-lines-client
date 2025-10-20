@@ -38,102 +38,38 @@ export const ImageGrid = () => {
     },
   };
 
+  // Simplified image list for a 2x2 grid (using the first 4 images from your original list)
+  const images = [
+    { src: "/about/hero/uddippon-express-front.png", alt: "shipping-liner-1" },
+    { src: "/about/hero/uttaran-express.jpg", alt: "shipping-liner-2" },
+    { src: "/about/hero/container-img-one.jpeg", alt: "shipping-liner-3" },
+    { src: "/about/hero/uddippon-express-three.jpeg", alt: "shipping-liner-4" },
+  ];
+
   return (
     <motion.div
-      className="hidden lg:grid lg:w-[40%] grid-cols-2 gap-6 md:gap-8 h-full"
+      // Updated layout to a clean 2x2 grid matching the second image's structure
+      className="hidden lg:grid lg:w-[40%] grid-cols-2 grid-rows-2 gap-4 h-[400px]" // Fixed height for consistent look
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
-      {/* First Column */}
-      <div className="flex flex-col gap-6">
+      {images.map((image, index) => (
         <motion.div
-          className="relative h-[200px] md:h-[250px] overflow-hidden"
+          key={index}
+          className="relative overflow-hidden rounded-none shadow-md w-full h-full"
           variants={imageVariants}
         >
           <Image
-            src="/about/hero/image-grid-1.png"
-            alt="shipping-liner-1"
+            src={image.src}
+            alt={image.alt}
             fill
-            className="rounded-tl-[100px] object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            priority
+            priority={index < 2} // Prioritize first two images
+            className="object-cover transition-transform duration-500 hover:scale-105" // Added hover effect for touch of polish
+            sizes="(max-width: 1200px) 50vw, 33vw"
           />
         </motion.div>
-
-        <motion.div
-          className="relative h-[150px] w-[150px] ml-0 lg:ml-16 overflow-hidden"
-          variants={imageVariants}
-        >
-          <Image
-            src="/about/hero/image-grid-2.png"
-            alt="shipping-liner-2"
-            fill
-            priority
-            className="rounded-bl-[100px] object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </motion.div>
-
-        <motion.div
-          className="relative h-[200px] md:h-[220px] overflow-hidden"
-          variants={imageVariants}
-        >
-          <Image
-            src="/about/hero/image-grid-3.png"
-            alt="shipping-liner-3"
-            fill
-            priority
-            className="rounded-bl-[100px] object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </motion.div>
-      </div>
-
-      {/* Second Column */}
-      <div className="flex flex-col gap-10">
-        <motion.div
-          className="relative h-[100px] w-[120px] overflow-hidden"
-          variants={imageVariants}
-        >
-          <Image
-            src="/about/hero/image-grid-4.png"
-            alt="shipping-liner-4"
-            fill
-            priority
-            className="rounded-tr-[60px] object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </motion.div>
-
-        <motion.div
-          className="relative h-[200px] md:h-[230px] w-[150px] md:w-[250px] overflow-hidden mt-4"
-          variants={imageVariants}
-        >
-          <Image
-            src="/about/hero/image-grid-5.png"
-            alt="shipping-liner-5"
-            fill
-            priority
-            className="rounded-tr-[120px] object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </motion.div>
-
-        <motion.div
-          className="relative h-[160px] w-[150px] md:w-[180px] overflow-hidden"
-          variants={imageVariants}
-        >
-          <Image
-            src="/about/hero/image-grid-6.png"
-            alt="shipping-liner-6"
-            fill
-            priority
-            className="rounded-br-[100px] object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </motion.div>
-      </div>
+      ))}
     </motion.div>
   );
 };

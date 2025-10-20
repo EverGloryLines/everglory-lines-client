@@ -4,11 +4,7 @@ import React from "react";
 export function PhilosophySection() {
   return (
     <>
-      {/* "Caring Beyond Continents" Tagline (Simplified) */}
-      <h3 className="text-2xl lg:text-3xl font-bold text-center text-foreground mb-12">
-        Caring Beyond Continents
-      </h3>
-
+    
       {/* Philosophy Cards Grid Layout */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 justify-items-center">
         {/* Card 1: NICHE CARRIER */}

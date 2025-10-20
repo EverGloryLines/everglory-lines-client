@@ -73,17 +73,8 @@ export function WhyChooseUs() {
               <div className="relative w-full h-[580px] lg:h-[600px]">
                 <div className="absolute left-0 top-0 w-80 lg:w-96 h-[420px] lg:h-[460px] overflow-hidden shadow-xl border-[10px] rounded-none border-white z-10">
                   <Image
-                    src="/homepage/why-choose-us/container-truck-airplane.jpg"
+                    src="/homepage/why-choose-us/uddipon-express.jpeg"
                     alt="Container Ship Aerial"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-
-                <div className="absolute left-40 lg:left-70 top-10 w-56 lg:w-60 h-40 overflow-hidden shadow-xl border-[10px] rounded-none border-white z-20">
-                  <Image
-                    src="/homepage/why-choose-us/ship-container-ai.jpg"
-                    alt="Airplane Cargo"
                     fill
                     className="object-cover"
                   />
@@ -91,7 +82,7 @@ export function WhyChooseUs() {
 
                 <div className="absolute left-0 lg:left-50 top-44 lg:top-64 w-64 lg:w-80 h-40 lg:h-64 overflow-hidden shadow-xl border-[10px] rounded-none border-white z-15">
                   <Image
-                    src="/homepage/why-choose-us/ship-container-ai.jpg"
+                    src="/homepage/why-choose-us/container-port-one.jpeg"
                     alt="Container Ship at Sea"
                     fill
                     className="object-cover"
@@ -120,7 +111,7 @@ export function WhyChooseUs() {
           >
             <div className="space-y-3">
               <div className="text-[#FF7336] text-sm font-sans font-semibold tracking-wider uppercase">
-                TRUSTED TRANSPORT SERVICE
+                Multimodal Transport Solutions
               </div>
               <h2 className="text-[40px] md:text-[52px] 2xl:text-[56px] font-plus-jakarta-sans font-semibold tracking-[-0.02em] bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-snug my-2">
                 Why Choose <br /> Everglory Lines

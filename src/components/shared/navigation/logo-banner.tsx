@@ -10,29 +10,29 @@ const logos = [
     height: 80,
   },
   {
-    src: "/logo/BIWTC-Logo.jpg",
+    src: "/logo/BIWTC-Logo.png",
     alt: "BIWTC Logo",
     width: 280,
     height: 80,
   },
-  {
-    src: "/logo/INBD-7-Logo.jpeg",
-    alt: "In BD Alliance Logo",
-    width: 280,
-    height: 80,
-  },
-  {
-    src: "/logo/uttaran-express.jpg",
-    alt: "Shipping Company Logo",
-    width: 280,
-    height: 80,
-  },
-  {
-    src: "/logo/four-ships.jpg",
-    alt: "Logistics Company Logo",
-    width: 280,
-    height: 80,
-  },
+  // {
+  //   src: "/logo/INBD-7-Logo.jpeg",
+  //   alt: "In BD Alliance Logo",
+  //   width: 280,
+  //   height: 80,
+  // },
+  // {
+  //   src: "/logo/uttaran-express.jpg",
+  //   alt: "Shipping Company Logo",
+  //   width: 280,
+  //   height: 80,
+  // },
+  // {
+  //   src: "/logo/four-ships.jpg",
+  //   alt: "Logistics Company Logo",
+  //   width: 280,
+  //   height: 80,
+  // },
 ];
 
 export function LogoBanner() {
@@ -43,9 +43,7 @@ export function LogoBanner() {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className={`relative flex-shrink-0 ${
-                index >= 2 ? "hidden xl:block" : ""
-              }`}
+              className={`relative flex-shrink-0`}
             >
               <Image
                 src={logo.src}

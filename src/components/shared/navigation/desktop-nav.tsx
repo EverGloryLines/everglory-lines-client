@@ -5,9 +5,9 @@ import { NavItem } from "./nav-item";
 
 export function DesktopNav() {
   return (
-    <nav className="hidden xl:block bg-[#485FA3] w-full" role="navigation" aria-label="Main navigation">
+    <nav className="hidden lg:block bg-[#485FA3] w-full" role="navigation" aria-label="Main navigation">
       <div className="section-layout">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-0">
           {navigationConfig.map((item, index) => (
             <NavItem key={index} item={item} />
           ))}
