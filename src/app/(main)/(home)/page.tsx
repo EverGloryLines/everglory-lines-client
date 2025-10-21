@@ -10,6 +10,7 @@ import { LegSection } from "./_components/leg";
 import { ContainerShowcase } from "./_components/container";
 import { HeroModal } from "./_components/hero/_components/hero-modal/hero-modal";
 import VesselTrackingMaps from "./_components/map-tracking/vessel-tracking-maps";
+import { EmailBanner } from "./_components/email-banner";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       </div>
       <LogoTicker />
       <WhyChooseUs />
+       <EmailBanner />
       <IntraBayOfBengal />
       {/* <ServicesCarousel /> */}
       <ContainerShowcase />
