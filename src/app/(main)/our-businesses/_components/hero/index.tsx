@@ -68,9 +68,9 @@ export function BusinessHeroSection() {
 
           {/* Right Side: Image */}
           <div className="flex justify-center md:justify-end order-1 md:order-2">
-            <div className="w-full max-w-md lg:max-w-lg rounded-none overflow-hidden transform hover:scale-105 transition-transform duration-500">
+            <div className="w-full max-w-md lg:max-w-xl rounded-none overflow-hidden transform hover:scale-105 transition-transform duration-500">
               <Image
-                src="/business/Everglory-lines-hero.png"
+                src="/business/pangaon-port.jpg"
                 alt="Modern business building against a cloudy sky"
                 width={700}
                 height={500}

@@ -22,51 +22,51 @@ export interface ContainerGridProps {
 
 export const CONTAINERS: Container[] = [
   {
-    id: "dry-cargo",
-    title: "Dry Cargo Containers",
+    id: "20-standard",
+    title: "20' STANDARD",
     description:
-      "Suitable for any general cargo and come in the size of 20ft and 40 ft. Corner casting for movement with cargo. Forklift to move the empty unit.",
-    imageUrl: "/homepage/container/container.png",
+      "20ft dry container for general cargo like machinery or goods. Easy handling with forklifts and corner castings for stacking.",
+    imageUrl: "/fleet/container/20-standard-container.svg",
     imageAlt: "Blue dry cargo shipping container",
   },
   {
-    id: "high-cube",
-    title: "High Cube Containers",
+    id: "40-standard",
+    title: "40' STANDARD",
     description:
-      "High-cube containers are similar in structure to standard containers, but taller. Suitable for all types general cargo (dry cargo).",
-    imageUrl: "/homepage/container/container.png",
+      "40ft dry container for all non-temperature cargo, ideal for bulk goods, textiles, and electronics.",
+    imageUrl: "/fleet/container/40-standard-container.svg",
     imageAlt: "High cube shipping container",
   },
   {
-    id: "refrigerated",
-    title: "Refrigerated Containers",
+    id: "40-high-cube",
+    title: "40' HIGH-CUBE",
     description:
-      "Reefer containers are, simply put, large fridges carried by containerships to move temperature-sensitive goods.",
-    imageUrl: "/homepage/container/container.png",
+      "Extra-tall 40ft container offering more space for lightweight, bulky cargo like furniture or clothing.",
+    imageUrl: "/fleet/container/40-high-cube-container.svg",
     imageAlt: "White refrigerated container",
   },
   {
-    id: "open-top",
-    title: "Open Top Containers",
+    id: "45-high-cube",
+    title: "45' HIGH-CUBE",
     description:
-      "The open-top container is usually used to export or import goods that do not fit in regular containers due to their sizes.",
-    imageUrl: "/homepage/container/container.png",
+      "Extended 45ft high-cube for large-volume shipments and long-haul transport needing extra capacity.",
+    imageUrl: "/fleet/container/45-high-cube-container.svg",
     imageAlt: "Open top container with yellow tarp",
   },
   {
-    id: "flat-rack",
-    title: "Flat Rack Containers",
+    id: "20-open-top",
+    title: "20' OPEN TOP",
     description:
-      "Flat rack containers are designed for heavy loads and oversized cargo that cannot fit into standard containers.",
-    imageUrl: "/homepage/container/container.png",
+      "A 20-foot open-top container with a removable tarpaulin roof, ideal for loading heavy or oversized cargo such as machinery, steel, or timber that cannot be easily loaded through standard doors.",
+    imageUrl: "/fleet/container/20-open-top-container.svg",
     imageAlt: "Flat rack container for oversized cargo",
   },
   {
-    id: "tank",
-    title: "Tank Containers",
+    id: "40-open-top",
+    title: "40' OPEN TOP",
     description:
-      "Tank containers are used for transporting liquids, gases, and powdered products in bulk quantities safely and efficiently.",
-    imageUrl: "/homepage/container/container.png",
+      "A 40-foot open-top container offering greater capacity for over-height or irregularly shaped cargo. Suitable for transporting construction materials, heavy equipment, and large industrial parts.",
+    imageUrl: "/fleet/container/40-open-top-container.svg",
     imageAlt: "Tank container for liquid transport",
   },
 ];

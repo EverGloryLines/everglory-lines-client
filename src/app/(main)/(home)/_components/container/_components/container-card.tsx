@@ -49,7 +49,7 @@ export function ContainerCard({ container, index }: ContainerCardProps) {
         </p>
 
         <Link
-          href={`#${container.id}`}
+          href={`/fleet/container`}
           className="inline-flex items-center gap-2 text-[#24479B] font-semibold hover:text-[#24479B] transition-colors duration-300 group/link mt-auto"
           aria-label={`Read specification for ${container.title}`}
         >

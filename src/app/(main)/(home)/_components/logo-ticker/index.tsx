@@ -3,30 +3,50 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 const logos = [
-  { name: "BIWTC", logoImage: "/homepage/logo-ticker/BIWTC.jpeg" },
-  // {
-  //   name: "Everglory-Lines",
-  //   logoImage: "/homepage/logo-ticker/everglory-lines-logo.jpg",
-  // },
-  { name: "IN-BD-7", logoImage: "/homepage/logo-ticker/IN-BD-7.jpeg" },
-  { name: "Indo", logoImage: "/homepage/logo-ticker/Indo.jpeg" },
-  { name: "River Edge", logoImage: "/homepage/logo-ticker/River-Edge.jpeg" },
-  { name: "BIWTC", logoImage: "/homepage/logo-ticker/BIWTC.jpeg" },
-  // {
-  //   name: "Everglory-Lines",
-  //   logoImage: "/homepage/logo-ticker/everglory-lines-logo.jpg",
-  // },
-  { name: "IN-BD-7", logoImage: "/homepage/logo-ticker/IN-BD-7.jpeg" },
-  { name: "Indo", logoImage: "/homepage/logo-ticker/Indo.jpeg" },
-  { name: "River Edge", logoImage: "/homepage/logo-ticker/River-Edge.jpeg" },
-  { name: "BIWTC", logoImage: "/homepage/logo-ticker/BIWTC.jpeg" },
-  // {
-  //   name: "Everglory-Lines",
-  //   logoImage: "/homepage/logo-ticker/everglory-lines-logo.jpg",
-  // },
-  { name: "IN-BD-7", logoImage: "/homepage/logo-ticker/IN-BD-7.jpeg" },
-  { name: "Indo", logoImage: "/homepage/logo-ticker/Indo.jpeg" },
-  { name: "River Edge", logoImage: "/homepage/logo-ticker/River-Edge.jpeg" },
+  {
+    name: "Eagle-Ocean",
+    logoImage: "/homepage/logo-ticker/eagle-ocean-marine.jpg",
+  },
+  { name: "IGPI", logoImage: "/homepage/logo-ticker/IGPI-boxed.jpg" },
+  {
+    name: "Sadharan-Bima",
+    logoImage: "/homepage/logo-ticker/sadharan-bima.avif",
+  },
+  {
+    name: "The-American-Club",
+    logoImage: "/homepage/logo-ticker/the-american-club.jpeg",
+  },
+  { name: "TT-Club", logoImage: "/homepage/logo-ticker/tt-club.jpg" },
+  //  Duplicate for continuous scroll
+  {
+    name: "Eagle-Ocean",
+    logoImage: "/homepage/logo-ticker/eagle-ocean-marine.jpg",
+  },
+  { name: "IGPI", logoImage: "/homepage/logo-ticker/IGPI-boxed.jpg" },
+  {
+    name: "Sadharan-Bima",
+    logoImage: "/homepage/logo-ticker/sadharan-bima.avif",
+  },
+  {
+    name: "The-American-Club",
+    logoImage: "/homepage/logo-ticker/the-american-club.jpeg",
+  },
+  { name: "TT-Club", logoImage: "/homepage/logo-ticker/tt-club.jpg" },
+  //  Duplicate for continuous scroll
+  {
+    name: "Eagle-Ocean",
+    logoImage: "/homepage/logo-ticker/eagle-ocean-marine.jpg",
+  },
+  { name: "IGPI", logoImage: "/homepage/logo-ticker/IGPI-boxed.jpg" },
+  {
+    name: "Sadharan-Bima",
+    logoImage: "/homepage/logo-ticker/sadharan-bima.avif",
+  },
+  {
+    name: "The-American-Club",
+    logoImage: "/homepage/logo-ticker/the-american-club.jpeg",
+  },
+  { name: "TT-Club", logoImage: "/homepage/logo-ticker/tt-club.jpg" },
 ];
 
 export const LogoTicker = () => {
@@ -34,7 +54,7 @@ export const LogoTicker = () => {
     <div className="w-full pb-4 sm:pb-0 md:pb-12 bg-white pr-14 mt-10">
       <div className="w-full">
         <h2 className="pl-14 text-center mb-8 text-[26px] md:text-[30px] 2xl:text-[36px] font-plus-jakarta-sans font-medium tracking-normal bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-[1.4] my-2">
-          Our Marine Insurance Partners
+          ALL OUR SHIPS AND SERVICES ARE INSURED AND REINSURED BY:
         </h2>
         <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
           <Marquee pauseOnHover speed={50} gradient={false} className="flex">

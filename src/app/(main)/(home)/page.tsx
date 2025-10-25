@@ -21,7 +21,7 @@ export default function Home() {
       </div>
       <LogoTicker />
       <WhyChooseUs />
-       <EmailBanner />
+      <EmailBanner />
       <IntraBayOfBengal />
       {/* <ServicesCarousel /> */}
       <ContainerShowcase />
