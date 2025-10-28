@@ -6,8 +6,9 @@ export function VisionSection() {
     <>
       {/* Main Description */}
       <p className="mb-8 text-base lg:text-lg text-pretty leading-relaxed text-muted-foreground font-sans font-normal">
-        Our vision is to be the leading service provider of safe, reliable, and
-        sustainable, connecting communities across the globe.
+        Our vision is to be the leading Service provider of safe, reliable, and
+        sustainable shipping and logistic solutions, connecting businesses and
+        communities of countries across the globe.
       </p>
 
       {/* Image and Description Grid */}
@@ -27,33 +28,35 @@ export function VisionSection() {
         {/* Right Side: Bulleted Text with Highlights */}
         <div className="space-y-4">
           <p className="text-base lg:text-lg text-muted-foreground leading-relaxed font-sans font-normal">
-            Our vision is empower global trade by delivering{" "}
-            <span className="text-foreground font-medium">
-              innovative and efficient shipping and logistics solution
-            </span>
-            , with strong commitment.
+            Our vision is to empower global trade by delivering{" "}
+            <strong className="text-foreground">innovative and eﬃcient</strong>{" "}
+            shipping solutions, with a strong commitment to customer
+            satisfaction and environmental responsibility.
           </p>
           <p className="text-base lg:text-lg text-muted-foreground leading-relaxed font-sans font-normal">
-            Our vision is empower trade by besey the honng our ctiticition and{" "}
-            <span className="text-foreground font-medium">
-              environmental responsibility
-            </span>
-            .
+            Our vision is to be the most{" "}
+            <strong className="text-foreground">trusted</strong> and{" "}
+            <strong className="text-foreground">respected</strong> name in
+            shipping industry, known for our unwavering dedication to caring,
+            consistency, and sustainable practices.
           </p>
           <p className="text-base lg:text-lg text-muted-foreground leading-relaxed font-sans font-normal">
-            Our vision is empowr the{" "}
-            <span className="text-foreground font-medium">
-              global trade oo bul
-            </span>{" "}
-            lotiong thin ohetung eranomitmen to catisfaation and enviromental
-            responsibility.
+            Our vision is to shape the future of{" "}
+            <strong className="text-foreground">
+              shipping, multimodal transport and logistics
+            </strong>{" "}
+            by continuously improving quality of services, embracing innovation,
+            and fostering a culture of excellence.
           </p>
           <p className="text-base lg:text-lg text-muted-foreground leading-relaxed font-sans font-normal">
-            Our vision is empower extractning,{" "}
-            <span className="text-foreground font-medium">
-              aradeloviste, and be slebrabity
-            </span>{" "}
-            trape future of shipping, multddobal transport and logistics
+            Our vision emphasizes on the commitment we provide to our valued
+            customer with dependable{" "}
+            <strong className="text-foreground">
+              shipping and logistic solutions
+            </strong>
+            , while we also highlight our customer-centric approach and
+            dedication to innovation facilitating global trade and connecting
+            businesses and communities.
           </p>
         </div>
       </div>

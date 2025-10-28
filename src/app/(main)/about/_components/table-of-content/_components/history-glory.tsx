@@ -20,11 +20,11 @@ export function HistoryGlorySection() {
       <p className="mb-8 text-base lg:text-lg text-pretty leading-relaxed text-muted-foreground font-sans font-normal">
         From <strong className="text-foreground">Uniglory</strong> to{' '}
         <strong className="text-foreground">Everglory Group</strong>. Members of
-        the creation team initiated the foundation process in 1985. At the
+        the creation team initiated the foundation process in <strong className="text-foreground">1985</strong>. At the
         inception members named the Group as “Uniglory”. Over the period of last
         forty years the Group has progressed, improved and enhanced its ability
         and emerged as a knowledge-based well experienced business house. The
-        Group was renamed in 2024 to “Everglory Group” and strengthened its
+        Group was renamed in 2024 to <strong className="text-foreground">“Everglory Group”</strong> and strengthened its
         entities at home and abroad and finally arose as one of the strongest
         business houses of the region.
       </p>

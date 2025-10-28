@@ -4,10 +4,10 @@ export function IdentitySection() {
   return (
     <>
       {/* Summarized Identity Key Points (Icon & List Based) */}
-      <div className="mb-10 p-6 rounded-lg bg-card-foreground/5 dark:bg-card-foreground/10 border border-border">
-        <h3 className="text-xl lg:text-2xl font-bold text-foreground mb-6 text-center">
+      <div className="mb-10 p-6 rounded-none bg-card-foreground/5 dark:bg-card-foreground/10 border border-border">
+        {/* <h3 className="text-xl lg:text-2xl font-bold text-foreground mb-6 text-center">
           Our Distinct Identity
-        </h3>
+        </h3> */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-8">
           {/* Key Point 1: Name & Purpose */}
           <div className="flex items-start space-x-4">

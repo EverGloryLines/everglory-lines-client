@@ -33,7 +33,7 @@ const TARIFF_CARDS = [
     title: "Container Charges (Vessel Account)",
     description:
       "Specifies loading, storage, and extra-handling rates for containers",
-    pageLink: "/charges-for-containers",
+    pageLink: "/container-charges-vessel",
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const TARIFF_CARDS = [
     title: "Container Charges (Cargo Account)",
     description:
       "Outlines dues, delivery, and reception rates for shippers or consignees",
-    pageLink: "/charges-cargo-account",
+    pageLink: "/container-charges-cargo",
   },
   {
     id: 6,
@@ -49,7 +49,7 @@ const TARIFF_CARDS = [
     title: "Miscellaneous Charges & Boats",
     description:
       "Lists small boat and related service charges, including inland craft dues",
-    pageLink: "/charges-for-miscellaneous",
+    pageLink: "/boats-and-miscellaneous",
   },
 ];
 
