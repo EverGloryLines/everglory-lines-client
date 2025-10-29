@@ -14,17 +14,17 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   {
     platform: "linkedin",
-    url: "https://www.linkedin.com/in/everglory-lines-b3916338b/",
+    url: "https://www.linkedin.com/in/everglory-lines-b3916338b",
     ariaLabel: "Follow Everglory Lines on LinkedIn",
   },
   {
     platform: "facebook",
-    url: "https://www.facebook.com/people/Everglory-Lines/61576365385854/",
+    url: "https://www.facebook.com/people/Everglory-Lines/61576365385854",
     ariaLabel: "Follow Everglory Lines on Facebook",
   },
   {
     platform: "instagram",
-    url: "#", // Replace with actual Instagram URL
+    url: "https://www.instagram.com/ever_glorylines",
     ariaLabel: "Follow Everglory Lines on Instagram",
   },
 ];
@@ -112,7 +112,8 @@ const SocialSection: React.FC = () => {
           <MdLocationOn className="w-5 h-5 text-[#08236C] flex-shrink-0 mt-0.5" />
           <span>
             Suite 7A, 6th Floor, <br />
-            22 Kemal Ataturk Avenue,<br />
+            22 Kemal Ataturk Avenue,
+            <br />
             Banani, Dhaka-1212 <br />
           </span>
         </div>
