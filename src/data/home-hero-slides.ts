@@ -4,7 +4,7 @@ export const heroSlides: Slide[] = [
   {
     id: "1",
     tagline: "OVER THE OCEANS, ALL DESTINATIONS",
-    title: "Good hands for Handling and Carriage of Goods by Rail-Road-Ocean and Combined Transportation",
+    title: "Good hands for Handling and Carriage of Goods",
     backgroundText: "COASTAL SHIPPING",
     description:
       "ALL WATER DIRECT LINE CONTAINER LINER SERVICE DIRECT TO DHAKA NOT 60 DAYS, ONLY 6 DAYS TRANSIT TIME FROM ALL INLAND POINTS/ICDS OF INDIA VIA HALDIA TO PANGAON, DHAKA.",
