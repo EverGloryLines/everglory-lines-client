@@ -15,24 +15,24 @@ interface BenefitCard {
 
 const benefits: BenefitCard[] = [
   {
-    title: "End-to-end transportation solution",
+    title: "Simplified coordination with single contract",
     imgSrc: "/services/intermodal-transport/end-to-end.svg",
   },
   {
-    title: "Single point of contact for one-stop service",
+    title: "Unified accountability for all transport modes",
     imgSrc: "/services/intermodal-transport/single-point.svg",
   },
   {
-    title: "Flexible options customisable to your needs",
+    title: "Cost optimization through integrated routing",
     imgSrc: "/services/intermodal-transport/flexible-options.svg",
   },
   {
-    title: "Environmentally friendly",
+    title: "Reduced transit times and handling",
     imgSrc: "/services/intermodal-transport/environmental-experience.svg",
   },
 ];
 
-export function InterModalKeyBenefits() {
+export function MultiModalKeyBenefits() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -69,10 +69,7 @@ export function InterModalKeyBenefits() {
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
         >
-          <SectionTitle className="mb-4 md:mb-8">
-             KEY BENEFITS
-          </SectionTitle>
-         
+          <SectionTitle className="mb-4 md:mb-8">KEY BENEFITS</SectionTitle>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

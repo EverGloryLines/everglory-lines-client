@@ -41,7 +41,7 @@ const transportCards: TransportCard[] = [
   },
 ];
 
-export function InterModalTransportationChoices() {
+export function MultiModalTransportationChoices() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -95,7 +95,9 @@ export function InterModalTransportationChoices() {
             >
               {/* Header */}
               <div className={`${card.headerBg} text-white p-4`}>
-                <h3 className="text-2xl font-plus-jakarta-sans font-medium">{card.title}</h3>
+                <h3 className="text-2xl font-plus-jakarta-sans font-medium">
+                  {card.title}
+                </h3>
               </div>
 
               {/* Image */}

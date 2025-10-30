@@ -32,12 +32,12 @@ export const navigationConfig: MenuItem[] = [
     subMenu: [
       { label: "Service Maps", href: "/our-services/service-maps" },
       {
-        label: "Liner Services",
-        href: "/our-services/liner-services",
+        label: "Liner Service",
+        href: "/our-services/liner-service",
       },
       {
-        label: "Feeder Services",
-        href: "/our-services/feeder-services",
+        label: "Feeder Service",
+        href: "/our-services/feeder-service",
       },
       {
         label: "Multimodal Transport",
@@ -76,7 +76,7 @@ export const navigationConfig: MenuItem[] = [
         href: "/our-services/warehousing",
       },
       {
-        label: "Freight Forwarding",
+        label: "Other Services",
         href: "/our-services/other-services",
       },
     ],

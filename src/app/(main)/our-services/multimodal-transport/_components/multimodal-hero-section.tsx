@@ -10,7 +10,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui";
 
-export function InterModalHeroSection() {
+export function MultiModalHeroSection() {
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -74,14 +74,14 @@ export function InterModalHeroSection() {
                 <BreadcrumbSeparator className="text-red-200" />
 
                 <BreadcrumbItem className="text-red-100 font-semibold">
-                  Intermodal
+                  Multimodal
                 </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>
           </div>
 
           <h1 className="text-5xl lg:text-6xl font-plus-jakarta-sans font-medium text-white">
-            INTERMODAL
+            MULTIMODAL
           </h1>
         </motion.div>
 
@@ -91,7 +91,7 @@ export function InterModalHeroSection() {
           variants={slideInRightVariants}
         >
           <Image
-            src="/services/intermodal-transport/intermodal-transport.webp"
+            src="/services/multimodal-transport/multimodal-hero-img.png"
             alt="Container ship in port"
             fill
             className="object-cover"
@@ -110,16 +110,17 @@ export function InterModalHeroSection() {
             className="text-3xl lg:text-4xl font-plus-jakarta-sans font-medium mb-6 text-balance leading-normal"
             variants={slideUpVariants}
           >
-            DELIVERING SUSTAINABLE AND INTEGRATED TRANSPORTATION SOLUTIONS
+            DELIVERING COMPREHENSIVE AND FLEXIBLE MULTIMODAL TRANSPORTATION
+            SOLUTIONS
           </motion.h2>
 
           <motion.p
             className="text-lg font-sans font-normal text-gray-200 leading-relaxed text-balance"
             variants={slideUpVariants}
           >
-            In an increasingly globalised world, we understand the importance of
-            combining efficient and environmentally friendly methods to move
-            your products from origin to destination.
+            Combining multiple modes of transport under a single contract, we
+            streamline your logistics with seamless connections between sea,
+            rail, road, and inland waterways for optimal efficiency.
           </motion.p>
         </div>
       </motion.div>

@@ -7,7 +7,7 @@ import { useRef } from "react";
 import { SectionTitle } from "@/components/shared/text/section-title";
 import { SectionDescription } from "@/components/shared/text/section-description";
 
-export function InterModalServicesSection() {
+export function MultiModalServicesSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -55,18 +55,18 @@ export function InterModalServicesSection() {
             animate={isInView ? "visible" : "hidden"}
           >
             <SectionTitle className="text-[26px] md:text-[32px] 2xl:text-[44px] max-md:max-w-lg max-md:text-center max-md:mx-auto">
-              Our Everglory Intermodal Services complement our container
-              shipping services and support you one step beyond carrying your
-              cargo across the Bay of Bengal.
+              Everglory Multimodal Services: Your single-contract solution
+              combining sea, rail, road, and waterway transport for efficient
+              India-Bangladesh cargo movement.
             </SectionTitle>
             <SectionDescription className="max-md:text-center">
-              We deliver end-to-end transportation solutions that extend far
-              beyond the port. Our integrated rail, truck and barge services
-              ensure your cargo reaches its final destination across India and
-              Bangladesh efficiently. Whether it&apos;s navigating inland
-              waterways, coordinating cross-border trucking, or managing rail
-              connections, we provide reliable door-to-door service tailored to
-              your supply chain needs.
+              We coordinate ocean freight, rail, truck, and barge transport
+              through a single point of accountability. Our multimodal approach
+              eliminates coordination complexity, reduces transit times, and
+              optimizes costs across the India-Bangladesh corridor. From
+              container terminals to inland destinations, we manage every
+              handoff, ensuring your cargo moves efficiently through each
+              transport leg with complete visibility and control.
             </SectionDescription>
           </motion.div>
         </div>
