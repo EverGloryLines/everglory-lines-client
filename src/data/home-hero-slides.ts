@@ -3,11 +3,11 @@ import { Slide } from "@/app/(main)/(home)/_components/hero";
 export const heroSlides: Slide[] = [
   {
     id: "1",
-    tagline: "Coastal Shipping Excellence",
-    title: "Dependable Shipping Across Regional Waters",
+    tagline: "OVER THE OCEANS, ALL DESTINATIONS",
+    title: "Good hands for Handling and Carriage of Goods by Rail-Road-Ocean and Combined Transportation",
     backgroundText: "COASTAL SHIPPING",
     description:
-      "As a regional reference in coastal shipping and liner-cum-feeder services, we deliver fastest transit times and timely delivery across the Bay of Bengal. Our tailored transport solutions ensure regularity, reliability, and respect.",
+      "ALL WATER DIRECT LINE CONTAINER LINER SERVICE DIRECT TO DHAKA NOT 60 DAYS, ONLY 6 DAYS TRANSIT TIME FROM ALL INLAND POINTS/ICDS OF INDIA VIA HALDIA TO PANGAON, DHAKA.",
     image: "/homepage/hero/slide-two-image.png",
     ctaText: "All Services",
     ctaLink: "/services",
