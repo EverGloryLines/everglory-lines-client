@@ -25,16 +25,5 @@ export const heroSlides: Slide[] = [
     ctaLink: "/services",
     phoneNumber: "+880 189 645 9540",
   },
-  {
-    id: "3",
-    tagline: "Multimodal Transport Solutions",
-    title: "Complete Cross-Trade & Global Logistics",
-    backgroundText: "WAREHOUSING",
-    description:
-      "We provide maritime commerce and foreign trade linked logistics through cross-trade and multimodal transport services. Our strategic vision reinforces innovation, efficiency, and premium quality to create opportunities for regional prosperity.",
-    image: "/homepage/hero/slide-one-image.png",
-    ctaText: "All Services",
-    ctaLink: "/services",
-    phoneNumber: "+880 189 645 9537",
-  },
+  
 ];
