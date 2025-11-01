@@ -1,3 +1,4 @@
+import React from "react";
 import { heroSlides } from "@/data/home-hero-slides";
 import { HeroSlider } from "./_components/hero";
 import { WhyChooseUs } from "./_components/why-choose-us";
@@ -10,7 +11,8 @@ import { LegSection } from "./_components/leg";
 import { ContainerShowcase } from "./_components/container";
 import { HeroModal } from "./_components/hero/_components/hero-modal/hero-modal";
 import VesselTrackingMaps from "./_components/map-tracking/vessel-tracking-maps";
-import { EmailBanner } from "./_components/email-banner";
+import { ClassificationSection } from "./_components/classification-section/classification-section";
+import { AffiliationSection } from "./_components/affiliation-section/affiliation-section";
 
 export default function Home() {
   return (
@@ -21,12 +23,14 @@ export default function Home() {
       </div>
       <LogoTicker />
       <WhyChooseUs />
-      <EmailBanner />
+      <ClassificationSection />
+      {/* <EmailBanner /> */}
       <IntraBayOfBengal />
       {/* <ServicesCarousel /> */}
       <ContainerShowcase />
       <VesselTrackingMaps />
       <NewsSection featuredNews={featuredNews} newsList={newsList} />
+       <AffiliationSection />
       <LegSection />
     </div>
   );

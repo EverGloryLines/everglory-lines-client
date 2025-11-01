@@ -42,7 +42,7 @@ export function OtherSegmentsSection() {
 
         {/* Right Side: Segment List (Redesigned from Vision's bulleted paragraphs) */}
         <div>
-          <h4 className="text-xl font-semibold text-foreground mb-4 border-b pb-2">
+          <h4 className="text-xl font-plus-jakarta-sans font-semibold text-foreground mb-4 border-b pb-2">
             Specialized Agency & Support Services
           </h4>
 
@@ -61,7 +61,7 @@ export function OtherSegmentsSection() {
                     <circle cx="12" cy="12" r="3" />
                   </svg>
                 </span>
-                <p className="text-base text-muted-foreground leading-relaxed font-sans font-normal">
+                <p className="text-base text-muted-foreground leading-relaxed font-plus-jakarta-sans font-normal">
                   {/* Highlights key agency services */}
                   {segment.includes("Agency") ? (
                     <span className="text-foreground font-medium">
@@ -79,7 +79,7 @@ export function OtherSegmentsSection() {
             The Group has grown from a humble beginning to a leading player in
             the global shipping industry, maintaining a steadfast commitment to
             our core values of{" "}
-            <span className="text-foreground font-medium">
+            <span className="text-foreground font-plus-jakarta-sans font-medium">
               consistency, integrity, and customer focus
             </span>
             .

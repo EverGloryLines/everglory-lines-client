@@ -23,9 +23,8 @@ export function BusinessHeroSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left Side: Text and Buttons */}
           <div className="flex flex-col justify-center text-center md:text-left order-2 md:order-1">
-            <h1 className="text-[36px] md:text-[44px] lg:text-[60px] 2xl:text-[64px] font-plus-jakarta-sans font-semibold tracking-[-0.02em] bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-tight my-2">
-              The best offer <br />
-              <span className="">for your Business</span>
+            <h1 className="text-[36px] md:text-[44px] lg:text-[50px] 2xl:text-[56px] font-plus-jakarta-sans font-semibold tracking-normal bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-tight my-2">
+              Serving Across The <br /> Oceans, Around The World
             </h1>
             <div className="flex flex-row gap-4 justify-center md:justify-start mt-10">
               <CtaButtonVariantBlue href="">
@@ -70,7 +69,7 @@ export function BusinessHeroSection() {
           <div className="flex justify-center md:justify-end order-1 md:order-2">
             <div className="w-full max-w-md lg:max-w-xl rounded-none overflow-hidden transform hover:scale-105 transition-transform duration-500">
               <Image
-                src="/business/pangaon-port.jpg"
+                src="/business/pangaon-port.png"
                 alt="Modern business building against a cloudy sky"
                 width={700}
                 height={500}

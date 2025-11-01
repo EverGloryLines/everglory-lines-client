@@ -16,14 +16,6 @@ interface TransportCard {
 
 const transportCards: TransportCard[] = [
   {
-    title: "TRAIN",
-    description:
-      "A sustainable option that provides flexibility and timeliness for high volume shipments.",
-    image: "/services/intermodal-transport/cargo-train.jpg",
-    bgColor: "bg-blue-50",
-    headerBg: "bg-blue-700",
-  },
-  {
     title: "TRUCK",
     description:
       "Provides final mile deliveries across varying distances, offering flexibility tailored to your supply chain schedule.",
@@ -32,7 +24,16 @@ const transportCards: TransportCard[] = [
     headerBg: "bg-red-600",
   },
   {
-    title: "BARGE",
+    title: "TRAIN",
+    description:
+      "A sustainable option that provides flexibility and timeliness for high volume shipments.",
+    image: "/services/intermodal-transport/bd-cargo-train.jpg",
+    bgColor: "bg-blue-50",
+    headerBg: "bg-blue-700",
+  },
+  
+  {
+    title: "OCEAN",
     description:
       "Environmentally-friendly option to move shipments inland via water transport routes that large vessels cannot access.",
     image: "/fleet/vessel/everglory-img-3.jpg",
@@ -79,7 +80,7 @@ export function InterModalTransportationChoices() {
           animate={isInView ? "visible" : "hidden"}
         >
           <SectionTitle className="mb-4 md:mb-8">
-            TRANSPORTATION CHOICES
+            INTERMODAL TRANSPORTATION CHOICES
           </SectionTitle>
         </motion.div>
 

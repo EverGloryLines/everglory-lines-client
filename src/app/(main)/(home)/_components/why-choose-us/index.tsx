@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useTransform, animate } from "motion/react";
 import { Check } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function WhyChooseUs() {
   const [isInView, setIsInView] = useState(false);
@@ -111,43 +112,45 @@ export function WhyChooseUs() {
           >
             <div className="space-y-3">
               <div className="text-[#FF7336] text-sm font-sans font-semibold tracking-wider uppercase">
-                Multimodal Transport Solutions
+               Oceanwide Container Liner Services
               </div>
               <h2 className="text-[40px] md:text-[52px] 2xl:text-[56px] font-plus-jakarta-sans font-semibold tracking-[-0.02em] bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-snug my-2">
-                Why Choose <br /> Everglory Lines
+                Delivering Expertise.<br/> Building Trust.
               </h2>
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl md:text-2xl font-bold text-gray-900">
+              <h3 className="text-xl md:text-2xl font-plus-jakarta-sans font-bold text-gray-900">
                 Global Expertise in Seamless Ocean Shipping
               </h3>
 
               <div className="border-l-4 border-[#ff6b35] pl-6 py-2">
                 <p className="text-gray-700 text-base leading-relaxed">
-                  Everglory Lines is led by experienced logistics professionals
-                  who&apos;ve spent decades delivering reliable shipping
-                  solutions for businesses worldwide.
+                  Everglory Lines is guided by a highly experienced team of
+                  professionals who have been in the industry for decades and
+                  have successfully delivered solutions for customers of all
+                  industries irrespective of size of enterprises across the
+                  oceans around world.
                 </p>
               </div>
 
               <div className="border-l-4 border-[#ff6b35] pl-6 py-2">
                 <p className="text-gray-700 text-base leading-relaxed">
                   With strong industry expertise, we offer efficient delivery
-                  through port-to-port, point-to-point, door-to-door, and
-                  shelf-to-shelf services.
+                  through PORT-TO-PORT, POINT-TO-POINT, DOOR-TO-DOOR, and
+                  SHELF-TO-SHELF services.
                 </p>
               </div>
             </div>
 
             <div className="space-y-6 pt-4">
-              <h3 className="text-xl font-bold text-gray-900">
+              <h3 className="text-xl font-plus-jakarta-sans font-bold text-gray-900">
                 Driven by Experience, Focused on Customer Success
               </h3>
 
               <div className="space-y-2">
                 {[
-                  "Flexible shipping — port-to-port, point-to-point, door-to-door.",
+                  "Flexible shipping — PORT-TO-PORT, POINT-TO-POINT, DOOR-TO-DOOR.",
                   "Expert team ensuring smooth global operations.",
                   "Customer-first service driving growth and trust.",
                 ].map((item, index) => (
@@ -162,13 +165,15 @@ export function WhyChooseUs() {
             </div>
 
             <div className="flex flex-wrap items-center gap-6 pt-6 relative">
-              <button className="cursor-pointer water-pour-button relative px-8 py-4 bg-[#2d5f4f] text-white font-bold text-sm tracking-wider rounded-none overflow-hidden transition-all duration-400 hover:shadow-lg group">
-                <span className="relative z-10">MORE ABOUT US</span>
-                <div className="absolute inset-0 overflow-hidden">
-                  <div className="absolute inset-0 bg-[#ff6b35] transform origin-top translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-out" />
-                  <div className="absolute inset-0 bg-[#ff6b35] transform origin-bottom -translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-out clip-bottom" />
-                </div>
-              </button>
+              <Link href="/about">
+                <button className="cursor-pointer water-pour-button relative px-8 py-4 bg-[#2d5f4f] text-white font-bold text-sm tracking-wider rounded-none overflow-hidden transition-all duration-400 hover:shadow-lg group">
+                  <span className="relative z-10">MORE ABOUT US</span>
+                  <div className="absolute inset-0 overflow-hidden">
+                    <div className="absolute inset-0 bg-[#ff6b35] transform origin-top translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-out" />
+                    <div className="absolute inset-0 bg-[#ff6b35] transform origin-bottom -translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-out clip-bottom" />
+                  </div>
+                </button>
+              </Link>
 
               <div className="hidden lg:block absolute -bottom-24 -right-24 w-80 h-auto z-10 pointer-events-none opacity-30">
                 <div className="relative w-full h-56">

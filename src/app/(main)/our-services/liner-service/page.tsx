@@ -17,7 +17,7 @@ export default function LinerServicePage() {
     <main className="w-full">
       <LinerServiceHeroSection />
       <LinerServiceContentSections />
-        <LinerServiceBenefitsGrid />
+      <LinerServiceBenefitsGrid />
       <LinerServiceFAQSection />
     </main>
   );

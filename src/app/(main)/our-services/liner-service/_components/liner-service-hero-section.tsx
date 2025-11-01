@@ -47,25 +47,25 @@ export function LinerServiceHeroSection() {
 
       {/* Content Container */}
       <motion.div
-        className="relative z-20 max-w-2xl px-8 md:px-12 lg:px-16 py-20"
+        className="relative z-20 max-w-4xl px-8 md:px-12 lg:px-16 py-20"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
         {/* Title */}
         <motion.h1
-          className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-lg"
+          className="text-5xl md:text-6xl lg:text-7xl font-plus-jakarta-sans font-semibold text-white mb-6 drop-shadow-lg tracking-normal leading-none"
           variants={itemVariants}
         >
-          Everglory Liner Service
+          Everglory Liner - <br /> Seamless Global Flow
         </motion.h1>
 
         {/* Description */}
         <motion.p
-          className="text-lg md:text-xl text-white/90 mb-8 drop-shadow-md max-w-xl"
+          className="text-lg md:text-xl font-sans font-medium text-white/90 mb-8 drop-shadow-md max-w-xl"
           variants={itemVariants}
         >
-          Bypass disruptions with a faster, more frequent, and reliable service.
+         Streamlined liner service. Consistent, fast, and reliable. Your cargo moves smoothly, worldwide, every time.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -75,14 +75,14 @@ export function LinerServiceHeroSection() {
         >
           <Button
             size="lg"
-            className="bg-white text-slate-900 hover:bg-slate-100 font-semibold"
+            className="text-base bg-white text-slate-900 hover:bg-slate-100 font-semibold font-sans rounded-none cursor-pointer"
           >
             Get instant prices
           </Button>
           <Button
             size="lg"
             variant="outline"
-            className="border-white text-white hover:bg-white/10 bg-transparent"
+            className="text-base border-white text-white hover:bg-white/90 bg-transparent font-semibold font-sans rounded-none cursor-pointer"
           >
             Contact us
           </Button>
@@ -100,7 +100,9 @@ export function LinerServiceHeroSection() {
               variants={itemVariants}
             >
               <Check className="w-5 h-5 text-white flex-shrink-0" />
-              <span className="text-white font-medium">{checkpoint}</span>
+              <span className="text-lg font-plus-jakarta-sans text-white font-semibold">
+                {checkpoint}
+              </span>
             </motion.div>
           ))}
         </motion.div>

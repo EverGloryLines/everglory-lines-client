@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function MultiModalPage() {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-hidden">
       <MultiModalHeroSection />
       <MultiModalServicesSection />
       <MultiModalTransportationChoices />

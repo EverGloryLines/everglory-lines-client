@@ -60,7 +60,7 @@ export function MultiModalServicesSection() {
               India-Bangladesh cargo movement.
             </SectionTitle>
             <SectionDescription className="max-md:text-center">
-              We coordinate ocean freight, rail, truck, and barge transport
+              We coordinate ocean freight, rail, truck, and ocean transport
               through a single point of accountability. Our multimodal approach
               eliminates coordination complexity, reduces transit times, and
               optimizes costs across the India-Bangladesh corridor. From

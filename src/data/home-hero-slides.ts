@@ -7,23 +7,22 @@ export const heroSlides: Slide[] = [
     title: "Good hands for Handling and Carriage of Goods",
     backgroundText: "COASTAL SHIPPING",
     description:
-      "ALL WATER DIRECT LINE CONTAINER LINER SERVICE DIRECT TO DHAKA NOT 60 DAYS, ONLY 6 DAYS TRANSIT TIME FROM ALL INLAND POINTS/ICDS OF INDIA VIA HALDIA TO PANGAON, DHAKA.",
+      "ALL WATER DIRECT LINE CONTAINER LINER SERVICE. DIRECT TO DHAKA NOT 60 DAYS, ONLY 6 DAYS TRANSIT TIME FROM ALL INLAND POINTS/ICDS OF INDIA VIA HALDIA TO PANGAON, DHAKA.",
     image: "/homepage/hero/slide-two-image.png",
-    ctaText: "All Services",
-    ctaLink: "/services",
-    phoneNumber: "+880 189 645 9538",
+    ctaText: "Multimodal Services",
+    ctaLink: "/our-services/multimodal-transport",
+    phoneNumber: "+880 189 645 9540",
   },
   {
     id: "2",
-    tagline: "Bay of Bengal Network",
-    title: "Connecting South Asia Through Strategic Ports",
+    tagline: "INTERNATINAL SHIPPING AND CONTAINER LINER",
+    title: "Port to Port, Point to Point and Multimodal Transport",
     backgroundText: "BAY OF BENGAL",
     description:
-      "Domiciled in the Bay of Bengal, our ships call at regional ports to serve South Asia with excellence. We strengthen customer businesses through proactive services and superior tailor-made logistics solutions across the sub-continent.",
+      "FOCUSING ON SOUTH ASIAN NATIONS - OPERATING BEYOND THE OCEANS. PROVIDING CONTAINER-COMBI LINER AND MULTIMODAL TRANSPORT SERVICES FACILITATING TRADE AND COMMERCE OF SOUTH ASIAN COUNTRIES.",
     image: "/homepage/hero/slide-one-image.png",
-    ctaText: "All Services",
-    ctaLink: "/services",
+    ctaText: "Intermodal Services",
+    ctaLink: "/our-services/intermodal-transport",
     phoneNumber: "+880 189 645 9540",
   },
-  
 ];

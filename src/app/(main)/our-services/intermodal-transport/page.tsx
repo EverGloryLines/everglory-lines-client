@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function InterModalPage() {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-hidden">
       <InterModalHeroSection />
       <InterModalServicesSection />
       <InterModalTransportationChoices />

@@ -90,7 +90,7 @@ export function HistoryGlorySection() {
               />
             </svg>
           </div>
-          <p className="text-sm font-semibold whitespace-nowrap">Everglory Group</p>
+          <p className="text-sm font-semibold whitespace-nowrap">2024 Everglory</p>
         </div>
       </div>
     </>

@@ -55,7 +55,7 @@ export function InterModalServicesSection() {
             animate={isInView ? "visible" : "hidden"}
           >
             <SectionTitle className="text-[26px] md:text-[32px] 2xl:text-[44px] max-md:max-w-lg max-md:text-center max-md:mx-auto">
-              Our Everglory Intermodal Services complement our container
+              Everglory Intermodal Services complement our container
               shipping services and support you one step beyond carrying your
               cargo across the Bay of Bengal.
             </SectionTitle>
