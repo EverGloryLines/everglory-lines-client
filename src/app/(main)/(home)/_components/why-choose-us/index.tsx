@@ -115,7 +115,7 @@ export function WhyChooseUs() {
                Oceanwide Container Liner Services
               </div>
               <h2 className="text-[40px] md:text-[52px] 2xl:text-[56px] font-plus-jakarta-sans font-semibold tracking-[-0.02em] bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-snug my-2">
-                Delivering Expertise.<br/> Building Trust.
+                Generating Hope<br/> Delivering Quality
               </h2>
             </div>
 

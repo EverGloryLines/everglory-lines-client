@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function LinerServicePage() {
   return (
-    <main className="w-full">
+    <main className="w-full overflow-x-hidden">
       <LinerServiceHeroSection />
       <LinerServiceContentSections />
       <LinerServiceBenefitsGrid />
