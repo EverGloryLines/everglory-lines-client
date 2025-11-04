@@ -127,7 +127,7 @@ export function OfficesHeroSection({
 
       {/* Content Container */}
       <motion.div
-        className="relative z-20 h-full min-h-[60vh] md:min-h-[70vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8"
+        className="relative z-20 h-full min-h-[70vh] md:min-h-[70vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8"
         variants={containerVariants}
         initial="hidden"
         animate="visible"

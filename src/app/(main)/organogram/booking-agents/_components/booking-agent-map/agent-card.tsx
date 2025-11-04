@@ -36,7 +36,7 @@ export function AgentCard({ agent, index }: AgentCardProps) {
             <p className="text-sm font-bold text-orange-400 uppercase tracking-wide">
               Point
             </p>
-            <p className="text-base font-semibold text-white">
+            <p className="text-base font-medium text-white">
               {agent.point}
             </p>
           </div>
@@ -45,7 +45,7 @@ export function AgentCard({ agent, index }: AgentCardProps) {
             <p className="text-sm font-bold text-orange-400 uppercase tracking-wide">
               Agent
             </p>
-            <p className="text-base font-semibold text-white">
+            <p className="text-base font-medium text-white">
               {agent.agent}
             </p>
           </div>

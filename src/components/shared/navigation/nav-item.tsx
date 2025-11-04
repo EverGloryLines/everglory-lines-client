@@ -48,7 +48,7 @@ export function NavItem({ item }: NavItemProps) {
       <Link
         href={item.href || "#"}
         className={`px-2 py-2 text-white hover:bg-[#5a7ec4] transition-colors duration-150 text-base lg:text-lg font-plus-jakarta-sans font-semibold ${
-          isActive ? "bg-[#5a7ec4] border-b-2 border-white" : ""
+          isActive && pathname !== "/work-in-progress" ? "bg-[#5a7ec4] border-b-2 border-white" : ""
         }`}
       >
         {item.label}

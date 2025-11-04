@@ -1,15 +1,14 @@
 "use client";
 
-import { OfficesHeroSection } from "./_components/agent-hero/offices-hero-section";
-import { AgentMapSection } from "./_components/agent-map/agent-map-section";
+import { OfficesHeroSection } from "./_components/offices-hero/offices-hero-section";
+import { OfficesMapSection } from "./_components/agent-map/office-map-section";
 
 export default function Offices() {
   return (
     <main>
       <OfficesHeroSection />
-      {/* Placeholder for offices section below */}
-      <section id="offices-section" className="py-20">
-        <AgentMapSection />
+      <section id="offices-section" className="py-20 overflow-hidden">
+        <OfficesMapSection />
       </section>
     </main>
   );

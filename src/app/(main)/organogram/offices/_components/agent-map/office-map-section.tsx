@@ -2,16 +2,16 @@
 
 import { useState, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { AgentCardsGrid } from "./agent-cards-grid";
-import { agentData, Country } from "@/data/agent-data";
-import { MapSelector } from "./map-selector";
+import { OfficeCardsGrid } from "./office-cards-grid";
+import { OfficeMapSelector } from "./office-map-selector";
+import { officeData, Offices } from "@/data/office-data";
 
-export function AgentMapSection() {
-  const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
+export function OfficesMapSection() {
+  const [selectedOffice, setSelectedOffice] = useState<Offices | null>(null);
   const cardsRef = useRef<HTMLDivElement>(null);
 
-  const handleCountrySelect = (country: Country) => {
-    setSelectedCountry(country);
+  const handleOfficeSelect = (office: Offices) => {
+    setSelectedOffice(office);
     // Smooth scroll to agents grid
     setTimeout(() => {
       cardsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -21,22 +21,22 @@ export function AgentMapSection() {
   return (
     <section className="w-full">
       {/* Map Selector Section */}
-      <MapSelector
-        countries={agentData}
-        selectedCountry={selectedCountry}
-        onCountrySelect={handleCountrySelect}
+      <OfficeMapSelector
+        offices={officeData}
+        selectedOffice={selectedOffice}
+        onOfficesSelect={handleOfficeSelect}
       />
 
       {/* Agent Cards Section */}
-      <div className="px-4 py-8 bg-gradient-to-b from-slate-50 to-slate-100">
+      <div className="md:px-4 md:py-8 bg-gradient-to-b from-slate-50 to-slate-100">
         <div className="mx-auto container">
           <div ref={cardsRef} className="pt-4">
             <AnimatePresence mode="wait">
-              {selectedCountry ? (
-                <AgentCardsGrid
-                  key={selectedCountry.code}
-                  agents={selectedCountry.agents}
-                  country={selectedCountry.name}
+              {selectedOffice ? (
+                <OfficeCardsGrid
+                  key={selectedOffice.code}
+                  offices={selectedOffice.offices}
+                  country={selectedOffice.name}
                 />
               ) : (
                 <motion.div
