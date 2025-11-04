@@ -148,9 +148,9 @@ const useMapIframeLoader = (
 export function RegionalMapTab({ isActive }: RegionalMapTabProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [mapConfig, setMapConfig] = useState<RegionalMapConfig>({
-    latitude: "36.00",
-    longitude: "-5.40",
-    zoom: "8",
+    latitude: "20.83",
+    longitude: "85.88",
+    zoom: "5",
   });
   const [formData, setFormData] = useState(mapConfig);
   const mapContainerRef = useRef<HTMLDivElement>(null);

@@ -111,8 +111,8 @@ export const navigationConfig: MenuItem[] = [
     hasDropdown: true,
     subMenu: [
       { label: "Tariffs", 
-        //href: "/tariffs" 
-         href: "/work-in-progress"
+        href: "/tariffs" 
+        //href: "/work-in-progress"
       },
       { label: "Schedule Of Charges", 
         //href: "/tariffs/schedule-of-charges" 
