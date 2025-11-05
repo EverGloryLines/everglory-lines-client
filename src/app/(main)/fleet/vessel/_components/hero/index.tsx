@@ -39,7 +39,7 @@ export function VesselPageHeroSection() {
   };
 
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative w-full h-[60vh] md:h-screen overflow-hidden">
       {/* Image Carousel */}
       <div className="absolute inset-0">
         {CAROUSEL_IMAGES.map((image, index) => (

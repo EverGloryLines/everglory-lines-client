@@ -29,7 +29,7 @@ export function LinerServiceHeroSection() {
   const checkpoints = ["Global", "Reliable", "Owned Fleet"];
 
   return (
-    <section className="relative w-full h-screen flex items-center justify-start overflow-hidden">
+    <section className="relative w-full md:h-screen flex items-center justify-start overflow-hidden">
       {/* Background Image with Rounded Corner */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-slate-700/80 to-slate-600/60 z-10" />

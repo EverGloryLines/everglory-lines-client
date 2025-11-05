@@ -57,7 +57,7 @@ export function MultiModalHeroSection() {
       animate="visible"
     >
       {/* Top Section */}
-      <div className="flex flex-col lg:flex-row min-h-screen lg:min-h-96 xl:min-h-[450px] 2xl:min-h-[500px]">
+      <div className="flex flex-col lg:flex-row min-h-[600px] md:min-h-screen lg:min-h-96 xl:min-h-[450px] 2xl:min-h-[500px]">
         {/* Left - Red Background with Text */}
         <motion.div
           className="w-full lg:w-2/5 bg-[#F02B2A] text-white p-8 lg:p-12 flex flex-col justify-between"

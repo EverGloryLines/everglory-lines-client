@@ -85,7 +85,7 @@ export function LinerServiceFAQSection() {
         variants={titleVariants}
       >
         <div className="flex items-center justify-center gap-3 mb-4">
-          <HelpCircle className="w-8 h-8 text-[#24479B]" />
+          <HelpCircle className="w-8 h-8 text-[#24479B] hidden md:visible" />
           <SectionTitle>Frequently asked questions (FAQs)</SectionTitle>
         </div>
       </motion.div>

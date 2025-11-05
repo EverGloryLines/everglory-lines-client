@@ -119,7 +119,7 @@ export default function NewsSection({
             animate={isInView ? "visible" : "hidden"}
             className="group"
           >
-            <Link href={featuredNews.url} className="">
+            <Link target="_blank" href={featuredNews.url} className="">
               <div className="relative aspect-video w-full shadow-md rounded-none">
                 <div className="absolute top-0 left-0 z-10">
                   <span className="inline-block bg-light-blue px-4 py-1.5 text-xs font-bold text-white rounded-none shadow-md">
@@ -139,7 +139,7 @@ export default function NewsSection({
                 <time className="block text-sm font-semibold text-deep-red uppercase tracking-wider mb-3">
                   {featuredNews.date}
                 </time>
-                <h3 className="text-lg lg:text-xl font-semibold  text-deep-blue leading-tight group-hover:underline underline-offset-4 decoration-2 transition-all duration-300">
+                <h3 className="text-lg lg:text-xl font-medium text-deep-blue leading-tight group-hover:underline underline-offset-4 decoration-2 transition-all duration-300">
                   {featuredNews.headline}
                 </h3>
               </div>
@@ -162,7 +162,7 @@ export default function NewsSection({
                   index < newsList.length - 1 ? "border-b border-gray-200" : ""
                 }`}
               >
-                <Link href={item.url} className="block">
+                <Link href={item.url} target="_blank" className="block">
                   <time className="block text-sm font-semibold text-deep-red uppercase tracking-wider mb-3">
                     {item.date}
                   </time>
@@ -187,13 +187,13 @@ export default function NewsSection({
           transition={{ delay: 1.5, duration: 0.5 }}
           className="text-center mt-12"
         >
-          <Link
+          {/* <Link
             href="/news"
             className="inline-flex items-center gap-2 text-deep-red font-semibold text-sm uppercase tracking-wider hover:gap-3 transition-all duration-300"
           >
             View All News
             <ArrowUpRight className="w-4 h-4" strokeWidth={2.5} />
-          </Link>
+          </Link> */}
         </motion.div>
       </div>
     </section>

@@ -54,7 +54,7 @@ export function MultiModalServicesSection() {
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
           >
-            <SectionTitle className="text-[26px] md:text-[32px] 2xl:text-[44px] max-md:max-w-lg max-md:text-center max-md:mx-auto">
+            <SectionTitle className="text-[26px] md:text-[32px] 2xl:text-[44px] tracking-tight max-md:max-w-lg max-md:text-center max-md:mx-auto">
               Everglory Multimodal Services: Your single-contract solution
               combining sea, rail, road, and waterway transport for efficient
               India-Bangladesh cargo movement.
