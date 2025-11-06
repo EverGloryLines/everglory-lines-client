@@ -20,7 +20,7 @@ export function VesselSchedulesResults({
 }: Props) {
   if (!searchParams) {
     return (
-      <Card className="p-12 text-center">
+      <Card className="p-12 text-center rounded-none shadow-none">
         <div className="flex flex-col items-center gap-3">
           <Ship className="w-12 h-12 text-muted-foreground" />
           <h3 className="font-semibold text-foreground">Enter vessel name</h3>
@@ -34,7 +34,7 @@ export function VesselSchedulesResults({
 
   if (isLoading) {
     return (
-      <Card className="p-12 text-center">
+      <Card className="p-12 text-center rounded-none shadow-none">
         <div className="flex flex-col items-center gap-3">
           <div className="w-12 h-12 bg-muted rounded-full animate-pulse" />
           <p className="text-sm text-muted-foreground">
@@ -47,7 +47,7 @@ export function VesselSchedulesResults({
 
   if (!result) {
     return (
-      <Card className="p-12 text-center">
+      <Card className="p-12 text-center rounded-none shadow-none">
         <div className="flex flex-col items-center gap-3">
           <Ship className="w-12 h-12 text-muted-foreground" />
           <h3 className="font-semibold text-foreground">Vessel not found</h3>
@@ -65,7 +65,7 @@ export function VesselSchedulesResults({
       <VesselInfoCard vessel={result.vessel} />
 
       {/* Voyage Timeline */}
-      <Card className="p-6">
+      <Card className="p-6 rounded-none shadow-none">
         <h3 className="font-semibold text-foreground mb-6">Voyage History</h3>
         <VoyageTimeline voyages={result.voyages} />
       </Card>

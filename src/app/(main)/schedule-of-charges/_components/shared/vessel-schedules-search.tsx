@@ -23,7 +23,7 @@ interface SearchFilters {
 
 interface Props {
   onSearch: (
-    result: VesselScheduleResult,
+    result: VesselScheduleResult | null,
     params: { vesselName: string }
   ) => void;
   onLoading: () => void;
@@ -51,7 +51,7 @@ export function VesselSchedulesSearch({ onSearch, onLoading }: Props) {
   const isFormValid = filters.vesselName;
 
   return (
-    <Card className="p-6 h-fit md:sticky md:top-6">
+    <Card className="p-6 h-fit md:sticky md:top-6 rounded-none shadow-none">
       <h3 className="font-semibold text-foreground mb-6">Search Filters</h3>
 
       <div className="space-y-4">

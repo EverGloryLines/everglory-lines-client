@@ -6,12 +6,20 @@ import { PointToPointTab } from "./schedule-tabs/point-to-point-tab";
 import { PortCallsTab } from "./schedule-tabs/port-calls-tab";
 import { VesselSchedulesTab } from "./schedule-tabs/vessel-schedules-tab";
 import { SectionTitle } from "@/components/shared/text/section-title";
+import Image from "next/image";
 
 export function SchedulesPage() {
   const [activeTab, setActiveTab] = useState("point-to-point");
 
   return (
-    <main className="min-h-screen bg-background px-4 py-4 md:py-8">
+    <main className="min-h-screen bg-background px-4 py-4 md:py-16">
+      <Image
+        src={"/organogram/others/sailing-schedule.png"}
+        alt="schedule of charges banner"
+        width={1440}
+        height={1080}
+        priority
+      />
       <div className="container mx-auto">
         {/* Header */}
         <div className="mb-6">
@@ -26,20 +34,25 @@ export function SchedulesPage() {
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
           <TabsList className="w-full flex items-center justify-start mb-6 bg-white border-b-4 border-gray-200 rounded-none">
             <div className="max-w-md space-x-6">
-             <TabsTrigger value="point-to-point" className="font-plus-jakarta-sans font-semibold text-xs md:text-sm data-[state=active]:border-b-2 rounded-none data-[state=active]:border-gray-400">
-              Point-to-Point
-            </TabsTrigger>
-            <TabsTrigger value="port-calls" className="font-plus-jakarta-sans font-semibold text-xs md:text-sm">
-              Port Calls
-            </TabsTrigger>
-            <TabsTrigger
-              value="vessel-schedules"
-              className="font-plus-jakarta-sans font-semibold text-xs md:text-sm"
-            >
-              Vessel Schedules
-            </TabsTrigger>
+              <TabsTrigger
+                value="point-to-point"
+                className="font-plus-jakarta-sans font-semibold text-xs md:text-sm data-[state=active]:border-b-2 rounded-none data-[state=active]:border-gray-400"
+              >
+                Point-to-Point
+              </TabsTrigger>
+              <TabsTrigger
+                value="port-calls"
+                className="font-plus-jakarta-sans font-semibold text-xs md:text-sm data-[state=active]:border-b-2 rounded-none data-[state=active]:border-gray-400"
+              >
+                Port Calls
+              </TabsTrigger>
+              <TabsTrigger
+                value="vessel-schedules"
+                className="font-plus-jakarta-sans font-semibold text-xs md:text-sm data-[state=active]:border-b-2 rounded-none data-[state=active]:border-gray-400"
+              >
+                Vessel Schedules
+              </TabsTrigger>
             </div>
-           
           </TabsList>
 
           <TabsContent value="point-to-point" className="mt-6">

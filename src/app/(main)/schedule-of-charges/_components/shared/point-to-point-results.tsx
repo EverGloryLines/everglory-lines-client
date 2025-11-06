@@ -31,7 +31,7 @@ export function PointToPointResults({
 
   if (!searchParams) {
     return (
-      <Card className="p-12 text-center">
+      <Card className="p-12 text-center rounded-none shadow-none">
         <div className="flex flex-col items-center gap-3">
           <Ship className="w-12 h-12 text-muted-foreground" />
           <h3 className="font-semibold text-foreground">
