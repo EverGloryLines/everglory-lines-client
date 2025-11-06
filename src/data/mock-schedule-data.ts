@@ -81,34 +81,34 @@ export const pointToPointMockData: PointToPointResult[] = [
   {
     id: "1",
     departure: {
-      date: "2025-11-11T00:00:00Z",
+      date: "2025-11-09T00:00:00Z",
       location: {
-        name: "CWIT Pvt Ltd",
-        code: "CMB",
-        country: "Sri Lanka",
+        name: "Chittagong Port",
+        code: "CGP",
+        country: "Bangladesh",
       },
     },
     arrival: {
       date: "2025-11-14T18:00:00Z",
       location: {
-        name: "Jebel Ali Terminal 2",
-        code: "AE",
-        country: "United Arab Emirates",
-        terminal: "Jebel Ali Terminal 2",
+        name: "Haldia Port",
+        code: "HAL",
+        country: "India",
+        //terminal: "Jebel Ali Terminal 2",
       },
     },
     vessel: {
-      name: "REN JIAN 26",
+      name: "UDDIPON EXPRESS",
       voyageNumber: "545W",
       serviceCode: "545W",
-      imo: "9450947",
-      flag: "China",
-      flagCode: "CN",
-      built: 2009,
+      imo: "97975037",
+      flag: "Bangladesh",
+      flagCode: "BD",
+      built: 2019,
       callSign: "BQQS",
     },
     transitTime: {
-      days: 3,
+      days: 6,
       hours: 16,
     },
     deadlines: {
@@ -121,15 +121,15 @@ export const pointToPointMockData: PointToPointResult[] = [
     routeDetails: {
       stops: [
         {
-          port: { name: "Colombo", code: "CMB", country: "Sri Lanka" },
-          arrival: "2025-11-11T03:00:00Z",
+          port: { name: "Chittagong Port", code: "CGP", country: "Bangladesh" },
+          arrival: "2025-11-09T03:00:00Z",
           departure: "2025-11-11T03:00:00Z",
         },
         {
           port: {
-            name: "Jebel Ali",
-            code: "AE",
-            country: "United Arab Emirates",
+            name: "Haldia Port",
+            code: "HAL",
+            country: "India",
           },
           arrival: "2025-11-14T18:00:00Z",
           departure: "2025-11-14T18:00:00Z",
@@ -140,35 +140,35 @@ export const pointToPointMockData: PointToPointResult[] = [
   {
     id: "2",
     departure: {
-      date: "2025-11-16T00:00:00Z",
+      date: "2025-11-09T00:00:00Z",
       location: {
-        name: "South Asia Gateway Terminals",
-        code: "CMB",
-        country: "Sri Lanka",
+        name: "Chittagong Port",
+        code: "CGP",
+        country: "Bangladesh",
       },
     },
     arrival: {
-      date: "2025-11-25T12:00:00Z",
+      date: "2025-11-13T18:00:00Z",
       location: {
-        name: "Jebel Ali Terminal 2",
-        code: "AE",
-        country: "United Arab Emirates",
-        terminal: "Jebel Ali Terminal 2",
+        name: "Kolkata Port",
+        code: "CCU",
+        country: "India",
+        //terminal: "Jebel Ali Terminal 2",
       },
     },
     vessel: {
-      name: "ZHONG GU CHONG QIN",
-      voyageNumber: "001W",
-      serviceCode: "001W",
-      imo: "9451234",
-      flag: "Panama",
-      flagCode: "PA",
-      built: 2015,
-      callSign: "ABCD",
+      name: "UDDIPON EXPRESS",
+      voyageNumber: "545W",
+      serviceCode: "545W",
+      imo: "97975037",
+      flag: "Bangladesh",
+      flagCode: "BD",
+      built: 2019,
+      callSign: "BQQS",
     },
     transitTime: {
-      days: 9,
-      hours: 1,
+      days: 4,
+      hours: 16,
     },
     deadlines: {
       emptyPickup: null,
@@ -176,6 +176,24 @@ export const pointToPointMockData: PointToPointResult[] = [
       shippingInstructions: null,
       vgm: null,
       dangerousGoods: null,
+    },
+    routeDetails: {
+      stops: [
+        {
+          port: { name: "Chittagong Port", code: "CGP", country: "Bangladesh" },
+          arrival: "2025-11-09T03:00:00Z",
+          departure: "2025-11-11T03:00:00Z",
+        },
+        {
+          port: {
+            name: "Chittagong Port",
+            code: "HAL",
+            country: "India",
+          },
+          arrival: "2025-11-13T18:00:00Z",
+          departure: "2025-11-14T18:00:00Z",
+        },
+      ],
     },
   },
 ];
@@ -219,23 +237,23 @@ export const portCallsMockData: PortCallResult[] = [
 
 export const vesselScheduleMockData: VesselScheduleResult = {
   vessel: {
-    name: "XPR CMB CGP FDR3",
-    voyageNumber: "141N",
-    serviceCode: "141N",
-    imo: "9450947",
-    flag: "China",
-    flagCode: "CN",
-    built: 2009,
-    callSign: "VVVV",
-    teu: "4800",
+    name: "UDDIPON EXPRESS",
+    voyageNumber: "UDP-1",
+    serviceCode: "",
+    imo: "9797503",
+    flag: "Bangladesh",
+    flagCode: "BD",
+    built: 2019,
+    callSign: "",
+    teu: "",
   },
   voyages: [
     {
-      port: { name: "Chittagong", code: "CHT", country: "Bangladesh" },
+      port: { name: "Chittagong", code: "CGP", country: "Bangladesh" },
       terminal: "Chittagong Terminal",
-      arrivalVoyage: "141N",
-      arrivalDate: "2025-11-07T12:00:00Z",
-      departureVoyage: "141S",
+      arrivalVoyage: "",
+      arrivalDate: "2025-11-09T12:00:00Z",
+      departureVoyage: "",
       departureDate: "2025-11-10T12:00:00Z",
     },
     {

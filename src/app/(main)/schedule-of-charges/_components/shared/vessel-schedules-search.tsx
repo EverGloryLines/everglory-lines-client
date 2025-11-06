@@ -10,11 +10,10 @@ import type { VesselScheduleResult } from "@/data/mock-schedule-data";
 import { searchVesselSchedules } from "@/data/schedules";
 
 const VESSEL_NAMES = [
-  "XPR CMB CGP FDR3",
-  "REN JIAN 26",
-  "ZHONG GU CHONG QIN",
-  "AKA BHUM",
-  "EVER BRACE",
+  "UDDIPON EXPRESS",
+  "UTTARAN EXPRESS",
+  "UNNAYAN EXPRESS",
+  "UDAYUN EXPRESS",
 ];
 
 interface SearchFilters {

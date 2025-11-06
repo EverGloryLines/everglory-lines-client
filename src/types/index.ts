@@ -81,3 +81,12 @@ export interface Vessel {
   homogenousLoading: VesselHomogenousLoading;
   cargoHatchCovers: VesselCargoHatchCovers;
 }
+
+export interface Destination {
+  name: string;
+}
+
+export interface RouteDestinationProps {
+  destinations?: Destination[];
+  className?: string;
+}

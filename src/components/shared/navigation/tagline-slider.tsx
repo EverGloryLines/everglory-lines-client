@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "motion/react";
 
 const taglines = [
   "All Water and Combined Container Liner Service Direct To Dhaka",
-  "Not 60 Days, Only 6 Days Transit Time From All Inland Points/ICDs of India via Haldia to Pangaon, Dhaka",
+  "Not 36 Days, Just 6 Days Trasit Time From All ICDS of India to Dhaka",
   "We Connect The Bay Of Bengal - Domiciled In the Sub-continent",
   "Reliable Maritime Solutions for India-Bangladesh Trade Corridor",
 ];

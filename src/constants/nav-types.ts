@@ -119,8 +119,7 @@ export const navigationConfig: MenuItem[] = [
       },
       {
         label: "Schedule Of Charges",
-        //href: "/tariffs/schedule-of-charges"
-        href: "/work-in-progress",
+        href: "/schedule-of-charges"
       },
     ],
   },

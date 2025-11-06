@@ -13,6 +13,7 @@ import { HeroModal } from "./_components/hero/_components/hero-modal/hero-modal"
 import VesselTrackingMaps from "./_components/map-tracking/vessel-tracking-maps";
 import { ClassificationSection } from "./_components/classification-section/classification-section";
 import { AffiliationSection } from "./_components/affiliation-section/affiliation-section";
+import { RouteMap } from "./_components/route-map/route-map";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       </div>
       <LogoTicker />
       <WhyChooseUs />
+      <RouteMap />
       <ClassificationSection />
       {/* <EmailBanner /> */}
       <IntraBayOfBengal />

@@ -1,6 +1,5 @@
 "use client";
 
-
 import { BookingAgentsHeroSection } from "./_components/booking-agent-hero/booking-agents-hero-section";
 import { AgentMapSection } from "./_components/booking-agent-map/agent-map-section";
 

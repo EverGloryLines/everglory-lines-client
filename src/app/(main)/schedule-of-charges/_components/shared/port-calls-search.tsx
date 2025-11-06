@@ -18,29 +18,20 @@ import { PortCallResult } from "@/data/mock-schedule-data";
 
 const COUNTRIES = [
   { name: "Bangladesh", code: "BD" },
-  { name: "Sri Lanka", code: "LK" },
-  { name: "United Arab Emirates", code: "AE" },
-  { name: "Singapore", code: "SG" },
-  { name: "Netherlands", code: "NL" },
-  { name: "Germany", code: "DE" },
+  { name: "India", code: "IN" },
 ];
 
 const PORTS_BY_COUNTRY: Record<string, { name: string; code: string }[]> = {
   Bangladesh: [
-    { name: "Chittagong", code: "CHT" },
-    { name: "Dhaka", code: "DAC" },
+    { name: "Chittagong", code: "CGP" },
+    { name: "Pangaon", code: "PGN" },
+    { name: "Mongla", code: "MGL" },
   ],
-  "Sri Lanka": [
-    { name: "Colombo", code: "CMB" },
-    { name: "Galle", code: "GAL" },
+  India: [
+    { name: "Kolkata", code: "CCU" },
+    { name: "Paradip", code: "PRT" },
+    { name: "Haldia", code: "HAL" },
   ],
-  "United Arab Emirates": [
-    { name: "Jebel Ali", code: "AE" },
-    { name: "Fujairah", code: "FUA" },
-  ],
-  Singapore: [{ name: "Singapore", code: "SG" }],
-  Netherlands: [{ name: "Rotterdam", code: "RTM" }],
-  Germany: [{ name: "Hamburg", code: "HAM" }],
 };
 
 const DAYS_OPTIONS = [1, 2, 3, 7, 14, 21, 30, 60, 90];

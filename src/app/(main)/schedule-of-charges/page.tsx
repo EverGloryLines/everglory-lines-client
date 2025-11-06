@@ -6,6 +6,6 @@ export const metadata: Metadata = {
   description: "Search shipping schedules and routes",
 };
 
-export default function Schedules() {
+export default function SchedulesOfCharges() {
   return <SchedulesPage />;
 }

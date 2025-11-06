@@ -19,12 +19,12 @@ import { PointToPointResult } from "@/data/mock-schedule-data";
 import { searchPointToPoint } from "@/data/schedules";
 
 const CITIES = [
-  { name: "Colombo, Sri Lanka", code: "CMB" },
-  { name: "Jebel Ali, United Arab Emirates", code: "AE" },
-  { name: "Chittagong, Bangladesh", code: "CHT" },
-  { name: "Singapore", code: "SG" },
-  { name: "Rotterdam, Netherlands", code: "RTM" },
-  { name: "Hamburg, Germany", code: "HAM" },
+  { name: "Chittagong, Bangladesh", code: "CGP" },
+  { name: "Pangaon, Bangladesh", code: "PGN" },
+  { name: "Mongla, Bangladesh", code: "MGL" },
+  { name: "Kolkata, India", code: "CCU" },
+  { name: "Paradip, India", code: "PRT" },
+  { name: "Haldia, India", code: "HAL" },
 ];
 
 const CONTAINER_TYPES = [
@@ -40,12 +40,7 @@ const CONTAINER_TYPES = [
 ];
 
 const VESSEL_FLAGS = [
-  "China",
-  "Panama",
-  "Liberia",
-  "Marshall Islands",
-  "Singapore",
-  "Hong Kong",
+  "Bangladesh"
 ];
 
 interface SearchFilters {
