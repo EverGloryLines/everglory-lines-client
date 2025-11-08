@@ -15,7 +15,7 @@ export const heroSlides: Slide[] = [
   },
   {
     id: "2",
-    tagline: "INTERNATINAL SHIPPING AND CONTAINER LINER",
+    tagline: "INTERNATIONAL SHIPPING AND CONTAINER LINER",
     title: "Port to Port, Point to Point and Multimodal Transport",
     backgroundText: "BAY OF BENGAL",
     description:

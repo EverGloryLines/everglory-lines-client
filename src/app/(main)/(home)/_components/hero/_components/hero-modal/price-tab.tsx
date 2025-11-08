@@ -11,7 +11,7 @@ export const PriceTab = () => {
     <div className="space-y-6 pt-2">
       <p className="text-base font-normal text-gray-700">
         Need a price for your transportation? Access our instant quotation
-        module and discover SpotOn on pilot trades
+        module.
       </p>
       <Button
         onClick={handleGetPrice}
