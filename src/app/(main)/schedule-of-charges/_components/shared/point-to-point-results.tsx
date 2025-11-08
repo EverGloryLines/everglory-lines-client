@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import { Button } from "@/components/ui";
@@ -65,7 +66,7 @@ export function PointToPointResults({
           </button>
         </div>
         <div className="flex gap-2 print:hidden">
-          <Button
+          {/* <Button
             variant="ghost"
             size="icon"
             onClick={handlePrint}
@@ -73,7 +74,7 @@ export function PointToPointResults({
             title="Print results"
           >
             <Printer className="w-4 h-4" />
-          </Button>
+          </Button> */}
           <Button
             variant="ghost"
             size="icon"

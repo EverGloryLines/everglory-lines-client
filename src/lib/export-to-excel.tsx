@@ -9,9 +9,9 @@ export function exportPointToPointToCSV(
   searchParams: { from: string; to: string }
 ) {
   const headers = [
-    "Departure Date",
+    "ETD (Departure)",
     "Departure Location",
-    "Arrival Date",
+    "ETA (Arrival)",
     "Arrival Location",
     "Vessel Name",
     "Voyage Number",
@@ -27,16 +27,16 @@ export function exportPointToPointToCSV(
   ];
 
   const rows = results.map((r) => [
-    formatDateTime(r.departure.date),
-    r.departure.location.name,
-    formatDateTime(r.arrival.date),
-    r.arrival.location.name,
+    formatDateTime(r.etd),
+    r.from.name,
+    formatDateTime(r.eta),
+    r.to.name,
     r.vessel.name,
     r.vessel.voyageNumber,
     r.transitTime.days,
     r.transitTime.hours,
-    r.vessel.imo,
-    r.vessel.flag,
+    r.vessel.details.imo,
+    r.vessel.details.flag,
     r.deadlines.emptyPickup || "N/A",
     r.deadlines.gateIn || "N/A",
     r.deadlines.shippingInstructions || "N/A",
@@ -58,10 +58,9 @@ export function exportPortCallsToCSV(
 ) {
   const headers = [
     "Vessel Name",
-    "Voyage Numbers",
+    "Voyage Number",
     "Terminal",
-    "Arrival Date",
-    "Departure Date",
+    "ETD (Departure)",
     "Empty Pickup",
     "Gate-in",
     "Shipping Instructions",
@@ -71,10 +70,9 @@ export function exportPortCallsToCSV(
 
   const rows = results.map((r) => [
     r.vessel.name,
-    r.vessel.voyageNumbers.join("|"),
+    r.vessel.voyageNumber,
     r.terminal,
-    formatDateTime(r.arrival),
-    formatDateTime(r.departure),
+    formatDateTime(r.etd),
     r.deadlines.emptyPickup || "N/A",
     r.deadlines.gateIn || "N/A",
     r.deadlines.shippingInstructions || "N/A",

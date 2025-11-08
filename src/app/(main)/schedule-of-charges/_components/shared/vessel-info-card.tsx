@@ -1,11 +1,11 @@
 "use client";
 
 import { Card } from "@/components/ui";
-import type { Vessel } from "@/data/mock-schedule-data";
+import type { VesselDetails } from "@/data/mock-schedule-data"; // Changed to VesselDetails
 import { Ship } from "lucide-react";
 
 interface Props {
-  vessel: Vessel;
+  vessel: VesselDetails; // Changed to VesselDetails
 }
 
 export function VesselInfoCard({ vessel }: Props) {

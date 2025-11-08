@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui";
 import { Card } from "@/components/ui";
 
-import { Printer, Download, Ship } from "lucide-react";
+import {  Download, Ship } from "lucide-react";
 import { PortCallCard } from "./port-call-card";
 import type { PortCallResult } from "@/data/mock-schedule-data";
 import { downloadCSV, exportPortCallsToCSV } from "@/lib/export-to-excel";
@@ -15,9 +15,9 @@ interface Props {
 }
 
 export function PortCallsResults({ results, isLoading, searchParams }: Props) {
-  const handlePrint = () => {
-    window.print();
-  };
+  // const handlePrint = () => {
+  //   window.print();
+  // };
 
   const handleDownload = () => {
     if (!searchParams) return;
@@ -59,7 +59,7 @@ export function PortCallsResults({ results, isLoading, searchParams }: Props) {
           </button>
         </div>
         <div className="flex gap-2 print:hidden">
-          <Button
+          {/* <Button
             variant="ghost"
             size="icon"
             onClick={handlePrint}
@@ -67,7 +67,7 @@ export function PortCallsResults({ results, isLoading, searchParams }: Props) {
             title="Print results"
           >
             <Printer className="w-4 h-4" />
-          </Button>
+          </Button> */}
           <Button
             variant="ghost"
             size="icon"

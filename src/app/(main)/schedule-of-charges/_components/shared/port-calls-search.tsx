@@ -12,7 +12,6 @@ import {
 } from "@/components/ui";
 import { Input } from "@/components/ui";
 import { Label } from "@/components/ui";
-import { CalendarIcon } from "lucide-react";
 import { searchPortCalls } from "@/data/schedules";
 import { PortCallResult } from "@/data/mock-schedule-data";
 
@@ -216,7 +215,6 @@ export function PortCallsSearch({ onSearch, onLoading }: Props) {
               }
               className="pr-8"
             />
-            <CalendarIcon className="absolute right-2 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
           </div>
         </div>
 

@@ -3,17 +3,18 @@
 import { Ship } from "lucide-react";
 
 import { formatDateTime } from "@/lib/date-formatters";
-import type { Location, Vessel } from "@/data/mock-schedule-data";
+import type { Location, VesselDetails } from "@/data/mock-schedule-data";
 
+// Updated Stop interface
 interface Stop {
   port: Location;
-  arrival: string;
-  departure: string;
+  etd: string;
+  eta: string;
 }
 
 interface Props {
   stops: Stop[];
-  vessel: Vessel;
+  vessel: VesselDetails; // Now expects the detailed vessel info
 }
 
 export function RouteDetailsMap({ stops, vessel }: Props) {
@@ -43,24 +44,26 @@ export function RouteDetailsMap({ stops, vessel }: Props) {
               </p>
             </div>
 
-            {/* Arrival */}
-            <div>
-              <p className="text-xs text-muted-foreground font-medium mb-0.5">
-                Arrival
-              </p>
-              <p className="text-xs text-foreground">
-                {formatDateTime(stop.arrival)}
-              </p>
-            </div>
+            {/* Arrival (ETA) - Only show for stops after the first */}
+            {index > 0 && (
+              <div>
+                <p className="text-xs text-muted-foreground font-medium mb-0.5">
+                  Arrival (ETA)
+                </p>
+                <p className="text-xs text-foreground">
+                  {formatDateTime(stop.eta)}
+                </p>
+              </div>
+            )}
 
-            {/* Departure */}
+            {/* Departure (ETD) - Only show for stops before the last */}
             {index < stops.length - 1 && (
               <div>
                 <p className="text-xs text-muted-foreground font-medium mb-0.5">
-                  Departure
+                  Departure (ETD)
                 </p>
                 <p className="text-xs text-foreground">
-                  {formatDateTime(stop.departure)}
+                  {formatDateTime(stop.etd)}
                 </p>
               </div>
             )}
@@ -68,7 +71,7 @@ export function RouteDetailsMap({ stops, vessel }: Props) {
         ))}
       </div>
 
-      {/* Vessel Info Card */}
+      {/* Vessel Info Card (This will now work as intended) */}
       <div className="mt-6 p-4 bg-card border border-border rounded-lg">
         <div className="flex items-center gap-2 mb-3">
           <Ship className="w-4 h-4 text-muted-foreground" />

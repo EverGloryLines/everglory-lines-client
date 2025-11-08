@@ -22,7 +22,7 @@ export function SchedulesPage() {
       />
       <div className="container mx-auto">
         {/* Header */}
-        <div className="mb-6">
+        <div className="my-6 md:my-8">
           <SectionTitle className="text-left">Schedules</SectionTitle>
           <p className="text-base lg:text-lg text-[#000000]/70 leading-relaxed tracking-tight">
             Search our extensive routes to find the schedule which fits your

@@ -14,7 +14,6 @@ import { Input } from "@/components/ui";
 import { Label } from "@/components/ui";
 import { Checkbox } from "@/components/ui";
 
-import { CalendarIcon } from "lucide-react";
 import { PointToPointResult } from "@/data/mock-schedule-data";
 import { searchPointToPoint } from "@/data/schedules";
 
@@ -39,9 +38,7 @@ const CONTAINER_TYPES = [
   "40' Flat Rack",
 ];
 
-const VESSEL_FLAGS = [
-  "Bangladesh"
-];
+const VESSEL_FLAGS = ["Bangladesh"];
 
 interface SearchFilters {
   from: string;
@@ -207,7 +204,6 @@ export function PointToPointSearch({ onSearch, onLoading }: Props) {
               onChange={(e) => setFilters({ ...filters, date: e.target.value })}
               className="pr-8"
             />
-            <CalendarIcon className="absolute right-2 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
           </div>
         </div>
 

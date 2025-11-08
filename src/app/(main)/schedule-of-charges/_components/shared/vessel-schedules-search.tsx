@@ -5,7 +5,6 @@ import { Button } from "@/components/ui";
 import { Card } from "@/components/ui";
 import { Input } from "@/components/ui";
 import { Label } from "@/components/ui";
-import { CalendarIcon } from "lucide-react";
 import type { VesselScheduleResult } from "@/data/mock-schedule-data";
 import { searchVesselSchedules } from "@/data/schedules";
 
@@ -122,7 +121,6 @@ export function VesselSchedulesSearch({ onSearch, onLoading }: Props) {
               }
               className="pr-8"
             />
-            <CalendarIcon className="absolute right-2 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
           </div>
         </div>
 

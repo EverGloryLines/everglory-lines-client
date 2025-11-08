@@ -16,39 +16,39 @@ export function PointToPointCard({ result }: Props) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+    <Card className="overflow-hidden hover:shadow-lg transition-shadow rounded-none shadow-none">
       {/* Main Content */}
       <div className="p-6">
         <div className="grid md:grid-cols-4 gap-4 mb-6">
-          {/* Departure */}
+          {/* Departure (ETD) */}
           <div>
             <div className="flex items-center gap-2 mb-2">
               <MapPin className="w-4 h-4 text-muted-foreground" />
               <span className="text-xs font-medium text-muted-foreground uppercase">
-                Departure
+                Departure (ETD)
               </span>
             </div>
             <p className="font-semibold text-foreground mb-1">
-              {formatDate(result.departure.date)}
+              {formatDate(result.etd)}
             </p>
             <p className="text-sm text-primary hover:underline cursor-pointer">
-              {result.departure.location.name}
+              {result.from.name}
             </p>
           </div>
 
-          {/* Arrival */}
+          {/* Arrival (ETA) */}
           <div>
             <div className="flex items-center gap-2 mb-2">
               <MapPin className="w-4 h-4 text-muted-foreground" />
               <span className="text-xs font-medium text-muted-foreground uppercase">
-                Arrival
+                Arrival (ETA)
               </span>
             </div>
             <p className="font-semibold text-foreground mb-1">
-              {formatDate(result.arrival.date)}
+              {formatDate(result.eta)}
             </p>
             <p className="text-sm text-primary hover:underline cursor-pointer">
-              {result.arrival.location.name}
+              {result.to.name}
             </p>
           </div>
 
@@ -64,7 +64,7 @@ export function PointToPointCard({ result }: Props) {
               {result.vessel.name}
             </p>
             <p className="text-xs text-muted-foreground mb-2">
-              {result.vessel.serviceCode}
+              {result.vessel.voyageNumber}
             </p>
             <p className="text-xs text-muted-foreground">
               Transit Time:{" "}
@@ -83,7 +83,7 @@ export function PointToPointCard({ result }: Props) {
           </div>
         </div>
 
-        {/* Deadlines */}
+        {/* Deadlines (No change) */}
         <div className="border-t pt-4">
           <div className="flex items-center gap-2 mb-3">
             <Clock className="w-4 h-4 text-muted-foreground" />
@@ -135,7 +135,7 @@ export function PointToPointCard({ result }: Props) {
           </div>
         </div>
 
-        {/* Expand Toggle */}
+        {/* Expand Toggle (No change) */}
         <button
           onClick={() => setExpanded(!expanded)}
           className="mt-4 text-sm text-primary hover:underline flex items-center gap-1 font-medium"
@@ -152,12 +152,12 @@ export function PointToPointCard({ result }: Props) {
         </button>
       </div>
 
-      {/* Route Details */}
+      {/* Route Details (Updated props) */}
       {expanded && result.routeDetails && (
         <div className="bg-muted border-t p-6">
           <RouteDetailsMap
             stops={result.routeDetails.stops}
-            vessel={result.vessel}
+            vessel={result.vessel.details}
           />
         </div>
       )}

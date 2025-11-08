@@ -3,7 +3,7 @@
 import { Card } from "@/components/ui";
 import type { PortCallResult } from "@/data/mock-schedule-data";
 import { formatDateTime } from "@/lib/date-formatters";
-import { Ship, Building2, ArrowDown, ArrowUp, Clock } from "lucide-react";
+import { Ship, Building2, ArrowUp, Clock } from "lucide-react";
 
 interface Props {
   result: PortCallResult;
@@ -11,7 +11,7 @@ interface Props {
 
 export function PortCallCard({ result }: Props) {
   return (
-    <Card className="p-6 hover:shadow-lg transition-shadow">
+    <Card className="p-6 hover:shadow-lg transition-shadow rounded-none shadow-none">
       <div className="grid md:grid-cols-4 gap-4 mb-6">
         {/* Vessel/Voyage */}
         <div>
@@ -25,7 +25,7 @@ export function PortCallCard({ result }: Props) {
             {result.vessel.name}
           </p>
           <p className="text-xs text-muted-foreground">
-            {result.vessel.voyageNumbers.join(" | ")}
+            {result.vessel.voyageNumber}
           </p>
         </div>
 
@@ -40,34 +40,35 @@ export function PortCallCard({ result }: Props) {
           <p className="font-semibold text-foreground">{result.terminal}</p>
         </div>
 
-        {/* Arrival */}
-        <div>
-          <div className="flex items-center gap-2 mb-2">
-            <ArrowDown className="w-4 h-4 text-muted-foreground" />
-            <span className="text-xs font-medium text-muted-foreground uppercase">
-              Arrival
-            </span>
-          </div>
-          <p className="font-semibold text-foreground text-sm">
-            {formatDateTime(result.arrival)}
-          </p>
-        </div>
-
-        {/* Departure */}
+        {/* ETD (Replaces Arrival/Departure) */}
         <div>
           <div className="flex items-center gap-2 mb-2">
             <ArrowUp className="w-4 h-4 text-muted-foreground" />
             <span className="text-xs font-medium text-muted-foreground uppercase">
-              Departure
+              ETD (Departure)
             </span>
           </div>
           <p className="font-semibold text-foreground text-sm">
-            {formatDateTime(result.departure)}
+            {formatDateTime(result.etd)}
+          </p>
+        </div>
+
+        {/* Empty block to maintain grid layout, or add other info */}
+        <div>
+          {/* Can be left empty or add vessel flag, etc. */}
+          <div className="flex items-center gap-2 mb-2">
+            <Ship className="w-4 h-4 text-transparent" /> {/* Spacer */}
+            <span className="text-xs font-medium text-muted-foreground uppercase">
+              Vessel Flag
+            </span>
+          </div>
+          <p className="font-semibold text-foreground text-sm">
+            {result.vessel.details.flag}
           </p>
         </div>
       </div>
 
-      {/* Deadlines */}
+      {/* Deadlines (No change) */}
       <div className="border-t pt-4">
         <div className="flex items-center gap-2 mb-3">
           <Clock className="w-4 h-4 text-muted-foreground" />

@@ -13,6 +13,8 @@ interface Props {
   searchParams: { vesselName: string } | null;
 }
 
+// This component was named VesselSchedulesResults in your tab component
+// but the file was named vessel-schedules.tsx. Assuming this is the correct file.
 export function VesselSchedulesResults({
   result,
   isLoading,
@@ -61,10 +63,10 @@ export function VesselSchedulesResults({
 
   return (
     <div className="space-y-6">
-      {/* Vessel Info */}
+      {/* Vessel Info (This will now work correctly) */}
       <VesselInfoCard vessel={result.vessel} />
 
-      {/* Voyage Timeline */}
+      {/* Voyage Timeline (This will pass the new 'voyages' prop) */}
       <Card className="p-6 rounded-none shadow-none">
         <h3 className="font-semibold text-foreground mb-6">Voyage History</h3>
         <VoyageTimeline voyages={result.voyages} />
