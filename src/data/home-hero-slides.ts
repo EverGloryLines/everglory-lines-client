@@ -7,7 +7,7 @@ export const heroSlides: Slide[] = [
     title: "Good hands for Handling and Carriage of Goods",
     backgroundText: "COASTAL SHIPPING",
     description:
-      "ALL WATER DIRECT LINE CONTAINER LINER SERVICE. DIRECT TO DHAKA NOT 60 DAYS, ONLY 6 DAYS TRANSIT TIME FROM ALL INLAND POINTS/ICDS OF INDIA VIA HALDIA TO PANGAON, DHAKA.",
+      "ALL WATER DIRECT LINE CONTAINER LINER SERVICE. DIRECT TO DHAKA NOT 36 DAYS, ONLY 6 DAYS TRANSIT TIME FROM ALL INLAND POINTS/ICDS OF INDIA VIA HALDIA TO PANGAON, DHAKA.",
     image: "/homepage/hero/slide-two-image.png",
     ctaText: "Multimodal Services",
     ctaLink: "/our-services/multimodal-transport",

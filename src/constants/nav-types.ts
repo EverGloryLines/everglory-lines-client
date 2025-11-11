@@ -36,6 +36,10 @@ export const navigationConfig: MenuItem[] = [
         href: "/work-in-progress",
       },
       {
+        label: "Sailing Schedule",
+        href: "/our-services/sailing-schedule",
+      },
+      {
         label: "Liner Service",
         href: "/our-services/liner-service",
       },
@@ -119,7 +123,8 @@ export const navigationConfig: MenuItem[] = [
       },
       {
         label: "Schedule Of Charges",
-        href: "/schedule-of-charges"
+        //href: "/schedule-of-charges"
+        href: "/work-in-progress",
       },
     ],
   },
