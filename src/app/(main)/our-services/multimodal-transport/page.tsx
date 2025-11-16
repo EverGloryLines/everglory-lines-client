@@ -5,13 +5,36 @@ import { MultiModalServicesSection } from "./_components/multimodal-services-sec
 import { MultiModalTransportationChoices } from "./_components/multimodal-transportation-choices";
 import { MultiModalKeyBenefits } from "./_components/multimodal-key-benefits";
 
-export const metadata: Metadata = {
-  title: "Intermodal Transportation Services | PIL",
-  description:
-    "Professional intermodal transportation solutions combining rail, truck, and barge services for sustainable logistics across multiple continents.",
-  keywords:
-    "intermodal transportation, logistics, rail, truck, barge, shipping",
-};
+export function generateMetadata(): Metadata {
+  const companyName = "Everglory Lines";
+  const baseUrl = "https://everglorylines.com";
+
+  return {
+    metadataBase: new URL(baseUrl),
+    title: `Multimodal Service | ${companyName}`,
+    description: `Simplified logistics with our multimodal transport services. One contract covers your container's complete door-to-door journey via multiple transport modes.`,
+    keywords: `multimodal service, multimodal transport, door-to-door shipping, combined transport, India-Bangladesh logistics`,
+    openGraph: {
+      title: `Multimodal Service | ${companyName}`,
+      description: `Simplified logistics with our multimodal transport services for your door-to-door journey.`,
+      images: [
+        {
+          url: "/everglory-og-image.png",
+          width: 1200,
+          height: 630,
+          alt: `Multimodal logistics solution from ${companyName}`,
+        },
+      ],
+    },
+    robots:
+      "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    alternates: {
+      canonical: `${baseUrl}/our-services/multimodal-service`,
+    },
+    authors: [{ name: companyName }],
+    publisher: companyName,
+  };
+}
 
 export default function MultiModalPage() {
   return (

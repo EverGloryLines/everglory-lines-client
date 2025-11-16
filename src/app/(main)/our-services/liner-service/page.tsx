@@ -5,12 +5,36 @@ import { LinerServiceContentSections } from "./_components/liner-service-content
 import { LinerServiceFAQSection } from "./_components/liner-service-faq-section";
 import { LinerServiceHeroSection } from "./_components/liner-service-hero-section";
 
-export const metadata: Metadata = {
-  title:
-    "Liner Services - Everglory Lines | India-Bangladesh Container Shipping",
-  description:
-    "Reliable container liner services between India and Bangladesh. Regular sailings, on-time delivery, and comprehensive cargo solutions for your shipping needs.",
-};
+export function generateMetadata(): Metadata {
+  const companyName = "Everglory Lines";
+  const baseUrl = "https://everglorylines.com";
+
+  return {
+    metadataBase: new URL(baseUrl),
+    title: `Liner Service | ${companyName}`,
+    description: `Reliable, scheduled liner services for container shipping between major ports in India and Bangladesh. Discover our routes and schedules.`,
+    keywords: `liner service, container liner service, India-Bangladesh liner shipping, scheduled shipping, port-to-port container`,
+    openGraph: {
+      title: `Liner Service | ${companyName}`,
+      description: `Reliable, scheduled liner services for container shipping between India and Bangladesh.`,
+      images: [
+        {
+          url: "/everglory-og-image.png",
+          width: 1200,
+          height: 630,
+          alt: `${companyName} container ship providing liner services`,
+        },
+      ],
+    },
+    robots:
+      "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    alternates: {
+      canonical: `${baseUrl}/our-services/liner-service`,
+    },
+    authors: [{ name: companyName }],
+    publisher: companyName,
+  };
+}
 
 export default function LinerServicePage() {
   return (
