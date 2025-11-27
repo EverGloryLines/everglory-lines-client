@@ -1,4 +1,4 @@
-import { Slide } from "@/app/(main)/(home)/_components/hero";
+import { Slide } from "@/app/(main)/(home)/_components/hero-section";
 
 export const heroSlides: Slide[] = [
   {

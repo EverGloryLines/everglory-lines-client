@@ -50,10 +50,10 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-4 lg:gap-16 xl:gap-24">
           {/* Column 1: Brand & Feature Cards (Full width on md/lg to contain the 2x2 grid) */}
           <div className="lg:col-span-2">
-            {/* ANL Logo */}
+            {/* Company Logo */}
             <div className="mb-4">
               <Image
-                src="/everglory-OG-image.png"
+                src="/everglory-OG-image-wt-bg.png"
                 alt="Company Logo"
                 width={280}
                 height={80}

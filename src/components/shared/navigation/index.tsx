@@ -41,7 +41,7 @@ export function Navigation() {
           <div
             className={`${
               isSticky
-                ? "fixed top-0 left-0 right-0 z-40 shadow-lg"
+                ? "fixed top-0 left-0 right-0 z-[100] shadow-lg"
                 : "relative z-40"
             } transition-shadow duration-300`}
           >

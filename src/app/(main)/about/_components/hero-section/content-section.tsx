@@ -2,11 +2,12 @@
 "use client";
 
 import { motion, Variants, Transition } from "motion/react";
-import { Separator } from "@/components/ui/separator";
+
 import { SectionDescription } from "@/components/shared/text/section-description";
 import { SectionTitle } from "@/components/shared/text/section-title";
 import { CtaButtonVariantBlue } from "@/components/shared/buttons/cta-button-v-blue";
 import { CtaButtonVariantBlueWhite } from "@/components/shared/buttons/cta-button-v-blue-white";
+import { Separator } from "@/components/ui";
 
 export const ContentSection = () => {
   // Explicitly type containerVariants as Variants

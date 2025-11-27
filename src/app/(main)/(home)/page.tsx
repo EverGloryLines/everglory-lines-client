@@ -1,19 +1,19 @@
 import React from "react";
 import { heroSlides } from "@/data/home-hero-slides";
-import { HeroSlider } from "./_components/hero";
-import { WhyChooseUs } from "./_components/why-choose-us";
-import NewsSection from "./_components/news";
+import { HeroSlider } from "./_components/hero-section";
+import { WhyChooseUs } from "./_components/why-choose-us-section";
+import NewsSection from "./_components/news-section";
 import { featuredNews, newsList } from "@/data/home-news";
 // import { ServicesCarousel } from "./_components/services";
-import { LogoTicker } from "./_components/logo-ticker";
-import { IntraBayOfBengal } from "./_components/ibb";
-import { LegSection } from "./_components/leg";
-import { ContainerShowcase } from "./_components/container";
-import { HeroModal } from "./_components/hero/_components/hero-modal/hero-modal";
-import VesselTrackingMaps from "./_components/map-tracking/vessel-tracking-maps";
+import { LogoTicker } from "./_components/logo-ticker-section";
+import { IntraBayOfBengal } from "./_components/ibb-section";
+import { LegSection } from "./_components/leg-section";
+import { ContainerShowcase } from "./_components/container-section";
+import { HeroModal } from "./_components/hero-section/_components/hero-modal/hero-modal";
+import VesselTrackingMaps from "./_components/map-tracking-section/vessel-tracking-maps";
 import { ClassificationSection } from "./_components/classification-section/classification-section";
 import { AffiliationSection } from "./_components/affiliation-section/affiliation-section";
-import { RouteMap } from "./_components/route-map/route-map";
+import { RouteMap } from "./_components/route-map-section";
 
 export default function Home() {
   return (
@@ -32,7 +32,7 @@ export default function Home() {
       <ContainerShowcase />
       <VesselTrackingMaps />
       <NewsSection featuredNews={featuredNews} newsList={newsList} />
-       <AffiliationSection />
+      <AffiliationSection />
       <LegSection />
     </div>
   );

@@ -32,3 +32,4 @@ export * from "./sooner/sonner";
 export * from "./tabs/tabs";
 export * from "./textarea/textarea";
 export * from "./tooltip/tooltip";
+export * from "./timeline/timeline";

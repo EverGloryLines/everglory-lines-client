@@ -1,4 +1,4 @@
-import { FeaturedNews, NewsItem } from "@/app/(main)/(home)/_components/news";
+import { FeaturedNews, NewsItem } from "@/app/(main)/(home)/_components/news-section";
 
 export const featuredNews: FeaturedNews = {
   id: "1",
