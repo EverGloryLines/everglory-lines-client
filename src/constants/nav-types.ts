@@ -117,14 +117,13 @@ export const navigationConfig: MenuItem[] = [
     hasDropdown: true,
     subMenu: [
       {
-        label: "Tariffs",
-        href: "/tariffs",
-        //href: "/work-in-progress"
+        label: "Our Tariffs",
+        href: "/work-in-progress"
+        //href: "/tariffs/our-tariffs",
       },
       {
-        label: "Schedule Of Charges",
-        //href: "/schedule-of-charges"
-        href: "/work-in-progress",
+        label: "Chittagong Port Tariffs",
+        href: "/tariffs/chittagong-port-tariffs",
       },
     ],
   },

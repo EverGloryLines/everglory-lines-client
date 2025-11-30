@@ -8,7 +8,7 @@ export function generateMetadata(): Metadata {
 
   return {
     metadataBase: new URL(baseUrl),
-    title: `Tariffs & Charges | ${companyName}`,
+    title: `Chittagong Port Tariffs & Charges | ${companyName}`,
     description: `Access detailed tariff information and charges for container shipping services provided by ${companyName} on the India-Bangladesh route and beyond.`,
     keywords: `shipping tariffs, freight charges, container charges, surcharges, India-Bangladesh tariffs, ${companyName} rates`,
     openGraph: {
@@ -32,7 +32,7 @@ export function generateMetadata(): Metadata {
     publisher: companyName,
   };
 }
-export default function Tariffs() {
+export default function ChittagongPortTariffs() {
   return (
     <div className="relative overflow-hidden h-fit bg-white">
       {" "}

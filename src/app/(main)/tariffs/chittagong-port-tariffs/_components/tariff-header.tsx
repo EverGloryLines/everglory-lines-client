@@ -37,7 +37,7 @@ export function TariffHeader() {
           transform: isVisible ? "translateY(0)" : "translateY(20px)",
         }}
       >
-        <SectionTitle>Tariff Overview</SectionTitle>
+        <SectionTitle>Chittagong Port Tariff Overview</SectionTitle>
       </div>
 
       <div
@@ -50,7 +50,7 @@ export function TariffHeader() {
         }}
       >
         <SectionDescription>
-          Explore the different sections of our tariff guide
+          Explore the different sections of chittagong port tariff guide
         </SectionDescription>
       </div>
     </div>
