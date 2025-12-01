@@ -61,40 +61,8 @@ export const navigationConfig: MenuItem[] = [
         href: "/work-in-progress",
       },
       {
-        label: "Freight Forwarding",
-        href: "/our-services/freight-forwarding",
-        hasNestedDropdown: true,
-        nestedSubMenu: [
-          {
-            label: "Sea",
-            //href: "/our-services/sea"
-            href: "/work-in-progress",
-          },
-          {
-            label: "Rail",
-            //href: "/our-services/rail",
-            href: "/work-in-progress",
-          },
-          {
-            label: "Air",
-            //href: "/our-services/air",
-            href: "/work-in-progress",
-          },
-          {
-            label: "Road",
-            //href: "/our-services/road",
-            href: "/work-in-progress",
-          },
-        ],
-      },
-      {
         label: "Warehousing",
         //href: "/our-services/warehousing",
-        href: "/work-in-progress",
-      },
-      {
-        label: "Other Services",
-        //href: "/our-services/other-services",
         href: "/work-in-progress",
       },
     ],
@@ -106,9 +74,21 @@ export const navigationConfig: MenuItem[] = [
     subMenu: [
       { label: "Vessel", href: "/fleet/vessel" },
       { label: "Container", href: "/fleet/container" },
-      { label: "Train", href: "/fleet/train" },
-      { label: "Trailer", href: "/fleet/trailer" },
-      { label: "Truck", href: "/fleet/truck" },
+      {
+        label: "Train",
+        href: "/work-in-progress",
+        // href: "/fleet/train"
+      },
+      {
+        label: "Trailer",
+        href: "/work-in-progress",
+        // href: "/fleet/trailer"
+      },
+      {
+        label: "Truck",
+        href: "/work-in-progress",
+        // href: "/fleet/truck"
+      },
     ],
   },
   {
@@ -118,7 +98,7 @@ export const navigationConfig: MenuItem[] = [
     subMenu: [
       {
         label: "Our Tariffs",
-        href: "/work-in-progress"
+        href: "/work-in-progress",
         //href: "/tariffs/our-tariffs",
       },
       {
@@ -129,58 +109,8 @@ export const navigationConfig: MenuItem[] = [
   },
   {
     label: "News",
-    href: "/news",
-    hasDropdown: true,
-    subMenu: [
-      { label: "Historic News", href: "/news/historic-news" },
-      { label: "External News", href: "/news/external-news" },
-      { label: "Press Release", href: "/news/press-release" },
-      { label: "In House News", href: "/news/in-house-news" },
-      { label: "Academic News", href: "/news/academic-news" },
-      {
-        label: "Trade Information",
-        //href: "/news/trade-information",
-        href: "/work-in-progress",
-        hasNestedDropdown: true,
-        nestedSubMenu: [
-          {
-            label: "Terms",
-            //href: "/news/trade-information/terms"
-            href: "/work-in-progress",
-          },
-          {
-            label: "Incoterms",
-            //href: "/news/trade-information/incoterms"
-            href: "/work-in-progress",
-          },
-          {
-            label: "Trading Terms",
-            //href: "/news/trade-information/trading-terms",
-            href: "/work-in-progress",
-          },
-          {
-            label: "Bill Of Ladding Terms",
-            //href: "/news/trade-information/bill-of-ladding-terms",
-            href: "/work-in-progress",
-          },
-          {
-            label: "admiralty terms",
-            //href: "/news/trade-information/admiralty-terms",
-            href: "/work-in-progress",
-          },
-        ],
-      },
-      {
-        label: "Views Related",
-        //href: "/news/views-related"
-        href: "/work-in-progress",
-      },
-      {
-        label: "Reader's Opinion",
-        //href: "/news/readers-opinion"
-        href: "/work-in-progress",
-      },
-    ],
+    //href: "/news",
+    href: "/work-in-progress",
   },
   {
     label: "Organogram",
@@ -197,22 +127,7 @@ export const navigationConfig: MenuItem[] = [
         //href: "/organogram/headquarters"
         href: "/work-in-progress",
       },
-      {
-        label: "Regional Offices",
-        // href: "/organogram/regional-offices"
-        href: "/work-in-progress",
-      },
       { label: "Offices", href: "/organogram/offices" },
-      {
-        label: "General Agents",
-        //href: "/organogram/general-agents"
-        href: "/work-in-progress",
-      },
-      {
-        label: "Port Agents",
-        //href: "/organogram/port-agents"
-        href: "/work-in-progress",
-      },
       { label: "Booking Agents", href: "/organogram/booking-agents" },
     ],
   },
