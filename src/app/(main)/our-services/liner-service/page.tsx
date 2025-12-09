@@ -6,8 +6,8 @@ import { LinerServiceFAQSection } from "./_components/liner-service-faq-section"
 import { LinerServiceHeroSection } from "./_components/liner-service-hero-section";
 
 export function generateMetadata(): Metadata {
-  const companyName = "Everglory Lines";
-  const baseUrl = "https://everglorylines.com";
+  const companyName = "Everglory Container Lines";
+  const baseUrl = "https://everglorycontainerlines.com";
 
   return {
     metadataBase: new URL(baseUrl),

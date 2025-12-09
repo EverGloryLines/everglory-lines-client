@@ -3,8 +3,8 @@ import { TariffOverview } from "./_components/tariff-overview";
 import type { Metadata } from "next";
 
 export function generateMetadata(): Metadata {
-  const companyName = "Everglory Lines";
-  const baseUrl = "https://everglorylines.com";
+  const companyName = "Everglory Container Lines";
+  const baseUrl = "https://everglorycontainerlines.com";
 
   return {
     metadataBase: new URL(baseUrl),
@@ -26,7 +26,7 @@ export function generateMetadata(): Metadata {
     robots:
       "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-      canonical: `${baseUrl}/tariffs`,
+      canonical: `${baseUrl}/tariffs/chittagong-port-tariffs`,
     },
     authors: [{ name: companyName }],
     publisher: companyName,

@@ -6,8 +6,8 @@ import { MultiModalTransportationChoices } from "./_components/multimodal-transp
 import { MultiModalKeyBenefits } from "./_components/multimodal-key-benefits";
 
 export function generateMetadata(): Metadata {
-  const companyName = "Everglory Lines";
-  const baseUrl = "https://everglorylines.com";
+  const companyName = "Everglory Container Lines";
+  const baseUrl = "https://everglorycontainerlines.com";
 
   return {
     metadataBase: new URL(baseUrl),
@@ -29,7 +29,7 @@ export function generateMetadata(): Metadata {
     robots:
       "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-      canonical: `${baseUrl}/our-services/multimodal-service`,
+      canonical: `${baseUrl}/our-services/multimodal-transport`,
     },
     authors: [{ name: companyName }],
     publisher: companyName,

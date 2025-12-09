@@ -2,8 +2,8 @@ import React from "react";
 import type { Metadata } from "next";
 
 export function generateMetadata(): Metadata {
-  const companyName = "Everglory Lines";
-  const baseUrl = "https://everglorylines.com";
+  const companyName = "Everglory Container Lines";
+  const baseUrl = "https://everglorycontainerlines.com";
 
   return {
     metadataBase: new URL(baseUrl),
@@ -25,7 +25,7 @@ export function generateMetadata(): Metadata {
     robots:
       "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-      canonical: `${baseUrl}/our-services/other-services`,
+      canonical: `${baseUrl}/our-services/other-service`,
     },
     authors: [{ name: companyName }],
     publisher: companyName,

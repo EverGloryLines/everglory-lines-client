@@ -7,6 +7,39 @@ import { SidebarNav } from "./_components/sidebar-nav";
 import { ContainerDetail } from "./_components/container-detail";
 import { ContainerGrid } from "./_components/container-grid";
 import { SectionTitle } from "@/components/shared/text/section-title";
+import type { Metadata } from "next";
+
+export function generateMetadata(): Metadata {
+  const companyName = "Everglory Container Lines";
+  const baseUrl = "https://everglorycontainerlines.com";
+
+  return {
+    metadataBase: new URL(baseUrl),
+    title: `Our Containers | ${companyName}`,
+    description: `Explore the modern fleet of ${companyName}, ensuring safe and efficient container transport on the India-Bangladesh route and beyond the oceans.`,
+    keywords: `${companyName} Containers, shipping fleet, container ships, maritime fleet, India-Bangladesh Containers, modern shipping fleet`,
+    openGraph: {
+      title: `Our Containers | ${companyName}`,
+      description: `Explore the modern fleet of ${companyName}, ensuring safe and efficient container transport.`,
+      images: [
+        {
+          url: "/everglory-og-image.png",
+          width: 1200,
+          height: 630,
+          alt: `Vessel from ${companyName} at sea`,
+        },
+      ],
+    },
+    robots:
+      "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    alternates: {
+      canonical: `${baseUrl}/fleet/container`,
+    },
+    authors: [{ name: companyName }],
+    publisher: companyName,
+  };
+}
+
 
 export default function Container() {
   const [selectedContainerId, setSelectedContainerId] = useState<string | null>(

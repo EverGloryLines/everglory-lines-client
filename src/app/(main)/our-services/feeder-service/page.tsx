@@ -6,8 +6,8 @@ import { LinerServiceFAQSection } from "./_components/liner-service-faq-section"
 import { LinerServiceHeroSection } from "./_components/liner-service-hero-section";
 
 export function generateMetadata(): Metadata {
-  const companyName = "Everglory Lines";
-  const baseUrl = "https://everglorylines.com";
+  const companyName = "Everglory Container Lines";
+  const baseUrl = "https://everglorycontainerlines.com";
 
   return {
     metadataBase: new URL(baseUrl),
@@ -29,7 +29,7 @@ export function generateMetadata(): Metadata {
     robots:
       "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-      canonical: `${baseUrl}/services/feeder-service`,
+      canonical: `${baseUrl}/our-services/feeder-service`,
     },
     authors: [{ name: companyName }],
     publisher: companyName,

@@ -117,16 +117,6 @@ export const navigationConfig: MenuItem[] = [
     href: "/organogram",
     hasDropdown: true,
     subMenu: [
-      {
-        label: "Network",
-        //href: "/organogram/network"
-        href: "/work-in-progress",
-      },
-      {
-        label: "Headquarters",
-        //href: "/organogram/headquarters"
-        href: "/work-in-progress",
-      },
       { label: "Offices", href: "/organogram/offices" },
       { label: "Booking Agents", href: "/organogram/booking-agents" },
     ],
