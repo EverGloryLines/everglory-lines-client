@@ -53,29 +53,36 @@ const orbitronMedium = localFont({
 
 export function generateMetadata(): Metadata {
   const companyName = "Everglory Container Lines";
-  const baseUrl = "https://everglorycontainerlines.com";
+  const domain = "https://everglorycontainerlines.com";
 
   return {
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL(domain),
     title: `${companyName} | India-Bangladesh Container Shipping & Liner Services`,
     description: `Leading container transport & shipping company specializing in the India-Bangladesh route. We offer reliable liner, feeder, multimodal, and intermodal services with our own fleet.`,
     keywords: `India-Bangladesh shipping, container transport, shipping company, feeder service, liner service, multimodal transport, intermodal services, ${companyName}, shipping between India and Bangladesh`,
+    icons: {
+      icon: "/everglory-favicon.ico",
+    },
     openGraph: {
       title: `${companyName} | India-Bangladesh Container Shipping & Liner Services`,
-      description: `Leading container transport & shipping company specializing in the India-Bangladesh route. We offer reliable liner, feeder, multimodal, and intermodal services with our own fleet.`,
+      description: `Leading container transport & shipping company specializing in the India-Bangladesh route.`,
+      url: domain,
+      siteName: companyName,
+      type: "website",
+      locale: "en_US",
       images: [
         {
-          url: "/everglory-og-image.png",
+          url: `${domain}/everglory-og-image.png`,
           width: 1200,
           height: 630,
-          alt: `${companyName} shipping vessel on the India-Bangladesh route`,
+          alt: "Everglory Container Lines Official Preview",
         },
       ],
     },
     robots:
       "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-      canonical: `${baseUrl}/`,
+      canonical: domain,
     },
     authors: [{ name: companyName }],
     publisher: companyName,
@@ -89,9 +96,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/everglory-favicon.ico" sizes="any" />
-      </head>
       <body
         className={`
         ${plusJakartaSans.variable}
