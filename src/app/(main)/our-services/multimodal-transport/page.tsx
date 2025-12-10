@@ -19,7 +19,7 @@ export function generateMetadata(): Metadata {
       description: `Simplified logistics with our multimodal transport services for your door-to-door journey.`,
       images: [
         {
-          url: "/everglory-og-image.png",
+        url: `${baseUrl}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: `Multimodal logistics solution from ${companyName}`,

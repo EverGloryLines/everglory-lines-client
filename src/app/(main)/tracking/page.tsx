@@ -15,7 +15,7 @@ export function generateMetadata(): Metadata {
       description: `Track your container in real-time. Get the current status of your shipment.`,
       images: [
         {
-          url: "/everglory-og-image.png",
+        url: `${baseUrl}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: `Real-time container tracking portal for ${companyName}`,

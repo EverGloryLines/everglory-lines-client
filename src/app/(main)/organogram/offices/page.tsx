@@ -16,7 +16,7 @@ export function generateMetadata(): Metadata {
       description: `Find our office locations in India and Bangladesh.`,
       images: [
         {
-          url: "/everglory-og-image.png",
+        url: `${baseUrl}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: `Map of ${companyName} office locations`,

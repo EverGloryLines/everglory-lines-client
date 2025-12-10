@@ -19,7 +19,7 @@ export function generateMetadata(): Metadata {
       description: `Efficient feeder services connecting gateway ports with smaller terminals in India and Bangladesh.`,
       images: [
         {
-          url: "/everglory-og-image.png",
+        url: `${baseUrl}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: `Feeder vessel from ${companyName} in port`,

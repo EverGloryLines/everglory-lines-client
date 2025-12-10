@@ -17,7 +17,7 @@ export function generateMetadata(): Metadata {
       description: `Learn about ${companyName}, our history, and our commitment to shipping on the India-Bangladesh route.`,
       images: [
         {
-          url: "/everglory-og-image.png",
+        url: `${baseUrl}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: `About ${companyName}`,

@@ -17,7 +17,7 @@ export function generateMetadata(): Metadata {
       description: `Explore the modern fleet of ${companyName}, ensuring safe and efficient container transport.`,
       images: [
         {
-          url: "/everglory-og-image.png",
+        url: `${baseUrl}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: `Vessel from ${companyName} at sea`,

@@ -17,7 +17,7 @@ export function generateMetadata(): Metadata {
       description: `Discover the full range of businesses and services offered by ${companyName}.`,
       images: [
         {
-          url: "/everglory-og-image.png",
+        url: `${baseUrl}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: `Diverse business operations of ${companyName}`,

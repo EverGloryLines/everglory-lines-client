@@ -19,7 +19,7 @@ export function generateMetadata(): Metadata {
       description: `Seamless intermodal transportation solutions via ship, rail, and truck across India and Bangladesh.`,
       images: [
         {
-          url: "/everglory-og-image.png",
+        url: `${baseUrl}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: `Intermodal transport by ${companyName} combining ship, rail, and truck`,

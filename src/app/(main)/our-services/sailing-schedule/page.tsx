@@ -15,7 +15,7 @@ export function generateMetadata(): Metadata {
       description: `View our vessel schedules, port calls, and transit times for India-Bangladesh services.`,
       images: [
         {
-          url: "/everglory-og-image.png",
+        url: `${baseUrl}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: `Vessel shipping schedules for ${companyName}`,

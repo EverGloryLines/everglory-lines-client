@@ -72,7 +72,7 @@ export function generateMetadata(): Metadata {
       locale: "en_US",
       images: [
         {
-          url: `${domain}/everglory-og-image.png`,
+          url: `${domain}/everglory-opengraph-image.jpg`,
           width: 1200,
           height: 630,
           alt: "Everglory Container Lines Official Preview",
