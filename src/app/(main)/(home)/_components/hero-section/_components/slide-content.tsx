@@ -36,7 +36,7 @@ export const SlideContent = ({ slide }: SlideContentProps) => {
               aria-hidden="true"
             >
               <h2
-                className="text-6xl md:text-8xl lg:text-9x font-back whitespace-nowrap"
+                className="text-6xl md:text-8xl lg:text-9xl font-back whitespace-nowrap"
                 style={{ color: COLORS.white }}
               >
                 {slide.backgroundText}
@@ -45,7 +45,7 @@ export const SlideContent = ({ slide }: SlideContentProps) => {
 
             <motion.h1
               variants={contentVariants.title}
-              className="max-w-[300px] md:max-w-lg text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-plus-jakarta-sans font-bold text-white leading-none mb-4 md:mb-6"
+              className="max-w-[300px] md:max-w-2xl text-4xl lg:text-5xl xl:text-6xl font-plus-jakarta-sans font-semibold text-white leading-none mb-4 md:mb-6"
             >
               {slide.title}
             </motion.h1>
@@ -53,7 +53,7 @@ export const SlideContent = ({ slide }: SlideContentProps) => {
 
           <motion.p
             variants={contentVariants.description}
-            className="max-w-sm md:max-w-lg text-base md:text-lg lg:text-xl text-white mb-8 leading-tight"
+            className="max-w-md lg:max-w-xl text-base lg:text-lg text-white mb-8 leading-tight"
           >
             {slide.description}
           </motion.p>
@@ -76,7 +76,7 @@ export const SlideContent = ({ slide }: SlideContentProps) => {
                 <span className="text-base md:text-lg font-medium">
                   Call Us Now
                 </span>
-                <span className="text-lg md:text-xl font-semibold cursor-pointer">
+                <span className="text-base md:text-xl font-semibold cursor-pointer">
                   <a href={`tel:${slide.phoneNumber}`}>{slide.phoneNumber}</a>
                 </span>
               </div>

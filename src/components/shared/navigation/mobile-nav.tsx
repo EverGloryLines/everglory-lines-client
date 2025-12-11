@@ -9,6 +9,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { MobileMenuItem } from "./mobile-menu-item";
 import { useClickOutside } from "@/hooks/use-click-outside";
 import { navigationConfig } from "@/constants/nav-types";
+import Link from "next/link";
 
 export function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,15 +35,17 @@ export function MobileNav() {
     <div className="lg:hidden bg-[#4c6faf] w-full">
       <div className="container mx-auto">
         <div className="flex items-center justify-between px-4 py-3">
-          <div className="relative h-12 w-32">
-            <Image
-              src="/logo/everglory-lines-logo.jpg"
-              alt="Company Logo"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
+          <Link href="/">
+            <div className="relative h-12 w-40 -ml-3">
+              <Image
+                src="/logo/everglory-container-lines.png"
+                alt="Company Logo"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+          </Link>
 
           <button
             onClick={() => setIsOpen(!isOpen)}

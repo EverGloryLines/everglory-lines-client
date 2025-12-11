@@ -126,7 +126,7 @@ export function WhyChooseUs() {
 
               <div className="border-l-4 border-[#ff6b35] pl-6 py-2">
                 <p className="text-gray-700 text-base leading-relaxed">
-                  Everglory Lines is guided by a highly experienced team of
+                  Everglory Container Lines is guided by a highly experienced team of
                   professionals who have been in the industry for decades and
                   have successfully delivered solutions for customers of all
                   industries irrespective of size of enterprises across the

@@ -5,7 +5,7 @@ export function VesselHeader() {
     <div className="border-2 border-black p-4 mb-6 bg-white flex items-center justify-between">
       <div className="w-24 h-16 sm:w-40 sm:h-24 flex-shrink-0">
         <Image
-          src="/logo/BIWTC-Logo.png"
+          src="/logo/BIWTC-Logo.jpg"
           alt="BIWTC Logo"
           width={80}
           height={80}

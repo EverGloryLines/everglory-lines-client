@@ -21,7 +21,7 @@ const titleVariant: Variants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 0.6,
+      duration: 0.5,
       ease: "easeOut",
     },
   },
@@ -33,7 +33,7 @@ const imageVariant: Variants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 0.7,
+      duration: 0.3,
       ease: "easeOut",
     },
   },

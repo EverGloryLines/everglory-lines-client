@@ -1,16 +1,18 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const logos = [
   {
-    src: "/logo/everglory-lines-logo.jpg",
+    src: "/logo/everglory-container-lines.png",
     alt: "Everglory Lines Logo",
     width: 280,
     height: 80,
   },
   {
-    src: "/logo/BIWTC-Logo.png",
+    src: "/logo/BIWTC-Logo.jpg",
     alt: "BIWTC Logo",
     width: 280,
     height: 80,
@@ -41,19 +43,36 @@ export function LogoBanner() {
       <div className="section-layout">
         <div className="flex items-center justify-between gap-4">
           {logos.map((logo, index) => (
-            <div
-              key={index}
-              className={`relative flex-shrink-0`}
-            >
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={logo.width}
-                height={logo.height}
-                className="h-16 lg:h-24 w-auto object-contain"
-                priority={index < 2}
-              />
-            </div>
+            <React.Fragment key={index}>
+              {index === 0 ? (
+                <Link href="/">
+                  <div
+                    key={index}
+                    className={`relative flex-shrink-0 -ml-3 md:-ml-5`}
+                  >
+                    <Image
+                      src={logo.src}
+                      alt={logo.alt}
+                      width={logo.width}
+                      height={logo.height}
+                      className="h-12 lg:h-24 w-auto object-contain"
+                      priority={index < 2}
+                    />
+                  </div>
+                </Link>
+              ) : (
+                <div key={index} className={`relative flex-shrink-0`}>
+                  <Image
+                    src={logo.src}
+                    alt={logo.alt}
+                    width={logo.width}
+                    height={logo.height}
+                    className="h-12 lg:h-24 w-auto object-contain"
+                    priority={index < 2}
+                  />
+                </div>
+              )}
+            </React.Fragment>
           ))}
         </div>
       </div>

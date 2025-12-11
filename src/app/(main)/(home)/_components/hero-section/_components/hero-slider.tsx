@@ -27,7 +27,7 @@ export const HeroSlider = ({
       className="relative w-full overflow-hidden" 
       style={{ backgroundColor: "#0d2a3d" }}
     >
-      <div className="h-screen relative w-full">
+      <div className="h-[80vh] md:h-screen relative w-full">
         {/* Slider (which contains the hero text content) */}
         <AnimatePresence initial={true} custom={direction}>
           <motion.div

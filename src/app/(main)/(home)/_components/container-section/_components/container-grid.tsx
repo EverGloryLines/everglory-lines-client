@@ -44,7 +44,7 @@ export function ContainerGrid({ containers }: ContainerGridProps) {
           >
             <button
               onClick={() => setIsExpanded(!isExpanded)}
-              className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="inline-flex items-center gap-2 px-4 py-3 md:px-8 md:py-4 bg-light-blue text-white hover:text-white font-sans font-semibold rounded-none transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 hover:bg-[#24479B]/90 cursor-pointer" 
               aria-expanded={isExpanded}
               aria-controls="container-grid"
             >

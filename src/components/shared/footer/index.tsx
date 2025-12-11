@@ -49,11 +49,11 @@ const Footer: React.FC = () => {
         */}
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-4 lg:gap-16 xl:gap-24">
           {/* Column 1: Brand & Feature Cards (Full width on md/lg to contain the 2x2 grid) */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 mt-4 md:mt-10">
             {/* Company Logo */}
-            <div className="mb-4">
+            <div className="mb-4 -ml-4">
               <Image
-                src="/everglory-OG-image-wt-bg.png"
+                src="/logo/everglory-container-lines.png"
                 alt="Company Logo"
                 width={280}
                 height={80}
