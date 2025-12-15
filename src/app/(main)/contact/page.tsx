@@ -1,5 +1,8 @@
 import React from "react";
 import type { Metadata } from "next";
+import { ContactHero } from "./_components/contact-hero";
+import { ContactMap } from "./_components/contact-map";
+import { ContactContent } from "./_components/contact-content";
 
 export function generateMetadata(): Metadata {
   const companyName = "Everglory Container Lines";
@@ -34,8 +37,12 @@ export function generateMetadata(): Metadata {
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact US</h1>
+    <div className="min-h-screen">
+       <ContactHero />
+      <div className="relative">
+        <ContactMap />
+        <ContactContent />
+      </div>
     </div>
   );
 }

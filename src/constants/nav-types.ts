@@ -151,8 +151,7 @@ export const navigationConfig: MenuItem[] = [
   },
   {
     label: "Contact",
-    //href: "/contact",
-    href: "/work-in-progress",
+    href: "/contact",
   },
 ];
 
