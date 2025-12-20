@@ -11,7 +11,7 @@ export const heroSlides: Slide[] = [
     image: "/homepage/hero/slide-two-image.png",
     ctaText: "Multimodal Services",
     ctaLink: "/our-services/multimodal-transport",
-    phoneNumber: "+880 189 645 9540",
+    phoneNumber: "+880 189 645 9537",
   },
   {
     id: "2",
