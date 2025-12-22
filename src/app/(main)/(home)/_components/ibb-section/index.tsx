@@ -112,7 +112,7 @@ export function IntraBayOfBengal() {
             >
               <img
                 ref={imageRef}
-                src="/homepage/others/ibb-map-image.jpg"
+                src="/homepage/others/ibb-map-image.jpg.jpeg"
                 alt="Intra Bay of Bengal Route Map"
                 className="w-full h-auto"
                 draggable={false}
