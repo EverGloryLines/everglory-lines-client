@@ -7,13 +7,13 @@ const contactDetails = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+880 1727-423016",
+    value: "+880 1727-423016, +880 1334-938912",
     href: "tel:+880 1758-398875",
   },
   {
     icon: Printer,
     label: "Fax",
-    value: "+880 1727-423016",
+    value: "+880 1758-398875 , +880 1334-938925",
     href: "tel:+880 1758-398875",
   },
   {
