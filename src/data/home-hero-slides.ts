@@ -23,6 +23,6 @@ export const heroSlides: Slide[] = [
     image: "/homepage/hero/slide-one-image.png",
     ctaText: "Intermodal Services",
     ctaLink: "/our-services/intermodal-transport",
-    phoneNumber: "+880 189 645 9537",
+    phoneNumber: "+880 1334-938912",
   },
 ];
