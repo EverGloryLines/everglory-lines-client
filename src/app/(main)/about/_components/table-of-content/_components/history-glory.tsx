@@ -18,15 +18,23 @@ export function HistoryGlorySection() {
 
       {/* Description Text */}
       <p className="mb-8 text-base lg:text-lg text-pretty leading-relaxed text-muted-foreground font-sans font-normal">
-        From <strong className="text-foreground">Uniglory</strong> to{' '}
-        <strong className="text-foreground">Everglory Group</strong>. Members of
-        the creation team initiated the foundation process in <strong className="text-foreground">1985</strong>. At the
-        inception members named the Group as “Uniglory”. Over the period of last
-        forty years the Group has progressed, improved and enhanced its ability
-        and emerged as a knowledge-based well experienced business house. The
-        Group was renamed in 2024 to <strong className="text-foreground">“Everglory Group”</strong> and strengthened its
-        entities at home and abroad and finally arose as one of the strongest
-        business houses of the region.
+        From <strong className="text-foreground">Inbd Express PVT. LTD.</strong> to{' '}
+        <strong className="text-foreground">Everglory Container Lines Group</strong>. Members of
+        the creation team initiated the foundation process in <strong className="text-foreground">2025</strong>. The company
+          began its journey with a clear vision to redefine modern shipping through
+          innovation, efficiency, and customer-centric solutions. Established as a shipping line
+            in an increasingly dynamic global trade environment, the company set out to bridge 
+            operational excellence with forward-thinking logistics strategies.
+
+        From its inception, the organization focused on adopting innovative ideas, advanced planning, 
+        and technology-driven processes to enhance service reliability and operational transparency.
+
+        By emphasizing flexible shipping solutions, optimized routing, and responsive customer support, 
+        the company positioned itself as a progressive player in the maritime industry.
+
+        Driven by a commitment to sustainable growth and continuous improvement, the company
+        has steadily expanded its capabilities while building strong partnerships across regional and international markets. Its early years reflect a foundation built on integrity, innovation, and a long-term 
+        vision to grow as a trusted and competitive shipping line in the global logistics sector. 
       </p>
 
       {/* Timeline Design */}
