@@ -60,7 +60,7 @@ export function AffiliationSection() {
           >
             <Image
               src="/logo/qss-network.png"
-              alt="QSS Network Logo"
+              alt="Member Section"
               width={350}
               height={300}
               className="object-contain w-full h-auto"

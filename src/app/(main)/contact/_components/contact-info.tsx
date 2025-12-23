@@ -7,14 +7,14 @@ const contactDetails = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+974 4494 9666",
-    href: "tel:+97444949666",
+    value: "+880 1727-423016",
+    href: "tel:+880 1758-398875",
   },
   {
     icon: Printer,
     label: "Fax",
-    value: "+974 4483 3244",
-    href: "tel:+97444833244",
+    value: "+880 1727-423016",
+    href: "tel:+880 1758-398875",
   },
   {
     icon: MapPin,
