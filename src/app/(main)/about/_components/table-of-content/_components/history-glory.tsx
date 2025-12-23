@@ -63,7 +63,7 @@ export function HistoryGlorySection() {
               />
             </svg>
           </div>
-          <p className="text-sm font-semibold whitespace-nowrap">1985 Uniglory</p>
+          <p className="text-sm font-semibold whitespace-nowrap">Inbd Express Pvt. Ltd.</p>
         </div>
 
         {/* Connecting Line (wavy style placeholder) */}
@@ -98,7 +98,7 @@ export function HistoryGlorySection() {
               />
             </svg>
           </div>
-          <p className="text-sm font-semibold whitespace-nowrap">2024 Everglory</p>
+          <p className="text-sm font-semibold whitespace-nowrap">Everglory Container Lines</p>
         </div>
       </div>
     </>
