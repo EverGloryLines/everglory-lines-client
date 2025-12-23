@@ -17,7 +17,7 @@ export function HistoryGlorySection() {
 
 
       {/* Description Text */}
-      <p className="mb-8 text-base lg:text-lg text-pretty leading-relaxed text-muted-foreground font-sans font-normal">
+      {/* <p className="mb-8 text-base lg:text-lg text-pretty leading-relaxed text-muted-foreground font-sans font-normal">
         From <strong className="text-foreground">Inbd Express PVT. LTD.</strong> to{' '}
         <strong className="text-foreground">Everglory Container Lines Group</strong>. Members of
         the creation team initiated the foundation process in <strong className="text-foreground">2025</strong>. The company
@@ -35,7 +35,7 @@ export function HistoryGlorySection() {
         Driven by a commitment to sustainable growth and continuous improvement, the company
         has steadily expanded its capabilities while building strong partnerships across regional and international markets. Its early years reflect a foundation built on integrity, innovation, and a long-term 
         vision to grow as a trusted and competitive shipping line in the global logistics sector. 
-      </p>
+      </p>*/
 
       {/* Timeline Design */}
       <div className="flex items-center justify-between text-muted-foreground mt-8">
