@@ -109,8 +109,7 @@ export const navigationConfig: MenuItem[] = [
   },
   {
     label: "News",
-    //href: "/news",
-    href: "/work-in-progress",
+    href: "/news",
   },
   {
     label: "Organogram",
@@ -122,9 +121,9 @@ export const navigationConfig: MenuItem[] = [
     ],
   },
   {
-    label: "Career",
+    label: "Contact",
     //href: "/career",
-    href: "/work-in-progress",
+    href: "/contact",
   },
   {
     label: "E-Sea",
@@ -150,8 +149,8 @@ export const navigationConfig: MenuItem[] = [
     ],
   },
   {
-    label: "Contact",
-    href: "/contact",
+    label: "Career",
+    href: "/career",
   },
 ];
 

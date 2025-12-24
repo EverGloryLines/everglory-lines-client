@@ -6,32 +6,36 @@ import { PointToPointTab } from "./schedule-tabs/point-to-point-tab";
 import { PortCallsTab } from "./schedule-tabs/port-calls-tab";
 import { VesselSchedulesTab } from "./schedule-tabs/vessel-schedules-tab";
 import { SectionTitle } from "@/components/shared/text/section-title";
-import Image from "next/image";
+import { SailingScheduleView } from "./table/schedule-view";
 
 export function SchedulesPage() {
   const [activeTab, setActiveTab] = useState("point-to-point");
 
   return (
     <main className="min-h-screen bg-background px-4 py-4 md:py-16">
-      <Image
+      {/* <Image
         src={"/organogram/others/sailing-schedule.png"}
         alt="schedule of charges banner"
         width={1440}
         height={1080}
         priority
-      />
+      /> */}
+      {/* REPLACED: The Image component is gone. Added the table view here. */}
+      <div className="container mx-auto mb-8">
+        <SailingScheduleView />
+      </div>
       <div className="container mx-auto">
         {/* Header */}
-        <div className="my-6 md:my-8">
+        {/* <div className="my-6 md:my-8">
           <SectionTitle className="text-left">Schedules</SectionTitle>
           <p className="text-base lg:text-lg text-[#000000]/70 leading-relaxed tracking-tight">
             Search our extensive routes to find the schedule which fits your
             supply chain.
           </p>
-        </div>
+        </div> */}
 
         {/* Tabs */}
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+        {/* <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
           <TabsList className="w-full flex items-center justify-start mb-6 bg-white border-b-4 border-gray-200 rounded-none">
             <div className="max-w-md space-x-6">
               <TabsTrigger
@@ -66,8 +70,8 @@ export function SchedulesPage() {
           <TabsContent value="vessel-schedules" className="mt-6">
             <VesselSchedulesTab />
           </TabsContent>
-        </Tabs>
-      </div>
+        </Tabs> */}
+      </div> 
 
       {/* Print Styles */}
       <style>{`
