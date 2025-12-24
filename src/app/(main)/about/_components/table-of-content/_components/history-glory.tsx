@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 export function HistoryGlorySection() {
   return (
@@ -7,36 +7,13 @@ export function HistoryGlorySection() {
       {/* Square Image above description (placeholder) */}
       <div className="mb-6 flex justify-center">
         <Image
-          src="/about/table-of-contents/section-1-img.jpg" 
+          src="/about/table-of-contents/section-1-img.jpg"
           alt="Abstract representation of history"
           width={850} // Set your desired width
           height={350} // Set your desired height to make it square
           className="rounded-none object-cover shadow-md"
         />
       </div>
-
-
-      {/* Description Text */}
-      {/* <p className="mb-8 text-base lg:text-lg text-pretty leading-relaxed text-muted-foreground font-sans font-normal">
-        From <strong className="text-foreground">Inbd Express PVT. LTD.</strong> to{' '}
-        <strong className="text-foreground">Everglory Container Lines Group</strong>. Members of
-        the creation team initiated the foundation process in <strong className="text-foreground">2025</strong>. The company
-          began its journey with a clear vision to redefine modern shipping through
-          innovation, efficiency, and customer-centric solutions. Established as a shipping line
-            in an increasingly dynamic global trade environment, the company set out to bridge 
-            operational excellence with forward-thinking logistics strategies.
-
-        From its inception, the organization focused on adopting innovative ideas, advanced planning, 
-        and technology-driven processes to enhance service reliability and operational transparency.
-
-        By emphasizing flexible shipping solutions, optimized routing, and responsive customer support, 
-        the company positioned itself as a progressive player in the maritime industry.
-
-        Driven by a commitment to sustainable growth and continuous improvement, the company
-        has steadily expanded its capabilities while building strong partnerships across regional and international markets. Its early years reflect a foundation built on integrity, innovation, and a long-term 
-        vision to grow as a trusted and competitive shipping line in the global logistics sector. 
-      </p>*/
-
       {/* Timeline Design */}
       <div className="flex items-center justify-between text-muted-foreground mt-8">
         {/* Start Point */}
@@ -63,21 +40,32 @@ export function HistoryGlorySection() {
               />
             </svg>
           </div>
-          <p className="text-sm font-semibold whitespace-nowrap">Inbd Express Pvt. Ltd.</p>
+          <p className="text-sm font-semibold whitespace-nowrap">
+            Inbd Express Pvt. Ltd.
+          </p>
         </div>
 
         {/* Connecting Line (wavy style placeholder) */}
         <div className="flex-grow mx-4 relative">
           <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-muted-foreground transform -translate-y-1/2"></div>
-           {/* A wavy line is harder with pure CSS; this is a simplified representation.
+          {/* A wavy line is harder with pure CSS; this is a simplified representation.
                For a true wavy line, you might use an SVG or a background image.
                Here's a simpler visual hint of progression.
            */}
-          <svg className="w-full h-8 absolute top-1/2 left-0 transform -translate-y-1/2" viewBox="0 0 100 20" preserveAspectRatio="none">
-            <path d="M0 10 Q 25 0, 50 10 T 100 10" fill="none" stroke="currentColor" strokeWidth="0.5" className="text-muted-foreground opacity-70"/>
+          <svg
+            className="w-full h-8 absolute top-1/2 left-0 transform -translate-y-1/2"
+            viewBox="0 0 100 20"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0 10 Q 25 0, 50 10 T 100 10"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="0.5"
+              className="text-muted-foreground opacity-70"
+            />
           </svg>
         </div>
-
 
         {/* End Point */}
         <div className="flex flex-col items-center justify-center text-center">
@@ -98,7 +86,9 @@ export function HistoryGlorySection() {
               />
             </svg>
           </div>
-          <p className="text-sm font-semibold whitespace-nowrap">Everglory Container Lines</p>
+          <p className="text-sm font-semibold whitespace-nowrap">
+            Everglory Container Lines
+          </p>
         </div>
       </div>
     </>
