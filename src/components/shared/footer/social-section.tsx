@@ -91,20 +91,20 @@ const SocialSection: React.FC = () => {
 
         {/* Email */}
         <a
-          href="mailto:info@everglorylines.com"
+          href="mailto:info@everglorycontainerlines.com"
           className="flex items-start gap-3 text-sm text-gray-700 hover:text-[#08236C] transition-colors duration-300"
         >
           <MdEmail className="w-5 h-5 text-[#08236C] flex-shrink-0 mt-0.5" />
-          <span>info@everglorylines.com</span>
+          <span>info@everglorycontainerlines.com</span>
         </a>
 
         {/* Phone */}
         <a
-          href="tel:+880 189 645 9540"
+          href="tel:+880 1334-98912"
           className="flex items-start gap-3 text-sm text-gray-700 hover:text-[#08236C] transition-colors duration-300"
         >
           <MdPhone className="w-5 h-5 text-[#08236C] flex-shrink-0 mt-0.5" />
-          <span>+880 189 645 9540</span>
+          <span>+880 1334-98912</span>
         </a>
 
         {/* Address */}
