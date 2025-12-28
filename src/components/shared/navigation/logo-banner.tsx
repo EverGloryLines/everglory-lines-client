@@ -7,7 +7,7 @@ import React from "react";
 const logos = [
   {
     src: "/logo/everglory-container-lines.png",
-    alt: "Everglory Lines Logo",
+    alt: "Everglory Container Lines Logo",
     width: 280,
     height: 80,
   },

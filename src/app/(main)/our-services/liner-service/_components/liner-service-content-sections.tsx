@@ -127,7 +127,7 @@ export function LinerServiceContentSections() {
 
             <motion.div className="leading-relaxed mb-2" variants={textVariants}>
               <SectionDescription>
-                EVERGLORY LINES guarantees super-fast transit times and
+                Everglory Container Lines guarantees super-fast transit times and
                 hassle-free delivery to any point in Dhaka — whether
                 Port-to-Port, Point-to-Point, Door-to-Door, or Shelf-to-Shelf.
               </SectionDescription>
@@ -141,7 +141,7 @@ export function LinerServiceContentSections() {
             </motion.div>
             <motion.div className="leading-relaxed mb-2" variants={textVariants}>
               <SectionDescription>
-                With EVERGLORY LINES, your cargo moves from any origin in India
+                With Everglory Container Lines, your cargo moves from any origin in India
                 to any destination in Bangladesh within 5-7 days — ensuring
                 speed, reliability, and complete customer satisfaction through
                 tailored logistics solutions designed to meet your exact needs.

@@ -19,7 +19,7 @@ export function CommonalitiesAndDifferenceSection() {
 
                 <div className="space-y-6 text-gray-800">
                   <p className="text-sm md:text-base leading-relaxed">
-                    The difference between Everglory Lines and the other
+                    The difference between Everglory Container Lines and the other
                     Shipping Lines, in terms of carrying goods from places to
                     places, is &quot;absolutely nothing&quot;, nothing
                     whatsoever.

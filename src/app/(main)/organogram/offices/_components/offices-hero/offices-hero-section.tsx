@@ -18,11 +18,11 @@ interface HeroSectionProps {
 
 export function OfficesHeroSection({
   title = "Our Global Offices",
-  description = "Connecting continents through our strategic office locations. Everglory Lines maintains a presence across key shipping hubs to serve you better.",
+  description = "Connecting continents through our strategic office locations. Everglory Container Lines maintains a presence across key shipping hubs to serve you better.",
   buttonText = "Explore Our Offices",
   buttonAriaLabel = "Scroll to office locations section",
   imageUrl = "/organogram/offices/everglory-offices.jpeg",
-  imageAlt = "Everglory Lines office locations worldwide",
+  imageAlt = "Everglory Container Lines office locations worldwide",
   targetSectionId = "offices-section",
   onButtonClick,
 }: HeroSectionProps) {

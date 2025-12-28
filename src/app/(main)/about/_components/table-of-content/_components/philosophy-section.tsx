@@ -10,7 +10,7 @@ export function PhilosophySection() {
         {/* Card 1: NICHE CARRIER */}
         <Card
           title="NICHE CARRIER"
-          description="Everglory Lines is based in Bangladesh – situated within the SAARC Region."
+          description="Everglory Container Lines is based in Bangladesh – situated within the SAARC Region."
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ export function PhilosophySection() {
         {/* Card 2: UNITED FORCE */}
         <Card
           title="UNITED FORCE"
-          description="Everglory Lines is based in Bangladesh – situated within SAARC Region."
+          description="Everglory Container Lines is based in Bangladesh – situated within SAARC Region."
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -61,7 +61,7 @@ export const ContentSection = () => {
         variants={itemVariants}
       >
         <SectionDescription className="text-base md:text-base lg:text-lg text-left font-sans font-normal text-[#000000]/70">
-          Welcome to Everglory Lines, where excellence in shipping meets a
+          Welcome to Everglory Container Lines, where excellence in shipping meets a
           commitment to quality, sustainability, and collaboration. As a network
           of dedicated maritime professionals, we work together to offer
           reliable, efficient, and environmentally responsible shipping

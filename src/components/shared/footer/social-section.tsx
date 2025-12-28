@@ -15,17 +15,17 @@ const socialLinks: SocialLink[] = [
   {
     platform: "linkedin",
     url: "https://www.linkedin.com/in/everglory-lines-b3916338b",
-    ariaLabel: "Follow Everglory Lines on LinkedIn",
+    ariaLabel: "Follow Everglory Container Lines on LinkedIn",
   },
   {
     platform: "facebook",
     url: "https://www.facebook.com/people/Everglory-Lines/61576365385854",
-    ariaLabel: "Follow Everglory Lines on Facebook",
+    ariaLabel: "Follow Everglory Container Lines on Facebook",
   },
   {
     platform: "instagram",
     url: "https://www.instagram.com/ever_glorylines",
-    ariaLabel: "Follow Everglory Lines on Instagram",
+    ariaLabel: "Follow Everglory Container Lines on Instagram",
   },
 ];
 

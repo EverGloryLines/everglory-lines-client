@@ -26,7 +26,7 @@ export function ApproachSection() {
       <p className="text-base lg:text-lg text-pretty leading-relaxed text-muted-foreground font-sans font-normal">
         While operating in the same core business as other international
         shipping lines—offering container liner and multimodal transport
-        logistics—Everglory Lines is distinguished by its diverse, distinct, and
+        logistics—Everglory Container Lines is distinguished by its diverse, distinct, and
         defined objectives. A primary purpose is to play a pivotal role in
         fostering the economic development of the country, applying unique
         strategies to achieve this significant national objective.

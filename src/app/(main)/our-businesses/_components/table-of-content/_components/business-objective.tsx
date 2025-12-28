@@ -18,7 +18,7 @@ export function BusinessObjectiveSection() {
       {/* Description Text */}
       <p className="mb-8 text-base lg:text-lg text-pretty leading-relaxed text-muted-foreground font-sans font-normal">
         <strong className="text-foreground font-plus-jakarta-sans">
-          Everglory Lines
+          Everglory Container Lines
         </strong>{" "}
         is operating as an{" "}
         <strong className="text-foreground font-plus-jakarta-sans">
