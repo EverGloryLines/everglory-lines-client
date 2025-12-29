@@ -60,7 +60,7 @@ export const officeData: Offices[] = [
       },
     ],
   },
-  {
+  /*{
     name: "UAE",
     code: "AE",
     imgSrc: "/organogram/offices/uae-map.svg",
@@ -72,5 +72,5 @@ export const officeData: Offices[] = [
         cell: "+971 4 566 7050",
       },
     ],
-  },
+  },*/
 ];

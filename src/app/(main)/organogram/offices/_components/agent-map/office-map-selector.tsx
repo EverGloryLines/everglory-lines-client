@@ -25,7 +25,7 @@ export function OfficeMapSelector({
   const officeLabels: Record<string, string> = {
     IN: "India",
     BD: "Bangladesh",
-    AE: "UAE",
+    /*AE: "UAE",*/
   };
 
   // 1. Determine items per page based on screen size

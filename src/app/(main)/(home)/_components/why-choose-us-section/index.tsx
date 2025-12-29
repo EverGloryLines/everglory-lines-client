@@ -26,7 +26,7 @@ export function WhyChooseUs() {
       ([entry]) => {
         if (entry.isIntersecting && !isInView) {
           setIsInView(true);
-          const controls = animate(count, 1985, {
+          const controls = animate(count, /*1985*/, {
             duration: 2.5,
             ease: "easeOut",
           });

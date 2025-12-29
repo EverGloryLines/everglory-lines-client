@@ -25,12 +25,12 @@ export function AgentMapSelector({
   const countryLabels: Record<string, string> = {
     IN: "India",
     BD: "Bangladesh",
-    NP: "Nepal",
+   /* NP: "Nepal",
     SG: "Singapore",
     LK: "Sri Lanka",
     AE: "UAE",
     MY: "Malaysia",
-    VN: "Vietnam",
+    VN: "Vietnam",*/
   };
 
   // 1. Determine items per page based on screen size

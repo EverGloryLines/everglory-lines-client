@@ -105,7 +105,7 @@ export const agentData: Country[] = [
       },
     ],
   },
-  {
+  /*{
     name: "Nepal",
     code: "NP",
     imgSrc: "/organogram/offices/nepal-map.svg",
@@ -195,5 +195,5 @@ export const agentData: Country[] = [
         portImg: "/organogram/offices/vietnam-port.jpg",
       },
     ],
-  },
+  },*/
 ];
