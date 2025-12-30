@@ -16,35 +16,34 @@ interface Slide {
 const slides: Slide[] = [
   {
     id: 1,
-    date: "06/01/2025",
+    date: "17/09/25",
     title:
-      "Partnering for Progress: MSC Hosts Sustainability Tour for Customers in Antwerp",
-    image: "/Shipping.jpg",
-    link: "#",
+      "MSC eyes $400 million investment in Bangladesh’s Pangaon inland container terminal",
+    image: "/logo/news-supply-chain.jpg",
+    link: "https://indiaseatradenews.com/msc-eyes-400-million-investment-in-bangladeshs-pangaon-inland-container-terminal",
   },
   {
     id: 2,
-    date: "05/01/2025",
-    title:
-      "Innovation in Maritime Transport: Digital Solutions for a Connected Fleet",
-    image: "/Shipping.jpg",
-    link: "#",
+    date: "10/10/25",
+    title: "Pangaon ICT: The port that waits for a road to the Bay of Bengal",
+    image: "/logo/global-trade.png",
+    link: "https://www.tbsnews.net/thoughts/pangaon-ict-port-waits-road-1257486",
   },
   {
     id: 3,
-    date: "04/01/2025",
+    date: "30/09/25",
     title:
-      "Global Trade Networks: Expanding Routes and Strengthening Partnerships",
-    image: "/Shipping.jpg",
-    link: "#",
+      "Why businesses avoid Pangaon and what MSC wants to fix with $400m offer",
+    image: "/logo/trading.jpg",
+    link: "https://today.thefinancialexpress.com.bd/last-page/mos-looks-into-graft-allegation-over-pangaon-ict-vessels",
   },
   {
     id: 4,
-    date: "03/01/2025",
+    date: "13/10/25",
     title:
-      "Commitment to Excellence: Safety Standards and Crew Training Programs",
-    image: "/Shipping.jpg",
-    link: "#",
+      "Bangladesh to lease three major container terminals to global operators",
+    image: "/logo/global-trade.png",
+    link: "https://www.maritimegateway.com/bangladesh-to-lease-three-major-container-terminals-to-global-operators",
   },
 ];
 

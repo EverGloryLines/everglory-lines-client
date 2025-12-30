@@ -2,7 +2,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { motion, useMotionValue, useTransform, animate } from "motion/react";
+import { motion, useMotionValue, animate } from "motion/react";
 import { Check } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,22 +11,25 @@ export function WhyChooseUs() {
   const [isInView, setIsInView] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
   const count = useMotionValue(0);
-  const rounded = useTransform(count, (latest) => Math.round(latest));
-  const [displayCount, setDisplayCount] = useState(0);
+  //const rounded = useTransform(count, (latest) => Math.round(latest));
 
-  useEffect(() => {
-    const unsubscribe = rounded.on("change", (latest) => {
-      setDisplayCount(latest);
-    });
-    return unsubscribe;
-  }, [rounded]);
+  // useEffect(() => {
+  //   const unsubscribe = rounded.on("change", (latest) => {
+  //     setDisplayCount(latest);
+  //   });
+  //   return unsubscribe;
+  // }, [rounded]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && !isInView) {
           setIsInView(true);
-          const controls = animate(count, /*1985*/, {
+
+          // ADDED THE TARGET VALUE HERE (e.g., 100)
+          const targetValue = 100; // Change this to your desired number
+
+          const controls = animate(count, targetValue, {
             duration: 2.5,
             ease: "easeOut",
           });
@@ -90,7 +93,7 @@ export function WhyChooseUs() {
                   />
                 </div>
 
-                <div className="absolute bottom-2 -left-30 lg:left-0 z-30">
+                {/* <div className="absolute bottom-2 -left-30 lg:left-0 z-30">
                   <div className="py-2 bg-[#2d5f4f] rounded-sm w-44 lg:w-50 flex flex-col items-center justify-center shadow-2xl border-[14px] border-white">
                     <div className="text-white text-5xl lg:text-6xl font-plus-jakarta-sans font-bold">
                       {displayCount}
@@ -99,7 +102,7 @@ export function WhyChooseUs() {
                       Since
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </motion.div>
@@ -112,10 +115,11 @@ export function WhyChooseUs() {
           >
             <div className="space-y-3">
               <div className="text-[#FF7336] text-sm font-sans font-semibold tracking-wider uppercase">
-               Oceanwide Container Liner Services
+                Oceanwide Container Liner Services
               </div>
               <h2 className="text-[40px] md:text-[52px] 2xl:text-[56px] font-plus-jakarta-sans font-semibold tracking-[-0.02em] bg-gradient-to-b from-[#24479B] via-[#20408a] to-[#0C1835] bg-clip-text text-transparent leading-snug my-2">
-                Generating Hope<br/> Delivering Quality
+                Generating Hope
+                <br /> Delivering Quality
               </h2>
             </div>
 
@@ -126,11 +130,11 @@ export function WhyChooseUs() {
 
               <div className="border-l-4 border-[#ff6b35] pl-6 py-2">
                 <p className="text-gray-700 text-base leading-relaxed">
-                  Everglory Container Lines is guided by a highly experienced team of
-                  professionals who have been in the industry for decades and
-                  have successfully delivered solutions for customers of all
-                  industries irrespective of size of enterprises across the
-                  oceans around world.
+                  Everglory Container Lines is guided by a highly experienced
+                  team of professionals who have been in the industry for
+                  decades and have successfully delivered solutions for
+                  customers of all industries irrespective of size of
+                  enterprises across the oceans around world.
                 </p>
               </div>
 

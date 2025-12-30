@@ -30,11 +30,11 @@ export const navigationConfig: MenuItem[] = [
     href: "/our-services",
     hasDropdown: true,
     subMenu: [
-      {
-        label: "Service Maps",
-        //href: "/our-services/service-maps"
-        href: "/work-in-progress",
-      },
+      // {
+      //   label: "Service Maps",
+      //   //href: "/our-services/service-maps"
+      //   href: "/work-in-progress",
+      // },
       {
         label: "Sailing Schedule",
         href: "/our-services/sailing-schedule",

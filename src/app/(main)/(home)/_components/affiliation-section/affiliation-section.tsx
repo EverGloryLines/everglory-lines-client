@@ -52,15 +52,17 @@ export function AffiliationSection() {
         {/* Member Of Section */}
         <div className="flex-1 flex flex-col items-center lg:items-end p-4 lg:pr-8 text-center lg:text-right">
           <motion.div variants={titleVariant} className="mb-4 lg:mb-8">
-            <SectionTitle className="max-md:*:text-center">MEMBER OF:</SectionTitle>
+            <SectionTitle className="max-md:*:text-center">
+              PARTNER WITH:
+            </SectionTitle>
           </motion.div>
           <motion.div
             variants={imageVariant}
             className="min-w-[160px] sm:min-w-[180px]"
           >
             <Image
-              src="/logo/qss-network.png"
-              alt="Member Section"
+              src="/logo/inbd-express-without-bg.png"
+              alt="Partner Section"
               width={350}
               height={300}
               className="object-contain w-full h-auto"
@@ -76,9 +78,7 @@ export function AffiliationSection() {
         {/* In Accordance With Section */}
         <div className="flex-1 flex flex-col items-center lg:items-start p-4 lg:pl-8 text-center lg:text-left">
           <motion.div variants={titleVariant} className="mb-4 lg:mb-8">
-            <SectionTitle className="">
-              IN ACCORDANCE WITH:
-            </SectionTitle>
+            <SectionTitle className="">IN ACCORDANCE WITH:</SectionTitle>
           </motion.div>
 
           {/* Wrapper for the three logos to stagger their animations */}
