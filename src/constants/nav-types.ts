@@ -35,10 +35,10 @@ export const navigationConfig: MenuItem[] = [
       //   //href: "/our-services/service-maps"
       //   href: "/work-in-progress",
       // },
-      {
-        label: "Sailing Schedule",
-        href: "/our-services/sailing-schedule",
-      },
+      // {
+      //   label: "Sailing Schedule",
+      //   href: "/our-services/sailing-schedule",
+      // },
       {
         label: "Liner Service",
         href: "/our-services/liner-service",
@@ -64,21 +64,21 @@ export const navigationConfig: MenuItem[] = [
     subMenu: [
       { label: "Vessel", href: "/fleet/vessel" },
       { label: "Container", href: "/fleet/container" },
-      {
-        label: "Train",
-        href: "/work-in-progress",
-        // href: "/fleet/train"
-      },
-      {
-        label: "Trailer",
-        href: "/work-in-progress",
-        // href: "/fleet/trailer"
-      },
-      {
-        label: "Truck",
-        href: "/work-in-progress",
-        // href: "/fleet/truck"
-      },
+      // {
+      //   label: "Train",
+      //   href: "/work-in-progress",
+      //   // href: "/fleet/train"
+      // },
+      // {
+      //   label: "Trailer",
+      //   href: "/work-in-progress",
+      //   // href: "/fleet/trailer"
+      // },
+      // {
+      //   label: "Truck",
+      //   href: "/work-in-progress",
+      //   // href: "/fleet/truck"
+      // },
     ],
   },
   {
