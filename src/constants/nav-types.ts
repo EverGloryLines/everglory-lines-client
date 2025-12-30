@@ -54,17 +54,7 @@ export const navigationConfig: MenuItem[] = [
       {
         label: "Intermodal Transport",
         href: "/our-services/intermodal-transport",
-      },
-      {
-        label: "Terminal Operations",
-        //href: "/our-services/terminal-operations",
-        href: "/work-in-progress",
-      },
-      {
-        label: "Warehousing",
-        //href: "/our-services/warehousing",
-        href: "/work-in-progress",
-      },
+      }
     ],
   },
   {
@@ -121,32 +111,13 @@ export const navigationConfig: MenuItem[] = [
     ],
   },
   {
+    label: "Schedule",
+    href: "/sailing-schedule",
+  },
+  {
     label: "Contact",
     //href: "/career",
     href: "/contact",
-  },
-  {
-    label: "E-Sea",
-    href: "/e-sea",
-    hasDropdown: true,
-    subMenu: [
-      {
-        label: "Quote",
-        //href: "/export/quote"
-        href: "/work-in-progress",
-      },
-      { label: "Schedules", href: "/schedules" },
-      {
-        label: "Track",
-        //href: "/track",
-        href: "/work-in-progress",
-      },
-      {
-        label: "Bil of Lading",
-        //href: "/book",
-        href: "/work-in-progress",
-      },
-    ],
   },
   {
     label: "Career",

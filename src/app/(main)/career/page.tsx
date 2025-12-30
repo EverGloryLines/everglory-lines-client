@@ -34,8 +34,8 @@ export function generateMetadata(): Metadata {
 
 export default function Career() {
   return (
-    <div>
-      <h1>Career Page</h1>
+    <div className="min-h-[60vh] flex items-center justify-center">
+      <h1 className="text-3xl font-sans font-semibold">Currently we&apos;re not hiring!</h1>
     </div>
   );
 }
