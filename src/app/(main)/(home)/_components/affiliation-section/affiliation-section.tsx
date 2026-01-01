@@ -53,7 +53,7 @@ export function AffiliationSection() {
         <div className="flex-1 flex flex-col items-center lg:items-end p-4 lg:pr-8 text-center lg:text-right">
           <motion.div variants={titleVariant} className="mb-4 lg:mb-8">
             <SectionTitle className="max-md:*:text-center">
-              PARTNER WITH:
+             OUR PARTNER :
             </SectionTitle>
           </motion.div>
           <motion.div
@@ -78,7 +78,7 @@ export function AffiliationSection() {
         {/* In Accordance With Section */}
         <div className="flex-1 flex flex-col items-center lg:items-start p-4 lg:pl-8 text-center lg:text-left">
           <motion.div variants={titleVariant} className="mb-4 lg:mb-8">
-            <SectionTitle className="">IN ACCORDANCE WITH:</SectionTitle>
+            <SectionTitle className="">OUR AGENT:</SectionTitle>
           </motion.div>
 
           {/* Wrapper for the three logos to stagger their animations */}
@@ -88,27 +88,9 @@ export function AffiliationSection() {
           >
             <motion.div variants={imageVariant} className="flex-shrink-0">
               <Image
-                src="/logo/BDPR-Logo.png"
+                src="/logo/Hr shipping lines logo.png"
                 alt="Government of Bangladesh Logo"
                 width={160}
-                height={150}
-                className="object-contain"
-              />
-            </motion.div>
-            <motion.div variants={imageVariant} className="flex-shrink-0">
-              <Image
-                src="/logo/saarc.jpg"
-                alt="SAARC Logo"
-                width={150}
-                height={150}
-                className="object-contain"
-              />
-            </motion.div>
-            <motion.div variants={imageVariant} className="flex-shrink-0">
-              <Image
-                src="/logo/ism-code.jpeg"
-                alt="ISM Code"
-                width={100}
                 height={150}
                 className="object-contain"
               />
