@@ -28,7 +28,7 @@ const transportCards: TransportCard[] = [
     title: "TRAIN",
     description:
       "A sustainable option that provides flexibility and timeliness for high volume shipments.",
-    image: "/services/intermodal-transport/bd-cargo-train.jpg",
+    image: "/homepage/services/bd-train-image.jpg",
     bgColor: "bg-blue-50",
     headerBg: "bg-blue-700",
   },
