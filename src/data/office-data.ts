@@ -15,7 +15,7 @@ export const officeData: Offices[] = [
   {
     name: "India",
     code: "IN",
-    imgSrc: "/organogram/offices/india-map.svg",
+    imgSrc: "/our-network/offices/india-map.svg",
     offices: [
       {
         city: "Kolkata",
@@ -40,7 +40,7 @@ export const officeData: Offices[] = [
   {
     name: "Bangladesh",
     code: "BD",
-    imgSrc: "/organogram/offices/bd-map.svg",
+    imgSrc: "/our-network/offices/bd-map.svg",
     offices: [
       {
         city: "Dhaka",

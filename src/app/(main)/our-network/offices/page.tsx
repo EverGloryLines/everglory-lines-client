@@ -26,7 +26,7 @@ export function generateMetadata(): Metadata {
     robots:
       "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     alternates: {
-      canonical: `${baseUrl}/organogram/offices`,
+      canonical: `${baseUrl}/our-network/offices`,
     },
     authors: [{ name: companyName }],
     publisher: companyName,
