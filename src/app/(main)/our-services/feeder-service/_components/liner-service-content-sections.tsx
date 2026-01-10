@@ -105,7 +105,7 @@ export function LinerServiceContentSections() {
             animate={isInView2 ? "visible" : "hidden"}
           >
             <Image
-              src="/services/liner-service/pangaon-port-icd.jpg"
+              src="/services/liner-service/pangaon-port-3.jpeg"
               alt="Time is Important Video"
               width={600}
               height={400}
