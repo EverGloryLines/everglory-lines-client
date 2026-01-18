@@ -21,7 +21,7 @@ export function OfficesHeroSection({
   description = "Connecting continents through our strategic office locations. Everglory Container Lines maintains a presence across key shipping hubs to serve you better.",
   buttonText = "Explore Our Offices",
   buttonAriaLabel = "Scroll to office locations section",
-  imageUrl = "/organogram/offices/everglory-offices.jpeg",
+  imageUrl = "/our-network/offices/everglory-offices.jpeg",
   imageAlt = "Everglory Container Lines office locations worldwide",
   targetSectionId = "offices-section",
   onButtonClick,

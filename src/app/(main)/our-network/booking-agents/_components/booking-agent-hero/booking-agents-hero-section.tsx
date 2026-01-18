@@ -61,6 +61,14 @@ export function BookingAgentsHeroSection() {
             start: { lat: 28.6139, lng: 77.209 }, // New Delhi
             end: { lat: -1.2921, lng: 36.8219 }, // Nairobi
           },
+            {
+      start: { lat: 23.8103, lng: 90.4125 }, // Bangladesh
+      end: { lat: 28.6139, lng: 77.2090 },   // India
+    },
+    {
+      start: { lat: 28.6139, lng: 77.2090 }, // India
+      end: { lat: 23.8103, lng: 90.4125 },   // Bangladesh
+    },
         ]}
       />
     </div>
