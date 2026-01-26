@@ -19,11 +19,10 @@ export const officeData: Offices[] = [
     offices: [
       {
         city: "Kolkata",
-        //address:
-         // "Neelam Apt, 1st Floor, J.B.B. Park Street, Kolkata 700016, West Bengal, India",
-        //cell: "+91 987 532 0566",
+        address: "Neelam Apt, 1st Floor, J.B.B. Park Street, Kolkata 700016",
+        cell: "+91 987 532 0566",
       },
-      {
+     /* {
         city: "Delhi",
         //address:
          // "401, 4th Floor, MG Road, DLF Phase-2, Sector 25, Gurugram 122002, Haryana, India",
@@ -34,7 +33,7 @@ export const officeData: Offices[] = [
         address:
           "2nd Floor, Plot No. 21/3, Outer Ring Road, Vihirgaon, Tal Umred, Nagpur 441204, India",
         cell: "+91 870 060 1613",
-      },
+      },*/
     ],
   },
   {
@@ -47,7 +46,7 @@ export const officeData: Offices[] = [
         address: "7a , 22 kemal, ataturk tower, Kemal Ataturk Ave, Dhaka 1213",
         cell: "+880 1334-938912 ",
       },
-      {
+      /*{
         city: "Chittagong",
         //address:
           //"Tower 71, 22nd Floor, Agrabad C/A, Chattogram 4100, Bangladesh",
@@ -57,7 +56,7 @@ export const officeData: Offices[] = [
         city: "Khulna",
         //address: "Sikder Tower, 6th Floor, 6B KDA, Khulna 9100, Bangladesh",
         //cell: "+880 1908 477352",
-      },
+      },*/
     ],
   },
   /*{

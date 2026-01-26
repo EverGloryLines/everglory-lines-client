@@ -19,7 +19,7 @@ export const agentData: Country[] = [
     code: "IN",
     imgSrc: "/our-network/offices/india-map.svg",
     agents: [
-      {
+      /*{
         point: "Kolkata",
         //agent: "Regal Container Line Pvt Ltd",
         //cell: "+91 983 022 3344",
@@ -67,7 +67,7 @@ export const agentData: Country[] = [
         //cell: "+91 982 323 0050",
         //email: "roopak@pgass.com",
         portImg: "/our-network/offices/mundra-port.png",
-      },
+      },*/
     ],
   },
   {
@@ -77,12 +77,12 @@ export const agentData: Country[] = [
     agents: [
       {
         point: "Dhaka",
-        //agent: "River Edge Shipping Limited",
-        //cell: "+880 180 697 2734",
-        //email: "sales.dhaka@riveredgeship.com",
+        agent: "HRSL",
+        cell: "+880 1896459537",
+        email: "morshed@hrshipping.net",
         portImg: "/our-network/offices/dhaka-port-img.webp",
       },
-      {
+      /*{
         point: "Chittagong",
         //agent: "River Edge Shipping Limited",
         //cell: "+880 171 104 3544",
@@ -102,7 +102,7 @@ export const agentData: Country[] = [
         //cell: "+880 189 645 9538",
         //email: "sales.khulna@riveredgeship.com",
         portImg: "/our-network/offices/mongla-port.jpg",
-      },
+      },*/
     ],
   },
   /*{
