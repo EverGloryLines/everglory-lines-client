@@ -76,9 +76,9 @@ export const agentData: Country[] = [
     imgSrc: "/our-network/offices/bd-map.svg",
     agents: [
       {
-        point: "Dhaka",
-        agent: "HRSL",
-        cell: "+880 1896459537",
+        point: "Chittagong",
+        agent: "HR Shipping Line",
+        cell: "+880 1673-964541",
         email: "morshed@hrshipping.net",
         portImg: "/our-network/offices/dhaka-port-img.webp",
       },
