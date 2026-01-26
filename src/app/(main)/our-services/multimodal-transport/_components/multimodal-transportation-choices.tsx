@@ -40,6 +40,38 @@ const transportCards: TransportCard[] = [
     bgColor: "bg-amber-50",
     headerBg: "bg-amber-500",
   },
+  {
+    title: "WAREHOUSING",
+    description:
+      "End-to-end warehousing solutions providing secure storage, efficient inventory management, and seamless distribution to support reliable shipping operations.",
+    image: "/homepage/services/warehouse-bangladesh.avif",
+    bgColor: "bg-blue-50",
+    headerBg: "bg-blue-700",
+  },
+  {
+    title: "CUSTOM CLEARENCES",
+    description:
+      "Efficient customs clearance services ensuring smooth, compliant, and timely import and export of goods.",
+    image: "/homepage/services/ctg_customs.jpg",
+    bgColor: "bg-red-50",
+    headerBg: "bg-red-600",
+  },
+  {
+    title: "BULK CARGO",
+    description:
+      "Specialized bulk cargo handling and transportation services for safe, efficient, and large-volume shipments.",
+    image: "/homepage/services/bulk-cargo-1.png",
+    bgColor: "bg-amber-50",
+    headerBg: "bg-amber-500",
+  },
+  {
+    title: "STEVEDORING",
+    description:
+      "Professional stevedoring services for safe and efficient loading, unloading, and handling of cargo at ports.",
+    image: "/homepage/services/Stevedoring.jpg",
+    bgColor: "bg-amber-50",
+    headerBg: "bg-amber-500",
+  },
 ];
 
 export function MultiModalTransportationChoices() {
