@@ -45,7 +45,7 @@ export const officeData: Offices[] = [
       {
         city: "Dhaka",
         address: "7a , 22 kemal, ataturk tower, Kemal Ataturk Ave, Dhaka 1213",
-        cell: "+880 180 697 2734",
+        cell: "+880 1334-938912 ",
       },
       {
         city: "Chittagong",
