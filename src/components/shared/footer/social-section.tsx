@@ -14,17 +14,17 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   {
     platform: "linkedin",
-    url: "https://www.linkedin.com/in/everglory-lines-b3916338b",
+    url: "https://www.linkedin.com/in/everglory-container-lines-plc-6b85083a9/",
     ariaLabel: "Follow Everglory Container Lines on LinkedIn",
   },
   {
     platform: "facebook",
-    url: "https://www.facebook.com/people/Everglory-Lines/61576365385854",
+    url: "https://www.facebook.com/profile.php?id=61586084924432",
     ariaLabel: "Follow Everglory Container Lines on Facebook",
   },
   {
     platform: "instagram",
-    url: "https://www.instagram.com/ever_glorylines",
+    url: "https://www.instagram.com/everglory_container_lines_plc/",
     ariaLabel: "Follow Everglory Container Lines on Instagram",
   },
 ];
