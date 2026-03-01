@@ -8,11 +8,11 @@ const dataBlock1: PortSchedule[] = [
   {
     vessel: "UDDIPON EXPRESS",
     voyage: "UDP-1",
-    port1: { eta: "27/02", etd: "28/02" }, // Chittagong
+    port1: { eta: "01/03", etd: "02/03" }, // Chittagong
     port2: { eta: "-", etd: "-" },         // Pangaon
-    port3: { eta: "03/03", etd: "04/03" }, // Kolkata
-    port4: { eta: "05/03", etd: "06/03" }, // Haldia
-    port5: { eta: "09/03", etd: "10/03" }, // Chittagong
+    port3: { eta: "05/03", etd: "06/03" }, // Kolkata
+    port4: { eta: "07/03", etd: "08/03" }, // Haldia
+    port5: { eta: "10/03", etd: "11/03" }, // Chittagong
   },
 ];
 
