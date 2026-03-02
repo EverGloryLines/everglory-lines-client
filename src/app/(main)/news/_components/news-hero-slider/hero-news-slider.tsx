@@ -16,11 +16,11 @@ interface Slide {
 const slides: Slide[] = [
   {
     id: 1,
-    date: "17/09/25",
+    date: "03/02/26",
     title:
-      "MSC eyes $400 million investment in Bangladesh’s Pangaon inland container terminal",
-    image: "/logo/news-supply-chain.jpg",
-    link: "https://indiaseatradenews.com/msc-eyes-400-million-investment-in-bangladeshs-pangaon-inland-container-terminal",
+      "Our vessel is commencing cargo operations and preparing for her maiden voyage.",
+    image: "/logo/m.v uddipon express.jpeg",
+    link: "https://www.facebook.com/share/p/1DAPNpMFgF/",
   },
   {
     id: 2,

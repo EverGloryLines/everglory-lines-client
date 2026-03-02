@@ -2,11 +2,11 @@ import { FeaturedNews, NewsItem } from "@/app/(main)/(home)/_components/news-sec
 
 export const featuredNews: FeaturedNews = {
   id: "1",
-  date: "17/09/25",
+  date: "03/02/26",
   headline:
-    "Italian company MSC proposes to invest $400 million in Bangladesh's Pangaon inland container terminal",
-  url: "https://www.amadershomoy.com/economics/article/158949/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%97%E0%A6%BE%E0%A6%81%E0%A6%93-%E0%A6%85%E0%A6%AD%E0%A7%8D%E0%A6%AF%E0%A6%A8#google_vignette",
-  imageUrl: "/homepage/others/news.png",
+    "Our vessel is commencing cargo operations and preparing for her maiden voyage — a milestone achieved through patience, dedication, and countless sleepless nights.",
+  url: "https://www.facebook.com/share/p/17EuX7xeko/",
+  imageUrl: "/logo/m.v uddipon express.jpeg",
 };
 
 export const newsList: NewsItem[] = [
