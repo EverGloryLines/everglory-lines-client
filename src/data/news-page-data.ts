@@ -22,7 +22,7 @@ export const newsroomData: NewsGridSection = {
       id: "1",
       title: "News",
       backgroundImage: "/Container_operation_in_port.jpg",
-      link: "https://www.tbsnews.net/economy/swiss-based-medlog-sa-emerges-sole-qualified-bidder-22-year-pangaon-terminal-deal-1286436",
+      link: "https://www.facebook.com/share/p/17EuX7xeko/",
     },
     {
       id: "2",
