@@ -114,7 +114,7 @@ const SocialSection: React.FC = () => {
             Suite 7A, 6th Floor, <br />
             22 Kemal Ataturk Avenue,
             <br />
-            Banani, Dhaka-1212 <br />
+            Banani, Dhaka-1213 <br />
           </span>
         </div>
       </div>
