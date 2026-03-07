@@ -19,7 +19,7 @@ const contactDetails = [
   {
     icon: MapPin,
     label: "Address",
-    value: "Suite 7A, 22 Kemal Ataturk Avenue, Banani, Dhaka-1212",
+    value: "Suite 7A, 22 Kemal Ataturk Avenue, Banani, Dhaka-1213",
     multiline: true,
   },
 ];
