@@ -104,7 +104,7 @@ const SocialSection: React.FC = () => {
           className="flex items-start gap-3 text-sm text-gray-700 hover:text-[#08236C] transition-colors duration-300"
         >
           <MdPhone className="w-5 h-5 text-[#08236C] flex-shrink-0 mt-0.5" />
-          <span>+880 1334-98912</span>
+          <span>+880 1334-98912, +880 1703-838544</span>
         </a>
 
         {/* Address */}
