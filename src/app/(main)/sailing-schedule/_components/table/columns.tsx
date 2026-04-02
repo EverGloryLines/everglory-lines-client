@@ -23,6 +23,7 @@ export type PortSchedule = {
   port3?: { eta: string; etd: string };
   port4?: { eta: string; etd: string };
   port5?: { eta: string; etd: string };
+  port6?: { eta: string; etd: string };
 };
 
 const columnHelper = createColumnHelper<PortSchedule>();
@@ -114,17 +115,24 @@ export const columnsRouteB: ColumnDef<PortSchedule, any>[] = [
     ],
   }),
   columnHelper.group({
-    ...portHeader("Haldia", "bg-orange-100"),
+    ...portHeader("Kolkata", "bg-yellow-100"),
     columns: [
       columnHelper.accessor("port4.eta", { header: "ETA" }),
       columnHelper.accessor("port4.etd", { header: "ETD" }),
     ],
   }),
   columnHelper.group({
-    ...portHeader("Chittagong", "bg-blue-100"),
+    ...portHeader("Haldia", "bg-orange-100"),
     columns: [
       columnHelper.accessor("port5.eta", { header: "ETA" }),
       columnHelper.accessor("port5.etd", { header: "ETD" }),
+    ],
+  }),
+  columnHelper.group({
+    ...portHeader("Chittagong", "bg-blue-100"),
+    columns: [
+      columnHelper.accessor("port6.eta", { header: "ETA" }),
+      columnHelper.accessor("port6.etd", { header: "ETD" }),
     ],
   }),
 ];

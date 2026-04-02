@@ -21,38 +21,42 @@ const dataBlock2: PortSchedule[] = [
   {
     vessel: "UDDIPON EXPRESS",
     voyage: "UDP-2",
-    port1: { eta: "-", etd: "-" }, // Chittagong
+    port1: { eta: "19/03", etd: "21/03" }, // Chittagong
     port2: { eta: "-", etd: "-" }, // Haldia
     port3: { eta: "-", etd: "-" }, // Pangaon
-    port4: { eta: "-", etd: "-" },         // Haldia
-    port5: { eta: "-", etd: "-" }, // Chittagong
+    port4: { eta: "24/03", etd: "29/03" }, // Kolkata
+    port5: { eta: "-", etd: "-" },         // Haldia
+    port6: { eta: "-", etd: "-" }, // Chittagong
   },
   {
     vessel: "UDDIPON EXPRESS",
     voyage: "UDP-3",
-    port1: { eta: "-", etd: "-" },
+    port1: { eta: "04/04", etd: "06/04" },
     port2: { eta: "-", etd: "-" },
     port3: { eta: "-", etd: "-" },
-    port4: { eta: "-", etd: "-" },
+    port4: { eta: "11/04", etd: "12/04" },
     port5: { eta: "-", etd: "-" },
+    port6: { eta: "-", etd: "-" },
   },
   {
     vessel: "UDDIPON EXPRESS",
     voyage: "UDP-4",
-    port1: { eta: "-", etd: "-" },
+    port1: { eta: "16/04", etd: "18/04" },
     port2: { eta: "-", etd: "-" },
     port3: { eta: "-", etd: "-" },
-    port4: { eta: "-", etd: "-" },
+    port4: { eta: "22/04", etd: "24/04" },
     port5: { eta: "-", etd: "-" },
+    port6: { eta: "-", etd: "-" },
   },
   {
     vessel: "UDDIPON EXPRESS",
     voyage: "UDP-5",
-    port1: { eta: "-", etd: "-" },
+    port1: { eta: "28/04", etd: "30/04" },
     port2: { eta: "-", etd: "-" },
     port3: { eta: "-", etd: "-" },
-    port4: { eta: "-", etd: "-" },
+    port4: { eta: "04/05", etd: "06/05" },
     port5: { eta: "-", etd: "-" },
+    port6: { eta: "-", etd: "-" },
   },
 ];
 
