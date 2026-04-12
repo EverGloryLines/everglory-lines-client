@@ -12,7 +12,7 @@ const logos = [
     height: 80,
   },
   {
-    src: "/logo/BIWTC-Logo.jpg",
+    src: "/logo/BIWTC-Logo.png",
     alt: "BIWTC Logo",
     width: 280,
     height: 80,
