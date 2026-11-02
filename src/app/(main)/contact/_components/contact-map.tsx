@@ -5,7 +5,7 @@ import { ExternalLink } from "lucide-react";
 
 export function ContactMap() {
   const mapUrl =
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.2345678901234!2d90.40461!3d23.7937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ3JzM3LjMiTiA5MMKwMjQnMTYuNiJF!5e0!3m2!1sen!2sbd!4v1234567890";
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.25!2d90.4025!3d23.7930!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ3JzM0LjgiTiA5MMKwMjQnMDkuMCJF!5e0!3m2!1sen!2sbd!4v1741000000000";
 
   return (
     <motion.div
@@ -25,7 +25,7 @@ export function ContactMap() {
         className="w-full h-full"
       />
       <a
-        href={`https://www.google.com/maps/search/Suite+7A,+6th+Floor,+22+Kemal+Ataturk+Avenue,+Banani,+Dhaka-1212`}
+        href="https://www.google.com/maps/search/?api=1&query=7A%2C+BTI%2C+The+Royal+Gardenia%2C+House+87%2C+Road+04%2C+Block+B%2C+Kamal+Ataturk+Avenue%2C+Banani%2C+Dhaka+1213"
         target="_blank"
         rel="noopener noreferrer"
         className="absolute top-4 left-4 bg-white text-[#1e5ba8] px-4 py-2 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center gap-2 text-sm font-medium"

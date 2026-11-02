@@ -19,7 +19,7 @@ const contactDetails = [
   {
     icon: MapPin,
     label: "Address",
-    value: "Suite 7A, 22 Kemal Ataturk Avenue, Banani, Dhaka-1213",
+    value: "7A, BTI, The Royal Gardenia, House 87, Road 04, Block B, Kamal Ataturk Avenue, Banani, Dhaka 1213",
     multiline: true,
   },
 ];

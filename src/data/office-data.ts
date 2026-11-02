@@ -43,7 +43,7 @@ export const officeData: Offices[] = [
     offices: [
       {
         city: "Dhaka",
-        address: "7a , 22 kemal, ataturk tower, Kemal Ataturk Ave, Dhaka 1213",
+        address: "7A, BTI, The Royal Gardenia, House 87, Road 04, Block B, Kamal Ataturk Avenue, Banani, Dhaka 1213",
         cell: "+880 1334-938912 ",
       },
       /*{

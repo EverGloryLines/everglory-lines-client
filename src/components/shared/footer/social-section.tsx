@@ -111,10 +111,10 @@ const SocialSection: React.FC = () => {
         <div className="flex items-start gap-3 text-sm text-gray-700">
           <MdLocationOn className="w-5 h-5 text-[#08236C] flex-shrink-0 mt-0.5" />
           <span>
-            Suite 7A, 6th Floor, <br />
-            22 Kemal Ataturk Avenue,
-            <br />
-            Banani, Dhaka-1213 <br />
+            7A, BTI, The Royal Gardenia, <br />
+            House 87, Road 04, Block B, <br />
+            Kamal Ataturk Avenue, <br />
+            Banani, Dhaka 1213
           </span>
         </div>
       </div>
